@@ -233,8 +233,6 @@ public class Utils {
         ArrayList<Item> skins;
         try {
             skins = ((ArrayList<Item>) com.nr.Utils.deserializeObject(LocalStorage.getInstance().get("Skins")));
-            com.nr.Utils.Print("load : " + skins.size(), ColorAsString.Yellow, false);
-
             for (Item item : skins) {
                 try {
                     ud.items.AddSkin(item);

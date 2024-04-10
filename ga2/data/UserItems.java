@@ -915,7 +915,6 @@ public class UserItems
     }
 
     public void addItem(Item i, boolean addtop, boolean addMoney) throws AmpedException {
-        com.nr.Utils.Print(this.items.size());
         if (i.gettype == 19)
             return;
         switch (i.kind) {
@@ -1000,7 +999,6 @@ public class UserItems
             Item _i = new Item(i);
             this.items.add(_i);
         }
-        com.nr.Utils.Print(this.items.size());
     }
 
     public void addEditItem(Item i) {
