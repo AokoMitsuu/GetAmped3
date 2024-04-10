@@ -1,33 +1,33 @@
-/*      */
+
 package ga2.data;
 
 import ga2.data.NPCTradeList.TradeInfo;
 import ga2.data.UserItems.Item;
-/*      */
-/*      */ import ga2.data.net.AmpedException;
-/*      */ import ga2.data.net.TalkResult;
-/*      */ import ga2.data.net.UseItemInfo;
-/*      */ import ga2.server.data.ServerSetting;
-/*      */ import ga2.setting.GameSetting;
-/*      */ import ga2.stage.StageConnector;
-/*      */ import ga2.stage.StageServer;
-/*      */ import java.io.Externalizable;
-/*      */ import java.io.FileInputStream;
-/*      */ import java.io.IOException;
-/*      */ import java.io.ObjectInput;
-/*      */ import java.io.ObjectOutput;
-/*      */ import java.util.ArrayList;
-/*      */ import java.util.StringTokenizer;
-/*      */ import kotori.geom.KMath;
-/*      */ import kotori.io.Externalizer;
-/*      */ import kotori.io.ExternalizerInputStream;
-/*      */ import kotori.io.StreamTool;
-/*      */ import kotori.kwt.TextFilter;
-/*      */ import kotori.util.KotoriUtil;
-/*      */ import kotori.util.ServerTime;
 
-/*      */
-/*      */ public class UserData implements Externalizable, Cloneable {
+import ga2.data.net.AmpedException;
+import ga2.data.net.TalkResult;
+import ga2.data.net.UseItemInfo;
+import ga2.server.data.ServerSetting;
+import ga2.setting.GameSetting;
+import ga2.stage.StageConnector;
+import ga2.stage.StageServer;
+import java.io.Externalizable;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.ObjectInput;
+import java.io.ObjectOutput;
+import java.util.ArrayList;
+import java.util.StringTokenizer;
+
+import kotori.geom.KMath;
+import kotori.io.Externalizer;
+import kotori.io.ExternalizerInputStream;
+import kotori.io.StreamTool;
+import kotori.kwt.TextFilter;
+import kotori.util.KotoriUtil;
+import kotori.util.ServerTime;
+
+public class UserData implements Externalizable, Cloneable {
     public static final int RESTRICT_NUM = 12;
 
     public static final int RST_LOGIN = 1;
@@ -135,6 +135,7 @@ import ga2.data.UserItems.Item;
         /* 111 */ d.sex = this.sex;
         /* 112 */ d.areahash = this.areahash;
         d = com.nr.Utils.LoadShortCuts(d);
+        d = com.nr.Utils.LoadSkin(d);
         /* 114 */ return d;
     }
 

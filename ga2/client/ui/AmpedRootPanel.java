@@ -15,6 +15,7 @@ import ga2.client.LookAndFeel;
 import ga2.data.ShopData;
 import ga2.data.UserData;
 import ga2.data.UserItems;
+import ga2.data.UserItems.Item;
 import ga2.data.UserShortcuts;
 import ga2.data.UserShortcuts.AvatorShortcut;
 import ga2.laf.amped2.AmpedPopupWindow;
@@ -309,11 +310,6 @@ public class AmpedRootPanel extends Container {
                     UserData ud = GetAmped2.getAmped2().getUserData();
                     p.setShopPanel(ud, false, false);
                     p.show2(m);
-                } else if (c == 122) {
-                    com.nr.Utils.Print("Debug green");
-                    com.nr.Utils.PrintWarm("Debug yellow");
-                    com.nr.Utils.PrintError("Debug red");
-                    com.nr.Utils.Print("Debug white", ColorAsString.White);
                 }
             }
         return super.processKeyEvent(e);

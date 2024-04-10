@@ -11,6 +11,7 @@ C:\Users\aokom\Documents\GitHub\GetAmped3\ga2\client\ui\LanPlayWindow.java
 C:\Users\aokom\Documents\GitHub\GetAmped3\ga2\client\ui\PlayerEquipPanel.java
 C:\Users\aokom\Documents\GitHub\GetAmped3\ga2\data\ItemFilter.java
 C:\Users\aokom\Documents\GitHub\GetAmped3\ga2\data\UserData.java
+C:\Users\aokom\Documents\GitHub\GetAmped3\ga2\data\UserItems.java
 C:\Users\aokom\Documents\GitHub\GetAmped3\ga2\data\UserShortcuts.java
 C:\Users\aokom\Documents\GitHub\GetAmped3\ga2\ganl\DebugClientTracker.java
 C:\Users\aokom\Documents\GitHub\GetAmped3\kotori\app\Console.java
