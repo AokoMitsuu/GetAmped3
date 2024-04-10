@@ -230,43 +230,44 @@ public class Utils {
     }
 
     public static UserData LoadSkin(UserData ud) {
-        ArrayList<Item> skins;
-        try {
-            skins = ((ArrayList<Item>) com.nr.Utils.deserializeObject(LocalStorage.getInstance().get("Skins")));
-            for (Item item : skins) {
-                try {
-                    ud.items.AddSkin(item);
-                } catch (AmpedException e) {
-                    com.nr.Utils.PrintError(e.getMessage());
-                }
-            }
-        } catch (ClassNotFoundException e) {
-            com.nr.Utils.PrintError(e.getMessage());
-        } catch (IOException e) {
-            com.nr.Utils.PrintError(e.getMessage());
-        }
+        // ArrayList<Item> skins;
+        // try {
+        // skins = ((ArrayList<Item>)
+        // com.nr.Utils.deserializeObject(LocalStorage.getInstance().get("Skins")));
+        // for (Item item : skins) {
+        // try {
+        // ud.items.AddSkin(item);
+        // } catch (AmpedException e) {
+        // com.nr.Utils.PrintError(e.getMessage());
+        // }
+        // }
+        // } catch (ClassNotFoundException e) {
+        // com.nr.Utils.PrintError(e.getMessage());
+        // } catch (IOException e) {
+        // com.nr.Utils.PrintError(e.getMessage());
+        // }
 
         return ud;
     }
 
     public static void SaveSkins(UserItems us) {
-        Item[] items = us.getItems();
-        ArrayList<Item> skins = new ArrayList<Item>();
-        for (Item item : items) {
-            if (item.kind != 9)
-                continue;
+        // Item[] items = us.getItems();
+        // ArrayList<Item> skins = new ArrayList<Item>();
+        // for (Item item : items) {
+        // if (item.kind != 9)
+        // continue;
 
-            skins.add(item);
-        }
-        com.nr.Utils.Print("saving : " + skins.size(), ColorAsString.Yellow, false);
+        // skins.add(item);
+        // }
+        // com.nr.Utils.Print("saving : " + skins.size(), ColorAsString.Yellow, false);
 
-        try {
-            LocalStorage.getInstance().set("Skins", com.nr.Utils.serializeObject(skins));
-        } catch (IOException e1) {
-            com.nr.Utils.PrintError(e1.getMessage());
-        }
+        // try {
+        // LocalStorage.getInstance().set("Skins", com.nr.Utils.serializeObject(skins));
+        // } catch (IOException e1) {
+        // com.nr.Utils.PrintError(e1.getMessage());
+        // }
 
-        com.nr.Utils.Print("success save Skin");
+        // com.nr.Utils.Print("success save Skin");
     }
 
     public static class ColorAsString {
