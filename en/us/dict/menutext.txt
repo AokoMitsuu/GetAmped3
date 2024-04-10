@@ -1,0 +1,2200 @@
+ゲームやGameGuardが変造された可能性があります。ゲームを終了します。
+Do you want to write#/a comment?
+Game Invitation from %d
+Double Jump
+Conversation
+BL Cancel
+Fight with a set equipment
+Exiting the application due to an application version mismatch.\n Please reinstall package.
+GameMon初期化に失敗しました。衝突の可能性があるプログラムを終了した後に再起動して下さい。
+Furniture
+Room
+Do you want to take out [%s] from the set?
+All %d types
+ALT
+You couldn't save skin file.
+Type / Location
+Are you sure you wish to play bingo %d times?
+SAT
+Expand: %d/%3d
+Register
+Press When Ready
+Participants:
+You cannot use this with your current style.
+DST
+end account
+Join this game.
+Get Wanted List!
+Skill Setting
+SPELL POWER
+: Points you received
+CUTOFF
+%dhour(s)%dminute(s) left
+Old Article
+http://www.getamped2.jp/launcher/
+Use Zoom Tool Click to zoom in & out Shortcut:F
+That name has been#/used already. Please#/change it to#/something else.
+Owned
+Guild Tournament Entry
+Send&Receive
+Downloading update file now...
+#yCannot send a Friend Request to %s because your Friend List is full.
+#oOnly Room Master can purchase#N#/#/
+Couldn't get update file.
+time out num
+FLOOR
+Couldn't connect to server.
+This is the latest version.
+Checking updates now...
+An error has occurred while attempting to load a configuration file.
+Event
+Change to the equipment in a slot.
+Level
+Mission Prize (1 will be chosen at random)
+Paste the copied data
+View Waiting
+Lock on teammate:
+Bafabon Blacksmith
+Receive this item?
+This is a gift to decorate the headquarters. You can put it up in the hallway.
+Receiving Condition:#/
+Navigation Room %d
+: Points you collected
+Old Article
+Select Entry
+Logged in!
+Passwords entered do not match.
+LAN Channel 1
+The Stall owner closed the store.
+Collect points and Get Item!!
+%d more points and #/Get an Item!
+Item Get Chance!
+Initiate Trade?
+Keyboard
+Duel was rejected.
+Login was restricted. Exit the game.
+MUL
+Guild Invitation from#/#y#B%s #N
+#yCannot respond to the call of Party member.
+Update:
+Change Master
+#yBattle chat is now available.
+Mission under rank 3
+Please help!
+Reinforcement needed
+Maintenance time now.
+Mission rank over 5
+Mission rank 3 to 5
+Can not load skin due to author mismatch.
+: Points you have gathered
+HELP
+Sales Quantity:
+#y%s became a Guild member!
+Voice Chat
+Do you propose rematch?
+%s people
+Select Action
+Effect :
+Make %s Friends
+You can only upload #/skins that you made #/by yourself.
+スピードハックを検知しました。ゲームを終了します。
+GM Restricted
+Limit %s D %s H %s M
+All
+Condition Achieved!
+: Points everyone received
+The Guardian forces of Wingdom [Mega Force] are#/fighting the mysterious group [Val Sharks], who#/appear to be leading larger attacks and crimes#/throughout Wingdom.
+INS
+No.
+SAVE
+TIME POINT
+GASH+ Wrong_OTP
+All Area
+Total Lose:
+GASH+ Wrong_EventOTP
+%s Win
+Simple
+Guild BB
+Current Rank
+Day %d
+Collected Points
+Watch
+Are you sure you select this item?
+#yMade Party
+NPC [%s] will assist in missions.
+Yes
+No. %s
+#yGame room entry is now available.
+Your VIP Point %d Point
+New version:
+Do you wish to clean room?
+#K* Caution#N#After you purchase this item, you cannot cancel or receive a refund, so please be certain before you buy.
+Not Use Cart
+Press the purchase button when you are finished.
+REVERB
+An incorrect password has been entered 3 times. The client will now close.
+WAG Verification Error
+Grid
+Can't train with an Accessory without skills. #/Do you wish to change your equipment now?
+Material
+Close
+Others
+Don't care
+Accessory
+Weapon
+Battle with Random Equipment
+MUTEG
+#yStart Trade with %s.
+Entry Option
+Always
+Unknown Monsters have suddenly appeared and are#/attacking the outskirts of Wingdom! Civilians are#/panicking. Help [Mega Force] protect them and drive#/out these monsters!
+Some of the presents which you cannot carry can be sold.#/Please select which items you would like to sell from the list below.#/*The remaining items will be sent to you by mail.
+Blacklist
+Change Team
+Do you want to delete#/Friend?
+Welcome to the VIP area!
+Your Money
+Balance:
+x%d
+None
+SHIFT
+Crescent Charge
+An unknown error occurred.
+Awakening EXP: %d/%d
+* Able to get random item.
+http://www.getamped2.jp/1
+The Stall is full.
+SPD.
+New Mission
+Room Name
+Game Mode
+Exited
+Give %s (%d remaining)?
+Upgrading Accessory
+http://www.getamped2.com/ctrl/snsopen/
+Name
+Completed
+Close
+Manual Guard
+Watching
+OPEN
+Skill level: +%s
+Owned:%d
+#b%s#N got #r%s#N by#/Amped Lucky Draw in Prime Market!
+ENEMY
+Error Code: 0x%x
+Yes
+Updating your client data. Please reboot your client to complete the process properly.
+Able to purchase one Accessory in tutorial.
+Counter [C after guarding Strong Attack]
+Counter [X after guarding Weak Attack]
+Move [Direction Keys] Dash [Press Twice]
+Jump [V] Double Jump [VV]
+Weak Attack [C] Strong Attack [X]
+New Name
+Guard [X before receiving Strong Attack]
+Guard [C before receiving Weak Attack]
+Perfect Guard [X just when Strong Attacked]
+Total VIP Point:
+Perfect Guard [C just when Weak Attacked]
+LAN Mode
+Please enter the key code you have.
+Screen Resolution :
+There are some avatars that cannot be edited. Reset these parts and load.
+You exceeded the item limit, so the item was sent by mail.
+ON
+Quest [%s] Present: %s
+Confirm Extra Skin
+This channel is only accessible by players of %s rank to %s rank.
+Received Log-in Present for %d / %d.
+Perfect Guard [C+X just when attacked]
+Counter [C after guarding Strong Attack]
+Display Log:
+Voltage On + Special Attack [C+X] or [F]
+Guard [C+X]
+Voltage On + Special Attack [Z+C+X] or [F]
+Counter [X after guarding Weak Attack]
+Special Attack [Z+C+X] or [F]
+Maker Comment
+Vote
+Weapon [Space]
+Special Attack [C+X] or [F]
+CONTINUE BONUS
+Jump [V] + Strong Attack [X]
+Room Change
+Gift from Lilio: %s
+The item was sent by mail, because you currently have the maximum number in your inventory.
+Crescent has been charged as follows; #/Thank you for your purchase
+Trade Request
+Owned: %d
+MOD
+LOOP POS
+#yDeactivated the Party function.
+You can not access this channel. This channel is only accessible by players of #/#/%s rank to %s rank.
+start account
+Point
+Window Mode :
+VOL
+Blue Lucky Bag
+Red Lucky Bag
+Green Lucky Bag
+Gold Lucky Bag
+イベントブーストチケット使用可能
+Ranking goes up in %s!
+File Name :
+Please re-enter your password for verification.
+Result:
+Do you want to change#/Room Master?
+Present has already been opened.
+Detail
+BONUS
+Lucky Draw Mail Service: %s
+Press button to set up
+Friend Invitation from#/#y#B%s #N
+Please select items you want.
+The %d Weekly Ranking
+Loading skin...
+Channel for beginners who#/have just started.#/#/Free rank channel that anyone#/can join.
+Withdraw from this Guild?
+Street Stall
+Special Dash Attack
+#ySending mail has been disabled.
+Status
+Delete Mail
+You have too many of this item in your inventory.
+GameGuard初期化エラー又は、旧バージョンのGameGuardファイルです。GameGuardセットアップファイルを再インストールしてゲームを実行して下さい。
+Friend Request
+Display Friend List
+Remove equipped parts.
+Super Attack
+Battle
+Special Attack
+Prize has been sent to your mailbox, as some items exceeded its carry limit.
+Weak Counter Attack
+Strong Counter Attack
+Hide outgoing mail.
+Step Attack
+Special Counter Attack
+Connection to the channel has been lost. Returning to the Title Screen.
+Weak Jump Attack
+Strong Dash Attack
+More %d Player
+Change the color of the vertex
+Counter Attack
+Strong Jump Attack
+Aerial Dash Aim Special Attack
+Aerial Dash Aim Super Attack
+Window
+Weapon
+Show Name:
+ADSR
+See Message Board
+Bonus
+Clear
+Your Items
+Do you want to go back to#/the original picture?
+Exit.
+The game server is currently under maintenance.#/You can find maintenance schedule on the official website.#/Please enjoy Arcade Mode#/during the maintenance time!
+Times
+Aerial Dash Aim Strong Attack
+Mega Force HQ
+Aerial Dash Weak Aim Attack
+Super Mid-Air Dash Attack
+Save Skin
+Special Mid-Air Dash Attack
+Reward Money
+Prime Market
+Strong Mid-Air Dash Attack
+Skin is not chosen.
+VEL
+Weak Mid-Air Dash Attack
+Super Jump Attack
+END
+Room Grade
+Special Jump Attack
+Super Dash Attack
+Skip
+Reset
+Name
+This Week's Score
+*Confirmation
+#y%s was forced to logout.
+General's Office
+All
+Room Select
+Leave Party
+GM
+Chat / Move Switch :
+OPEN GAM
+TIME
+Display Tournament:
+Remaining:%dDay(s)%d:%d
+Do you want to use a Boost Ticket?
+Skin
+Do you want to open#/the present box?
+LEGATO
+Total Score
+GAT Individual Match
+Change equipment
+Game Mode Record
+#yMatching room chat has been disabled.
+R E C
+Not maintenance time now.
+Do you wish to leave?
+Bet is %sWin.#/Is it OK?
+Emotion
+VCO
+Decoration
+Duel
+Head
+Street Fight
+Face
+Choices remaining :
+Guardian
+Body
+GAT Team Match
+Mouse Over
+VCF
+#yYour request to participate in the Party was denied.
+Up to 10 letters is ok.
+Items x%d, People x%d
+Time
+You were forced to logout.
+%s-%s
+Present couldn't be opened.
+
+Is this Accessory okay?
+P_DWN
+Do you want to use %d points and get an item?
+Use Win to try Lucky Draw once
+TIME
+LOSE
+Synthesis Force
+Quick Entry Setting
+PERFECT BONUS
+#yWithdrew from %s.
+: Points you received
+GameGuardと衝突するプログラムが見つかりました。
+The item exceeds the limit was sent by mail.
+Redo Shortcut:Ctrl+Y,Ctrl+Shift+Z
+WED
+ENTRY
+#ySending mail has been disabled.
+You will receive one of the Accessories.
+#B#cNotice : #NYou are already holding the max amount.#/We could not exchange #b%s#N coins.#/It will be sent to you#/when you have used coins.
+Show [Face] and [Head]
+Duel Battle Score
+UP
+Change Pen Size to 3x3 Shortcut:＜,＞
+Element:
+Upgrade
+Game Result
+STR.
+Searching player now...
+Layout Gifts
+Great ticket
+High Grade
+Failed to display thread.
+Close Grade
+Low Grade
+Comment:
+Calendar Point:
+CLEAR BONUS
+Pose
+Prize Score
+You can obtain more at the Shop!
+- Destroy enemy team Core : 30 Points
+- Destroy Sub-Core : 5 Points
+- :
+Sent item to mail box due to maximum item.
+Log-in Present: %s
+In the tutorial you may purchase up to %d accessories.
+LEVEL
+Move
+Room with
+Drag to Move canvas
+Community
+Spin the Garapon %d times.
+OK
+Status
+DAMAGE!
+DESTRUCTION RATE...
+Redo
+Weak
+Choose a player to send a present
+Play all at once
+Do you really want to kick that player?
+Lv: %d
+- Kill member of enemy team : 1 Points
+Rating
+Export
+COPY PTN
+Extra Skin can not be uploaded
+Get %s points against Win
+TEC.
+Do you want to try again?
+Full Screen Mode will be activated after you close this message.
+Apply the changes to %s?
+Practice by yourself.
+: Points everyone received
+New Article
+Display incoming mail.
+Duel Battle Entry List
+Friend registration is required to send a present
+%s Crescent
+Max Number:
+You cannot buy avatars that have not been released.
+Defeat #o%s people#N in #rStreet Fight#N before being defeated.
+Win #o%s times #N in a row in#r Duel.#N #/The number of consecutive wins up to now doesn't matter.
+Invite #o%s people #N to #rMy Room.#N
+Accessory Alchemy Result
+enter room ON
+New Balance
+Make #o%s Friends.#N #/Asking strangers doesn't count!
+Fraud has been detected; the game will cease.
+Please master #o%s#N#r Style.#N
+Registration in process.
+
+Select the number
+Accessory Core
+Display Blacklist
+
+Sell items
+On
+Resend:
+Draw lines in color mode Shortcut:K
+%dF
+Condition
+#yRegistered %s to Blacklist.
+WOTP 8個の数字を入力してください
+Lighting Effect
+Visitors History
+Collected Number
+No.
+Strong
+State:
+TOTAL SCORE
+ROOM
+Announcement
+You cannot form party in LAN Mode
+NPC
+Type Skill ID Here up to 4 skill#/The Skill is split by Comma (,)#/Sample (1,10,21,4)
+Accessory:
+POWER
+TRICK
+___内容を確認しました___
+LIFE
+Rating
+Other
+Skin could not be purchased.
+Great Avyon
+#c#K [Guild Room] #NThis is a room only allowed#/for members of the Guild. You can#/communicate through BB and layout gifts!
+Fighting
+#yActivated the Party function.
+Street Stall Chat:
+Cancel Entry
+V
+Chat
+R
+S
+P
+Force Logout
+Party Fight
+Accessory to forge
+M
+Edit Canvas
+Reverse the selected area vertically Shortcut:I
+Present
+: Points everyone collected
+Error has occurred during configuration file update.
+Room Name
+Error has occurred during update file download.
+Updating configuration files now...
+The %d time
+Number:Select NPC#/SET:Place NPC you selected#/CLEAR:Remove NPC you placed
+Challenging Quest
+Help
+%2d:%02d
+Cool
+http://www.getamped2.jp/4
+Wish to playback#/this game?
+#yWithdrew from %s.
+P_UP
+Player
+You couldn't save texture file.
+Match-making is completed!
+Until Next Rank
+KILLS
+RANK
+Able to participate higher misson.
+Edit Guild Icon
+You can purchase Missions. Different from Stories, they will be deleted when you fail them. You may challenge them mutiple times without waiting.
+The file could not be found.
+Display present mail.
+Failed to load skin file.
+GameGuardファイルがないか、もしくは変造されました。GameGuardセットアップファイルをインストールして下さい。
+Shop Coupon will not be used. Proceed?
+#yThe case which you are going to challenge has been changed.
+#yWithdrew from Guild
+A
+Back to Previous Page
+Type / Location
+Please choose the amount of Crescent you wish to charge.
+Write Mail
+Delete Party
+Wish to format to #/default setting?
+Upload Skin File Shortcut:Ctrl+O
+DEF.
+AMNT
+D
+Guild Rank
+Preview
+___%dHours %d Minutes %dSeconds
+Drag to Turn canvas
+Is this item okay?
+Room creation completed
+Room Name
+RM
+Episode rank has ranked up to #c%d#N!!
+#o%s#N got #r%s#N by#/Lucky Draw!
+%s Lv. %d
+#yCAUTION#N#/Awarded scores and WIN will be decreased when the mode is played by few members. We suggest you playing in Duel Battle for 1 on 1 match.
+Dr.Diaper Mission
+Bafabon Mission
+Room Grade
+Mysterious Priest Mission
+Fabicro Mission
+Show/Hide the log of previously entered commands.
+Party
+Zenjiro Mission
+Linda Mission
+Enter Comment
+It is already boosted up to the maximum. Using the item will have no further effect.
+Bonus Coin
+ウィンドウの一部システムファイルが損傷している可能性があります。インターネットエクスプローラー(IE)のアップデート、もしくは再インストールを行うと改善する場合があります。
+Choose Skin
+Use Ticket to try Lucky Draw once
+: Points you have gathered
+vs Val Shark Mission
+Currently %s wins in a row!
+MISS
+Party
+Character Select
+CLEAR PATTERN?
+http://www.getamped2.jp/moreinfo
+Do you really want to leave the room?
+Display Help:
+New Training NPC has been added!
+DRUMSET LIST
+X
+Return Gate
+The Core is under attack!
+Got Reward!!
+* Billboard Function
+Change Tournament Setting
+Current version:
+%s Help
+Background Color
+Display of Friend List:
+RIGHT
+Update Game Room List
+Party List
+Demoted to Member
+Selected Item
+GameGuardファイルがないか、もしくは変造されました。GameGuardセットアップファイルをインストールして下さい。
+%d remain to be received.
+Remove this player from Party?
+SD
+Use Dropper Tool Click to dropper Shortcut:S
+#yInvited %s to Party.
+Maximize
+Remember input data
+
+Sent item to mail box due to maximum item.
+DEFEATED RECORD...
+Create Room
+%s
+Quest Name:
+Message Board:
+No
+TOTAL
+ENERGY BONUS
+: Points everyone received
+Show your score
+NOISELV
+DECAY
+
+Apply Duel Battle
+%d Day continuance Log-in!
+#y%s cannot respond now. Please ask again later.
+The Room Master has left. This Room will be dismissed.
+#y%s is participating in another game now. Please ask again later.
+#yCannot invite %s now.
+Loading your transaction...
+No restriction
+Cannot register anymore.
+DEF
+GameGuardアップデートが完了されませんでした。ウィルスワクチンを一時停止させた後に再実行するか、PC管理プログラムから設定を調整して下さい。
+不正を検出したためゲームを終了します。
+Checking other software now...
+Starting the game now...
+Adding new files now...
+Score: +%s%%
+History
+Finishing it now...
+ATK1+ATK2
+Application has been updated.
+Error has occurred during update checking.
+ウィルスやSpywareによってHookingに失敗しました。最新のワクチンをダウンロードしてコンピューター全体を検査して下さい。
+DUAL OSC
+The handling fee of %s% will have to be paid when the item is sold.
+Do you wish to end tutorial and return to the title screen?
+W
+You had a guest in your room!
+http://www.getamped2.com/nolayout/other/terms_skin_forest.html
+Open Chat
+Hold
+Timelimit: %dm
+Guild Score
+Message
+COLOR
+#yThat person is already a member of the Party.
+Choose Category(1 or 2)
+point
+Search:
+You have lost the ability to use %s
+Join Automatching GAT
+Guard :
+Movement :
+%sKB/s
+Select BINGO card
+TEC
+Skill-giving Materials of the same level have been removed
+We have sent you bonus Lucky Coins.#/Thank you for your support.
+THU
+ROOM
+Spin Square BB
+Money
+League
+Whole
+Delete
+All World
+Your registration will be canceled.
+The number of items in your possession is too great#/to be able to open this present. Please reduce the #/number of items to be able to open this present.
+Cannot open a store unless you register items to sell.
+VERSION : 1.0
+Do you wish to see the UI Explanation?
+Shop data is not the latest data
+Special Bonus
+Do you accept rematch?
+DR
+Not found.
+Required Score: %s
+Sold
+Select difficulty
+Select character
+Shop Owner:
+Skin Selection
+Score
+Full Screen
+You can not use Extra Skin File.
+Bet:
+Dynamic Camera :
+BITS
+The match will be terminated because all matching participants are not available.
+Confirmation
+Reset to default Shortcut:Delete
+Furniture is full.
+New Thread
+Do you want to use #/Upload Skin SP Ticket?#/(%dleft)
+%s's Room
+Wanted List
+New
+Connection to stage has been lost. Returning to the World Map.
+Start Game
+No
+%d%%
+Go Shopping
+Disconnected
+#yUploading skin to Skin BB was restricted.
+This item was sent to you by mail because your inventory is full.
+EXP Level
+Place
+Connection failed.
+GameGuardファイルがないか、もしくは変造されました。GameGuardセットアップファイルをインストールして下さい。
+Do you want to make#/a new thread?
+Sent item to mail box due to maximum item.
+The Core was destroyed!
+Starting in
+#yVoice Chat has been disabled.
+Always
+Game Room List
+Do you want to buy this Guild item?
+Acquired Score
+Receiving mail.
+Please enter your ID.
+Rating:
+The price set, when registering the items will become the package price for all the designated items.
+Show all parts
+STR : %d
+Ready and Waiting
+Prize Money
+Please select from the following items.
+Choose the material to give
+Do you want to use #/Rare Mix Ticket?#/（%d left）
+Total Entries
+Allow other people to edit skin.
+Terms of Skin Forest
+Battle Challenge
+#yTrade was cancelled by %s.
+#y%s purchased %s
+CORE
+Change Parts
+SET
+Use the current character?
+Import
+Use Move Tool Click to move canvas Shortcut:D
+Point
+Notice
+http://www.getamped2.jp/launcher/banner/infobanner/index.html
+PITCH
+Send friend request?
+Festival
+Battle with Determined Equipment
+Prize Item
+Edit Skin and Try on
+Raise the voltage to the maximum.
+There is a HOT item in market.
+Failed to download update files.\n Please try again later if the network is busy due to high traffic.
+Failed to update application configuration files.\n Please reinstall the game client if this problem persists.
+The version check was not completed. \n In the case of server maintenance please try again later.
+Experience Level of Style is not enough!
+Purchase
+Some configuration files of the application might be missing. \n Please reinstall the game client if this problem persists.
+Exiting the application due to a fatal error\n Error code: 0007
+Exiting the application due to an application version mismatch.\n Please reinstall package.
+Version of the application file is inappropriate.\n Please reinstall the package.
+Ranking
+Couldn't update the file as the file is in use now.\n Please restart the application.
+Current Score
+
+Shop Coupon Selection
+Please purchase Accessory
+Score
+ROWS
+Medal
+Emotion Setup
+Speed:
+About Core
+Prize
+Under
+DEL
+Master %s kinds of Style
+This ID is already in use by another user.
+DIST
+Use Line Tool Left Click to draw, Right Click to dropper Shortcut:E
+Party Member
+This item cannot be sold anymore.
+You don't have enough ticket.
+Announcement was made to GAT Stadium.
+Times played
+Selected Bonus can be acquired.
+Select which character to use.
+Log-in Present
+Try the Lucky Draw; five times
+Ongoing Quest!
+Draw anti-aliasing(smooth) line Shortcut:J
+%d / %d
+Purchase Skin
+Try the Lucky Draw; one time
+DRAW
+Re-do
+Prize WIN
+Do you wish to visit#/My Room?
+Slot
+NOISECOL
+Mega Force vs Val Sharks
+Acquired Score
+Drag to change color Click to open Enter Bar
+Left Click:Select the palette to change Right Click:Turn the current color to default
+Game Setting
+To: %s
+Draw in symmetry Shortcut:L
+NUMBER
+Amount: %d items
+Use Crescent to try Lucky Draw once
+Free rank channel that anyone#/can join.
+CLEAR SONG
+Safe Mode Start
+Enter your name.
+EFX
+Purchase Crescent
+Drag to Zoom canvas
+Change MyRoom settings.
+Shortcut
+This item has expired, you cannot retrieve it.
+Prizelist
+Dress-up
+walk OFF
+Error has occurred. Back to the title screen.
+Checking Crescent charge...
+Required Item
+COMBO
+Prior
+Mode
+Weekly Ranking
+chat interval(ms)
+Please try the draw once.
+Upload skin
+BINGO Mail Service:%s
+You will answer to the survey with this item.
+( No.%s )
+Don't Equip
+Already voted for this skin.
+DMG Dealt
+ATTACK
+Can not change Avatar Parts in Extra Skin %s.
+ATK1
+Controller shake :
+Opening %s's SNS?
+ATK2
+Kills
+Increase
+Failed to create Room
+Funny
+Training GAT
+No Time Limit
+Item Trade
+Prize Selection
+Currently %s visitors!
+Item Selection
+#yParty is full.
+#yCannot move to a Guild room to which you don't belong.
+Reverse
+Here're the gift items→
+ip
+___FCM登録のご案内___
+Remove
+You cannot upload avatars that have not been released.
+Do you wish to buy this?
+Is this card OK?
+Accept the battle to be bet:
+Promote this person to an administrator?
+Warp to Player
+*English half-width characters
+* You exceeded the item limit, so the item was sent by mail.
+Guild Name
+TAB
+Guild Regular Ranking %d
+TRNS
+The connection could not be established. Could not be authenticated.
+Connection has been cut off.
+Cannot open because of too many people around.
+Use Square Tool Drag to draw, Right Click to dropper Shortcut:R
+Unauthorized order has been submitted during connection.
+Connection has not been approved.
+Answer to the survey with your current selection, okay?
+Can't connect to server. Please check service operation times.
+Server is currently under maintenance.
+When you see#r Burning fire #N#/behind your head, it's a sign of #/#rVoltage ON #N!#/It's#l Super Attack#N time!!#/Win your self a victory!
+Leave the place.
+: Points everyone collected
+Destroy the #o#KBlack targets#N!#/Get closer to the targets#/and press one of the#/#lAttack keys#N!
+Duplicate player name.
+As for #o#KOther colored targets#N,#/you have to attack as you're#/told!
+Package version is incorrect.
+As for #o#KFloating targets,#N#/#lyou have to jump and attack!
+TOTAL
+Daily play-time limit has been exceeded.
+WPIN 6個の数字を入力してください
+Dish out great damage by using a#/#lSpecial attack#N!#/But remember,#r your MP #Nwill be#/consumed everytime you use it,#/so watch your MP!
+Stage Selection
+Rewards:
+This is not Extra Skin File.
+TEST ver. / GM USAGE #/This item is currently UNRELEASED.
+chat ON
+Go to website
+Logging in...
+DEATHS
+CLIENT VERSION :
+Unknown I/O error.
+#yCalled Party member.
+MODE
+RULE
+Synthesis Material Trade
+/
+You couldn't enter the room because the battle has started already.
+Server is working ok.
+Remaining
+
+Add %sSkill [%s] to accessory by success rate of %d%%.
+http://www.getamped2.jp/6
+A Mysterious group called [Val Sharks] is trying to#/destroy the floating city Wingdom! The Guardians of#/Wingdom must stop their evil plans with the aid of#/super-genious scientist, Dr. Diaper.
+#oOne for One Customer#N#/#/
+Register New Skin
+login per min
+Style:
+SUN
+: %d/%3d
+Rematch was refused.
+Hide friend mail.
+VOWEL
+http://www.getamped2.com/fromclient
+Display Chat log :
+Automatching is successful, you cannot move.
+Expired
+Automatching Tournament Entry
+Number of Visitor:%2d
+Trade GM
+Do you want to quit the#/tutorial and go back to#/the character creation?
+Prize List
+* Controller setting is applied after the stage re-entering.
+Update BINGO card
+AIM+ATK2
+AIM+ATK1
+%s's Room
+http://www.getamped2.jp/0
+Posting is not allowed
+%d / %d Log-in Present
+Skip
+#bWhen your rank becomes #c[%s]#b you will be able to buy this item.#N
+Vote
+Shop Data has been updated. The latest data will now be loaded.
+You have that item already.
+AIM+ATK1,2
+Use-by date of that key code has expired.
+Setting
+Present
+That key code has been used already.
+Prize Received!
+Invalid key code.
+Additional Effect:
+Inappropriate item is in your cart.
+You don't have the designated item.
+That item is already in your cart.
+Insufficient funds.
+Difficulty:
+Condition Setting for#/Quick Entry
+C
+Current Max NPC: %d
+Animal
+Failed to purchase an item.
+Drop Rate %d%
+Guild
+See Tournament Setting
+Move to the right Draw
+Do you want to use #/Remix Ticket?#/（%d left)
+If you play Bingo more than #otwice,#N the animation will be skipped.#/
+Style Equipable
+Insufficient funds.
+Member limit has been reached.
+： Your Points
+Currently, new accounts cannot be used to login.
+That item is already in your possession.
+Insufficient authority to execute the order.
+Upgraded to Silver member
+Upgraded to Platinum member
+The Guildmaster cannot execute that order.
+Designated user is not a member of the Guild.
+Upgraded to Gold member
+Checking unusual logout...
+Make Guardian Room
+Restriction Menu
+Trade Item
+Select Character
+Voice Volume :
+Your Items
+Please select the preferred Bonus Item.
+#y%s became a Party member.
+Designated user has not logged in.
+Reverse the selected area sideways Shortcut:U
+User ID or Password is incorrect.
+Full
+#yWithdrew from Party.
+The present does not exist or has been opened.
+Designated My Room is currently unavailable.
+Change Pen Size to 2x2 Shortcut:＜,＞
+Displays the NPCs for training you've unlocked.
+TEC : %d
+Duel Ranking
+TECH BONUS
+Voice Chat :
+#yInvited %s to be Friends.
+Unusual logout has been detected. Please try again later.
+Exit Automatching GAT
+Information of your official name is required.
+Access from your country is prohibited.
+You are currently using a %d times ticket. If you use the %dtimes ticket now the effect will decrease.
+SUSTAIN
+Duplicate log in. Please try again later.
+Change Pen Size to 6x6 Shortcut:＜,＞
+REWARD
+User ID or Password is incorrect.
+Connection request has timed out.
+Irregular login.
+Display Outline :
+Request has been denied due to server overload.
+Error occurred in I/O of user data.
+
+Synthesis Result
+Back to World Map
+#c#K[My Room]#NThis is a room assigned to GAT#/fighters! Feel free to edit a skin or change#/the layout of your room!
+Future Lab
+Please select your country.
+Amount bought
+We confirmed your transaction.#/Press OK to add the Crescent to your current balance.#/It will take some time for this,#/so please wait till it's completed after you pressed OK button.
+VS
+Maximum number of items has been reached. The remainder has been sent by mail.
+Present [%s]
+Move to My Room
+Sale amount exceeded.
+An item that can not be sold via Street Stall is included.
+This item is sold out
+Can not sell item that is equipped
+Open the official website
+Material
+Face
+Decoration
+Head
+If you use the %d times Ticket now the currently active %d times ticket will be overwritten. Proceed?
+Others
+Voice
+Lock
+An item that you do not possess is included.
+Items in possession are insufficient.
+#yCannot add %s because your Friend List is full.
+Make Party
+Area
+Do you want to invite#/to the game?
+#yDismissed Party.
+Reservation is cancelled. Are you OK?
+Account is currently active on another computer.
+Friend List
+Body
+Weapon
+You exceed the maximum of skins you can have.
+Top 100 around you
+Accessory
+Preview
+Furniture
+Failed to purchase item
+Street Stall Ticket has expired.
+Do you want to delete this thread?
+The Street Stall is full.
+Start Time
+Insufficient Rank to purchase a Street Stall.
+#yDeleted %s from Blacklist.
+Limited use items cannot be sold.
+You do not have a Street Stall Ticket.
+Item amount exceeds limit.
+NPCs will not appear.
+The designated number of persons is incorrect.
+Failed to complete the process because the server has been shut down.
+不正なプログラムが見つかりました。不要なプログラムを終了した後、再起動して下さい。
+The Lucky Draw item list data has been updated.
+Place:
+Lucky Draw Data has been updated. The latest data will now be loaded.
+SAVE GAM
+Unknown error has occurred within the Shop.
+You exceeded the limit of gift from Oracle, so the item was sent by mail.
+The Street Stall has been closed by the owner.
+Street Stall cannot be set up.
+Load skin made by %s#/#/* Can not change parts
+The room cannot be entered.
+Incorrect password.
+The room cannot be entered because the match has already begun.
+Point
+You can not enter this user's My Room.
+Could not try.
+The stage is not yet ready
+Battle cannot be viewed because 'watch mode' is not enabled.
+Total Sales
+Cannot log-in because Game Room info failed to load.
+You cannot play the game because there is an abnormality in your client's processing speed.
+Gacha Restriction
+Start Street Stall
+Present Confirmation
+#yInvited %s to Trade.
+Use %s %d.
+%s visitors to My Room
+Party Invite
+Damage Types
+Do you wish to cancel the item currently selected?
+Defense Types
+Auxillary Types
+
+
+Mission
+Number of Member: %d / %d
+This tutorial must be played with Manual Guard Mode enabled.
+The game is full.
+Exchange?
+UNISON
+[%dDay(s)]
+Shop Coupon will not be used.
+Back
+Attention:#/ If the [Reset] button is pressed, you will be revived.
+BUSTER BONUS
+Welcome back. You've received a present.
+x%s
+chat file
+Fee: %d%%
+Mysterious Priest Case Files
+Fabicro Case Files
+Dr.Diaper Case Files
+Bafabon Case Files
+Received invitaion for free battle from %s. Do you accept?
+channel
+Red Bull Case Files
+Click
+Use Circle Tool Drag to draw, Right Click to dropper Shortcut:T
+Linda Case Files
+Please enter your password.
+Area
+Zenjiro's Case List
+#yReceived a present from %s!
+Which Friend do you wish to send this to? #/Choose from the list on the right.
+Quest
+Jump
+Purchase Story
+Make Party
+MODULATOR
+Change the Viewpoint
+#y%s withdrew from Party
+Star Point
+start
+Name:
+: Points you collected
+Mission Name
+#yMyRoom chat is now available.
+Apply to Party?
+Wanted List
+Send item as present?
+Rewards
+Buy #o%s#N and use it. Will need #o%d Win#N #/Wish to purchase?
+Accessory Awakening
+Mode
+
+Do you agree to pay in order to upload?
+Sales:
+How many would you give?
+#yGave an item to %s.
+Month %d
+Ranking
+Selected Shop Coupon
+ARP
+#yRemoved %s from Friend list.
+SWING
+This button cannot be replaced.
+Make Tournament Game
+Choose 3 skins you wish to equip.
+Present
+You don't have enough money.
+* Resolution Setting is applied after rebooting the game.
+See Spin Square BB
+account num
+login failed num
+Item Registration
+Use Copy Tool Drag & Drop to Paste after selecting area Click to end mode Shortcut:Q
+Rank is not enough to shop in a street stall.
+Request Menu
+Sell Your Own Items
+By upgrading Member Rank, items will be added to the VIP Point item list and various benefits are provided in the game.
+The server has been halted. Please check the official webpage for details concerning maintenance.
+Quality
+Maximum Accepted Amount:
+Undo Shortcut:Ctrl+Z
+Leave Store
+TR
+Stage Selection
+JMP.
+GameGuardの初期化時にエラーが発生しました。ゲームを終了します。
+Rate
+Delete Comment
+Party Invitation from#/#y#B%s #N
++
+Your Name
+Predicted Value of Synthesis Force
+
+Do you want to add [%s] to the set?
+#ySending mail is now available.
+New Message
+Load Skin
+Voice Changer :
+Top
+You cannot upload any more skins because the maximum number has been reached.
+Do not have enough money to purchase #o%s#N.
+Returning to character creation
+Change Pen Size to 1x1 Shortcut:＜,＞
+Skin Forest
+Display friend mail.
+Once you enter Character Editor, your trial fitting will be removed.
+http://www.getamped2.jp/5
+Owned NPC
+VOICE LIST
+All Channels
+Best Score:
+Charge: %d/%3d
+ATK1,ATK2 ... Attack
+Score
+#yInvited %s to Guild.
+Party List
+GameGuardアップデートをキャンセルしました。続けて接続できない場合、インターネット及び、個人のファイアウォール設定を調整して下さい。
+Match has been canceled due to an insufficient number of players.
+Amount: %d
+Because the time limit for this style has expired, it may not be sold.
+Category:
+Unranked
+Log out
+不正ツールが見つかりました。ゲームを終了します。
+Style Record
+Join as Spectator
+Target
+Weak Combo Attack
+Enter Key Code
+Strong Combo Attack
+Weak Hold Attack
+Currently up to %s people killed in a row!
+Strong Hold Attack
+Score
+Weak Pursuit Attack
+Strong Pursuit Attack
+See Game Result
+Do you want to delete#/this mail?
+Weak Pursuit Attack
+Acquired Rating
+Strong Pursuit Attack
+Weak Dash Attack
+Go to Next Page
+login success num
+CHORUS
+Item Total
+PINGPONG
+Apply Skin
+The number of Accessory that can add this skill is over the limits.
+Collected items.
+Insufficient amount of money!
+Chat Information Setting
+Total
+Cancel
+
+Launch with full-screen
+Game Record
+You can purchase a Story. Stories consist of multiple missions. You will be rewarded when these missions are completed. Failed Missions will not be deleted, but it will take some time until you can challenge them again.
+* If you can not use Voice Chat, you may need to set up a port forward. Accept number 23456 for both WAN and LAN port for UDP and reboot the game.
+New Quest
+PASSWORD[AGAIN]:
+TUNE
+You cannot upload skins anymore due to exceed the maximum of skin registration.
+Change your equipment
+Calendar Points
+Discharge Member
+Display :
+E p i s o d e
+GameGuardファイルがないか、もしくは変造されました。GameGuardセットアップファイルをインストールして下さい。
+Shortcut Key :
+Hard
+ゲームが重複実行されたか、既にGameGuardが実行中です。ゲーム終了後、暫くしてから再実行して下さい。
+walk ON
+end
+OK
+Till next Item chance
+Open Skin Editor
+Go To
+Warp to player?
+Comment
+Upload .png .bmp .jpg .gif form file Shortcut:Shift+O
+You will receive one of the items from this prize.
+Welcome to MyRoom!! You can add your original comment here from [ MyRoom Setting], or decorate your own room from [Edit MyRoom] !!
+Necessary Synthetic Force
+Skip tutorial
+GLIDE
+You can revive your squad. #/Do you want to use a Resurrection Ticket#/to revive everyone?#/（%d left）
+JUMP ... Jump
+Distribution: %tm / %td %tH:%tM
+You can select %d items.
+No country was selected. Please select a country.
+Cancel all of the selected Materials?
+You can not leave room while in match.
+Volume Setting
+Select skin file
+Timelimit: %dh
+#yFriend Registration rejected by %s.
+NPCs will appear.
+#yTrade was resticted.
+: Your Points
+Right Click to change the color of the lines of polygon Shortcut:N Left click to change the color in the reverse order Shortcut:Ctrl+N
+LOGIN OK!!
+Rank
+Detail Setting :
+Next Page
+Go to My Room
+Enter the correct price for price setting.
+Owned: %d
+LIFE POINT
+Guild Room
+Ranking
+Lv. %d
+None
+Guild Invite
+You currently mastered %s styles!
+#yTrade was cancelled.
+Looking for players for a tournament.
+#y*#N Please note that the skin you are#/trying on will be unequipped when you#/move to other areas or change your#/equipment.
+Retry
+Entry Device :
+Launch the game from website.
+Ranking Type
+%s %d%%
+Remainig Time
+OFF
+LP
+account file
+My Room
+LV
+Condition for Winning
+None
+TRACK
+Today's Visitor(s)
+Reward for %d Points
+When you close the Skin Editor,#/you will be equipped with the skin#/you were making.
+Move from My Room to Skin Editor
+No restriction
+Game Mode
+Sending Error
+Exit
+OFF
+TOTAL
+Fee:
+Request for reinforcements was made to Mega Force HQ!
+PLAY
+Invite this player to Party?
+You can defend yourself by pressing X+C.
+Acquired Score
+hits
+#r%d/%d Defeated!!
+The button cannot be assigned.
+Draw Gift Item
+Receive Only
+CTRL
+Create New Character
+Get Item!!!
+Draw Once for Free!
+Challenge to Rival
+Challenge to Exercise
+Completed!
+Training
+Currently %s Friends！
+2 skill cards with same level has been selected
+Amount: %3d/%3d
+Go to Prime Market?
+nProtect GameGuard
+NAME
+Enter the room#/automatically after#/the fight ends.
+Item List
+Give %s (%d remaining) and %dW?
+Deaths
+, Drop rate %d%%
+Success Rate
+Votes
+HALL
+Choose Destination
+#yLounge chat has been disabled.
+DELETE TRACK?
+Normal
+Character Information
+Party Call
+Not enough Point
+Experience:
+Automatching was canceled.
+Number of Arrests %d / %d
+Registered Skin was sold!
+create room interval(sec)
+Play Explanation
+HITS!
+%d/%3d
+ADSR_REV
+Channel Selection
+SPD : %d
+CLEAR
+Training Hall
+walk interval(ms)
+AIM
+SPD
+Friend List is not public.
+#yCreated Party -%s-.
+Rating
+login interval(ms)
+Total
+Skill
+AIM ... Aim at target
+Wonderful! Congratulations!#/
+: Points you received
+Excellent! Congratulations!#/
+How many sets?
+Crowded
+Purchase Completed
+Full
+Congratulations!#/
+Selecting another stage will cancel this action. Proceed?
+Reward Rank %d
+None
+OK
+WP ... Use Weapon
+How to earn Points
+You already have this item, so you couldn't receive it.
+Show part being edited
+Hero Matching
+Kick
+GAT Guild Tournament
+Great! Congratulations!#/
+JMP : %d
+npgmup.des初期化エラーです。GameGuardフォルダを削除した後、ゲームを再起動して下さい。
+Easy
+Play Action
+Cancel
+%s #r
+GameGuard エラー:
+Viewers
+Beginner Matching
+Story Prize
+%s has Ranked Up!
+PASTE
+KEY OBTAINED...
+#yBattle chat has been disabled.
+
+enter room interval(sec)
+chat OFF
+Creating Room Now
+SPACE
+#yCannot add %s because your Blacklist is full.
+The line up of the shop has been changed
+HOME
+DESTRUCTION RATE
+Build Tournament Score
+Slot
+PTS
+See Ranking
+Guild
+Microphone gain :
+GAT Stadium
+Unranked
+You cannot purchase this item because it is for an avatar you do not have.
+Bet Title:
+Team
+Number of people:
+Present
+STR
+Create Party
+Top 1000
+This tutorial must be played with Auto Guard Mode enabled.
+Is this material okay?
+Use Pen Tool Left Click to draw, Right Click to dropper Shortcut:W
+Do you want to empty your cart?
+Guild Tournament
+How to
+TUE
+Do you want to try?
+* When your HP reaches 0, your obtained items will be impounded.
+* Call off expedition and return to match room.
+#yApplied to participate in the Party [%s]
+Thread Title
+You're in a channel where your rank does not meat the requirements.
+#yRule of the tournament has been changed.
+Delete Friend
+This Draw will be available for use after Crescent purchase. Please access the website and purchase Crescent in order to try the Draw.
+Accept the battle to be bet.
+See Purchase History
+Voted:
+http://www.getamped2.jp/launcher/banner/
+Status
+Accessory material possessed
+NOW LOADING...
+Do you want to purchase %s?
+All Guild Member
+#yNo available Party
+BGM :
+Master, please be -READY-.
+GET
+#yGame room entry has been disabled.
+Already owned, price refunded.
+Style
+Front
+TARGET
+Copy the selected area
+Display the number everyone collected in ranking.
+Select Channel
+create room OFF
+Item to collect
+Accept the difference of rank
+Right
+Friend
+port
+#cFailed to charge Crescent#N#/Please contact us from GetAmped2 website -Support-
+Hide incoming mail.
+#yTrade complete!
+Street Stall Result
+Once
+Finish Extra Skin Confirmed
+Select Style:
+Time limit of %s has expired.
+Paint inside when using Square & Circle Tool Shortcut:H
+OFF
+TRI
+: Required number to achieve
+Save as Skin File Shortcut:Ctrl+S
+Key Item Mail Service:
+Play Bingo:
+#yParty has already been disbanded or is missing a master.
+---
+Time Limit
+You exceeded the limit of items when you recieved them through a key code, so the item was sent by mail.
+Guild Member
+Many people
+TOTAL SCORE
+Save in .png form Shortcut:Shift+S
+%d people killed in a row in Street Fight
+Ok for use during %s Guild Tourney
+FCMの情報が補完不足しています。今すぐ補完しますか？
+VOLUME
+Player Score
+Item Reset
+Password is required to enter this room.
+Abort survey. Okay?
+%s-Class Wanted
+TRICK
+LIFE
+POWER
+Friend
+Decoration
+Invalid File
+DOWN
+Required %s to register#/from a file.
+An error has occured in your registered skin. #/The registration fee will be refunded, #/but please contact the management team.
+
+Your Money
+See Guild Information
+Remove [%s] from Bonus?
+FRI
+Awakening Skill
+DRUM TRK
+Until Next Rank
+New Article
+Game Information
+Expired
+Able to get random item for playing %dhours %dminutes %dseconds.
+Hide present mail.
+You can display any message you like.
+Edit Comment
+Item list
+Total Visitor(s)
+...
+TYPE
+Lucky Coin
+Title Challenge
+FM PCM
+3D Window Compression in Menu:
+OCTAVE
+WIN
+%s (%d in possession) are necessary.
+Choose Accessory Core
+iniファイルがないか、変造されました。GameGuardセットアップファイルを再インストールして下さい。
+test login OFF
+Purchase #o%s#N and use. #b%dCrescent#N is required. #/Do you purchase?
+Invite
+By using #o%s#N, you can escape the dungeon. #/Do you wish to escape? (%d left)
+- Only the ROCKET can damage the Core
+- Team Core will revive after certain time
+- Sub-Core will appear in random position in certain time
+http://www.getamped2.jp/3
+This item cannot be redeemed because your inventory is full.
+: Points everyone received
+Open the website to purchase Crescent. Once you complete the purchase and see the payment confirmation page, close this dialogue.
+Your Rank
+Use Cart
+Auto Guard
+Skill Name
+Customization
+GameGuardが動作していません。
+Do you want to create#/ a character?
+Master:
+NPC
+Etc
+VELOCITY
+CLEAR
+Creator:
+Do you want to remove#/from Guild?
+lock num
+Default
+Join this Guild?
+Spin Square Invitation from#y#B%s #N
+#y%s cannot respond now. Please ask again later.(prepared just in case)
+%d
+Open the website when you close the game client:
+PAN
+Acquired Point
+BPM
+One per person
+Trade Invitation from #y#B%s #N
+Demote this person to a member?
+: Points needed for achievement
+Welcome Back Bonus
+Area to log on this time:
+Destination Selection
+Do not have enough money to purchase #o%s#N.
+This guild name is already being used.
+: Points you received
+Normal
+既にGameGuardが実行中です。ゲーム終了後、暫くしてから再実行して下さい。
+Minimize
+Character Introduction
+Visitor:
+Player Equipment
+#yMyRoom chat has been disabled.
+Off
+: Total Points
+Left
+Collect Item
+You can't select any more items
+Request denied.
+Use at current ranking prohibited
+#d#BThis is the list of on-going cases. #N#rOnly room master can change the case you are going to challenge.
+Promoted to Administrator
+Guild Regular Ranking:
+There is an improper word in that name.
+Search Player Name:
+Condition
+Sent item to mail box due to maximum item.
+The button is assigned for action operation.
+Purchase Mission
+#y%s is already in another Party.
+Voice Chat Setting
+View Calendar
+Lucky Coins
+Mora Shrine
+Choose skin file
+Rank
+Rank
+yyyy/MM/dd HH:mm
+Players above %s may use the Skin BB.
+Paint
+Game Score
+%d Day(s)
+Amped capsule
+Going back to the title screen
+WP
+Change Room layout
+Go to Shop
+Guardian Ranking Type:
+People Around
+Ranking List
+RANK
+Mail
+Guild Icon
+
+Player Name
+Is this room okay?
+Click to open Enter Bar
+%s wins in a row in Duel
+Guild Note
+Room Entry:
+http://www.getamped2.jp/moreitem
+Loading data...
+#y%s$#N Star Points are required to change the Guild icon.
+To change the guild name #y%s＄#N%d is required.
+Do you want to leave the store although you are still shopping?
+: Total Points Collected
+max:%d
+Log-in Time Present: %s
+Individual Dogfight
+Exchange Points
+Team Dogfight
+Sent item to mail box due to maximum item.
+Latest Battle Score
+Lucky Coins Trade
+Wrong Password.
+See Skin Forest
+You may select %d more.
+: Total Points
+No greeting is needed!
+Battles are always fun even if I am not strong!
+Have a few battles!
+Title
+Anyone is welcome!
+Let's practice!
+Display the points everyone collected in ranking.
+DEF : %d
+%1dh
+You can not access this channel. This channel is only accessible by players of #/#/%s rank.
+View: %d
+Cute
+Display the points everyone collected in ranking.
+LAN Mode
+Auto Guard
+Voted for Skin
+Total Score
+In New Order
+Maker:
+Game Invitation from#/#y#B%s #N
+Comment
+Number of Purchases up to now: %d
+Receive the listed number of items?#/The remainder will be sent by mail.#/*The items displayed in grey #rcannot be held in multiples#N, #/so the remainder will be discarded.
+High Speed
+Response: %d
+Display Crescent purchase page
+Remove
+#ySkin usage has been disabled.
+Change viewpoint of preview
+Sign on a billboard:
+Sent item to mail box due to maximum item.
+Are you sure you want to sell this item?
+Not enough %s.
+Entry
+Welcome Back Present: %s
+You do not have the quest to collect the items.
+Do you want to invite#/to Guild?
+Total 100 types
+You can check items required for item exchange.
+Your Room
+Get in and FIGHT!
+Party Training
+A few battles!
+Screen Setting :
+Weak fighters only!
+Practice rounds!
+This channel is only accessible by players of %s rank.
+Anyone is welcome!
+Do you use #o%s#N?
+Change status depending on Style.
+Price Setting:
+Select Game Mode
+After Discount:
+TRICK Type
+POWER Type
+ESC
+OThers
+LIFE Type
+#y*NOTE#N If you leave a room in the #/middle of a game, the score and prize#/can't be obtained.
+Back
+Individual Tournament
+Match has been cancelled due to an inequality in the number of players per team.
+Add %sSkill [%s] to accessory.
+Do you want to try again?#/（%d left）
+Do you want to delete this comment?
+Sending Mail...
+Team
+Win: +%s%%
+- When the time is up, the team with more Points win
+- Obtain %d Points faster then the enemey team
+CLEAR PTN
+Accessory Core
+Dungeon
+Finish Extra Skin#/#/* The used avatar will reset
+Message
+Remove all items from the list. #/Are you sure?
+パスワードが間違っています。もう一度入力してください。
+HITS
+COMB
+Agree to the Terms above
+Score
+Wingdom Event Monument
+Lucky Coins corresponding to present will be sent to %s.
+Undo
+Channel for advanced players#/that only champions#/can join.
+Game Information
+Voice Setting
+Skills
+Guild Rank
+Connection Setting
+Sound Setting
+Control Setting
+Graphic Setting
+#yLounge chat is now available.
+#yParty registration wasn't allowed by %s.
+Is this okay?
+To charge that amount you will need the materials on the right.
+Quit Lucky Draw
+Created Date:
+Free
+CLEAR SONG?
+Create new password from here
+You cannot purchase because there is an item you already have.
+SAW
+Do you wish to see the preview of the item?
+#lWeak Jump Attack#N Use Weak Jump Attack and defeat the enemy!
+Player Equipment
+#lWeak Dash Attack#N Use Weak Dash Attack and defeat the enemy!
+#lStrong Dash Attack#N Use Strong Dash Attack and defeat the enemy!
+PATTERN
+Number List
+Screenshot :
+Get %s points against Crescent
+Sent item to mail box due to maximum item.
+Please select from the Shop Coupons below.
+SCORE
+FM RING
+Varying Rating!
+Purchase %s for %d%s ?
+KILLS
+#lDash#N Dash and get the target!
+#lMove#N Walk and get the target!
+MON
+#lStrong Attack#N Use Strong Attack and defeat the enemy!
+Challenge Fee
+#lWeak Attack#N Use Weak Attack and defeat the enemy!
+#lDouble Jump#N Double jump and get the target!
+#lJump#N Jump and get the target!
+Logout
+Connected Game Controller :
+Amount: %d
+Date:
+Reset the status of your current character.
+Room
+Right Click to change the color of the grid Shortcut:M Left click to change the color in the reverse order Shortcut:Ctrl+M
+Timelimit: %dd
+Sent item to mail box due to maximum item.
+Limit:
+CONTINUE
+Point Exchange Item : %s
+Use Weapon
+Use a ticket and spin the Garapon %d times.
+QUAD
+Call from #/#y#B%s #N
+Guild Regular Tournament Ranking
+Set the quantity to sell.
+Action
+DELAY
+GetAmped2 Launcher
+yyyy/MM/dd HH:mm
+Open Limit:
+Antialiasing :
+___まだ耽溺防止情報を記入して頂いておりません。#/***のＵＲＬに置いて耽溺防止申請を行ってください。#/未成年のユーザーには、一時間ごとに注意が表示され#/3時間ごとに経験値等を半分#/五時間たつとゼロ#/になります。___
+USER ID/EMAIL ADDRESS:
+Purchase Crescent
+%d/%d
+#yTrade was deresticted.
+COPY
+COPY SONG
+MASTER FX
+Disband Party
+Today's Date
+Normal
+Total Ranking
+%d / %d
+http://www.getamped2.jp/billing/
+Title to honor that you won %s times in a row in Duel
+Waiting Rematch
+Logout Menu
+Purchase
+Show/Hide the skills of the currently equipped accessory.
+#yBecame a member of Party -%s-
+Area to log on last time:
+Total Win:
+Title to honor that you acquired %s Friends.
+Title to honor that you defeated %s people in a row in Street Fight.
+You already have this skin.
+Title to honor that you mastered %s kinds of Style's Experience Level.
+Title to honor that there were %s visitors in My Room.
+Choose a player to send a present.
+ADD
+Current Max Skin: %d
+Add [%s] Bonus?
+Delete Thread
+JMP
+In Shop
+Receive some parts
+VOICE
+Reset
+You couldn't enter the room.
+JUMP
+Rank:
+Announcement
+Weapon Trade
+Change Game Setting
+#yBB posting is now available.
+Guild
+move lounge OFF
+Max Vol
+20 Items
+Terms of Use
+Open Street Stall
+Acquired Skill
+Charge skill amount
+Change status
+%s PARTY
+Failed to load texture file.
+OK
+Select an NPC to appear.
+Device Name : %s
+#ySkin use is now available.
+Fight with random equipment
+EQ
+Guild Score
+%d / %d
+Remove from the list?
+Others
+Wind
+#yBB Posting has been disabled.
+Ice
+Is there anyone who can help out on this mission?
+Use Chat
+Thunder
+End
+This is a rather safe mission. Give me a hand!
+Shoot
+Can anyone who has confidence help?
+Is there anyone who is an expert with difficult missions?
+Fire
+#yCannot move to the place where %s is.
+Hitting
+HP : %d
+Choose Pose
+RESO
+PTS
+ADD NEW TRACK?
+Request from #y#B%s #N#/to participate in Party.
+Can't train without an Accessory. #/Do you wish to equip now?
+Seeking allies for a mission!
+#ySetting of Guardian Room has been changed.
+Robot
+LEFT
+SWITCH
+Switch Room Display
+You do not have enough Star Points.
+Filter by each Quests
+Balance after purchase
+Accessory Alchemy
+move lounge ON
+Mouseover
+FM
+Close Chat
+WARNING!!
+=
+Select Items
+Game Controller
+DEPTH
+Dash
+Room to fight NPC
+Score is incorrect.#/Please login again.
+Cannot quit the game now.
+*English half-width characters
+Registration
+DMG Received
+None
+%d/%3d to %d/%3d
+Quest
+Checking duplicate login...:
+TIME BONUS
+Chat Log
+Profile
+Change Pen Size to 4x4 Shortcut:＜,＞
+PULSE
+Display outgoing mail.
+Receiving Condition:
+Move
+Guild Note
+PASSWORD:
+Force the user to logout?
+Use Paint Tool Left Click to draw, Right Click to dropper Shortcut:A
+%d/%d
+%dpt
+Decorate Furniture
+ウィルス及び、不正ツール検査モジュール読み込みに失敗しました。メモリ不足、またはウィルスによる感染の可能性があります。
+HP
+SIN
+Item Purchase
+Thunder
+Hit
+None
+Fire
+LINEAR
+Wind
+Shoot
+TOTAL
+Ice
+Displays the episodes you've unlocked.
+GameGuard実行に失敗しました。GameGuardセットアップファイルをインストールして下さい。
+Quest Item Collection Situation
+F7
+F8
+F5
+Party Name:
+F6
+create room ON
+Item List
+F2
+Display Shadow :
+F1
+F4
+F3
+BP
+To add that amount you will need the materials on the right.
+Open the official website. Is it OK?
+#yInvited %s to a game.
+/%d
+Skill:
+FREQ
+OFF
+Manual Guard
+You are currently #B[%s]#N.
+Move to the left Draw
+#yMatching room chat is now available.
+Charge Amount:
+Leave the Party?
+Select the amount.
+Guild Member List
+An error occurred. Please vote again.
+/icon/etc/win.agi
+Do you want to give up?
+Story
+Chat Setting
+%ty/%＜tm/%＜td %＜tk:%＜tM
+Current number of Equipment Slots possessed: %d
+connect on num
+#yv#w %s#/#ys#w %s
+#yVoice Chat is now available.
+#bAble to send presents when #g%s#b has reached #c[ %s 」#N
+Please do not check the box if other people use this PC.#/Do you want to save the userID and Password?
+Please do not check the box if other people use this PC.#/Do you want to save the userID?
+Score Rate: %s%%
+Back
+#lDash Attack#N Use Dash Attack and defeat the enemy!
+%d Times
+#lWeak, Strong Attack#N Use Strong, Weak Attack and defeat the enemy!
+1 Time
+#yBecame friends with %s!
+#lJump Attack#N Use Jump Attack and defeat the enemy!
+You couldn't enter the room because there are too many players.
+SYNTH
+Leave Room
+GameGuardアップデートサーバ接続に失敗しました。しばらく後に再実行するか、個人ファイアウォールがあれば設定を調整して下さい。
+#lStrong Jump Attack#N Use Strong Jump Attack and defeat the enemy!
+#lWeapon Attack#N Use Weapon and defeat the enemy!
+Inject
+This skin cannot be uploaded.
+As you have all of the items, there're no items you can get.
+Downtown
+#lSpecial Attack#N Use Special Attack and defeat the enemy! #/#lGive massive damage with #KSuper Attack#N! #/Note that when using Special Attacks, your #rMP# will decreaseN!
+#lSuper Attack#N Use Super Attack and defeat the enemy! #/ When you have a #rFlame#N behind your head, #/It's sign for #rVoltage ON#N!! #/#lUse the #KSuper Attack#N and win your victory!
+Room not found.
+This skin is already uploaded.
+COMBO BONUS
+Mode Selection
+Write:
+Tournament
+Exit MyRoom
+Full
+This Shop Coupon has been selected. Proceed?
+Do you want to use #/Upload Skin Ticket?#/(%d left)
+CANCEL
+Re-registration
+TOTAL
+#yLogin was restricted.
+Score Received!
+Win in a Row:
+: %d/%3d
+Polygon
+See Guild BB
+Double Jump [W]
+Weak Attack [C]
+Dash [Press Direction Key Twice]
+Jump [V]
+enter room OFF
+TREASURES...
+Move [Direction Keys]
+Opponent Information
+Item Received!
+Room BGM
+End Skin Edit
+Until Completing Quest
+NOISE
+Successive login interval (ms)
+WAV
+Open Skill Limits
+Asker:
+Participants
+Set Skills
+FCM実名登録のご案内
+Spin Square
+Volume :
+Already in possession, the price was refunded.
+Technique
+Software keyboard
+: Points needed for achievement
+： Total Points Collected
+#yYou may now log in.
+After #c%d#N times, presents will be received!
+Duel Battle
+キャシーからのプレゼント：%s
+Player
+Time Limit %shour(s)%sminute(s) left
+Room Profile:
+Apply Battle
+Official Battle
+Default Rank
+Pen
+Only %d Player
+Destroy the Core!!
+SYNTH TRK
+Connecting Player
+Mix Machine No.54
+Year %d
+Mix Machine No.53
+Notice
+STAGE
+: Points needed for achievement
+KSR
+Quest Completion Prize : %s
+Item sent to your mailbox, as it exceeded its carry limit.
+Drag to Spin the selected vertex
+Try Lucky Draw#/%d times
+RANDOM
+move lounge interval(sec)
+Try Lucky Draw#/one time
+Right click to change item.
+Special
+ENTER
+VERY HARD
+HARD
+NORMAL
+EASY
+VERY EASY
+Automatching GAT
+Survey
+Remaining Official Battle:
+GameGuardの実行中エラーが発生しました。\nゲームフォルダ内のGameGuardフォルダにある *.erl ファイルを添付して game2@inca.co.kr にメールをお送り下さい。
+#yBecame a member of Guild -%s!-
+Description:
+Strong Attack [X]
+Dash + Weak Attack [C]
+Dash + Strong Attack [X]
+Jump [V] + Weak Attack [C]
+test login ON
+Write on message board?
+You can defend yourself by pressing the same button that the opponent has used to attack you.
+Free Sign-Up
+Select
+Reset avatar
+See Episode List
+System Mail
+Val Shark
+Too many skins! Please sell unnecessary skins.
+#yUploading skins to the Skin BB is now available.
+Period:
+The second group of NPCs will appear
+http://www.getamped2.jp/2
+The first group of NPCs will appear.
+The third group of NPCs will appear
+Sound Effect :
+Clear current NPC
+My Room Setting
+PRIZE
+Create your character first.
+/icon/etc/cresent.agi
+Furniture List
+Purchase Present and Send
+DESTRUCTION BONUS
+Select BGM
+connection err num
+Log-in Time Bonus
+Street Type

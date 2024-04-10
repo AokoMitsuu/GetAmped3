@@ -1,0 +1,207 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x6da8c15b, pid=13164, tid=3260
+#
+# JRE version: 6.0_45-b06
+# Java VM: Java HotSpot(TM) Client VM (20.45-b01 mixed mode windows-x86 )
+# Problematic frame:
+# V  [jvm.dll+0x1ac15b]
+#
+# If you would like to submit a bug report, please visit:
+#   http://java.sun.com/webapps/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x0263b800):  ConcurrentGCThread [stack: 0x2a690000,0x2a6e0000] [id=3260]
+
+siginfo: ExceptionCode=0xc0000005, reading address 0x00000009
+
+Registers:
+EAX=0x25153970, EBX=0x10038000, ECX=0x00000001, EDX=0x2a080000
+ESP=0x2a6dfb60, EBP=0x2a6dfb6c, ESI=0x2a6dfc88, EDI=0x2a6dfcb4
+EIP=0x6da8c15b, EFLAGS=0x00010246
+
+Top of Stack: (sp=0x2a6dfb60)
+0x2a6dfb60:   25152a74 25151e00 25152980 2a6dfb84
+0x2a6dfb70:   6d96e24f 25153970 2a6dfd08 2a6dfc88
+0x2a6dfb80:   0038a652 2a6dfba0 6da847aa 0000004c
+0x2a6dfb90:   2a6dfc88 25151e00 00001200 25152948
+0x2a6dfba0:   2a6dfbc8 6da8847f 2a6dfc88 25151e00
+0x2a6dfbb0:   00001200 2a6dfd08 25152948 25151e00
+0x2a6dfbc0:   00000000 28e9289c 2a6dfbe8 6da7d83d
+0x2a6dfbd0:   25152948 25151e00 00001200 00001200 
+
+Instructions: (pc=0x6da8c15b)
+0x6da8c13b:   2c 8d 64 24 00 8b 46 28 8b 48 3c 85 c9 74 0c 49
+0x6da8c14b:   89 48 3c 8b 40 38 8b 04 88 eb 02 33 c0 8b 48 04
+0x6da8c15b:   8b 51 08 83 c1 08 57 50 ff 92 0c 01 00 00 8a 46
+0x6da8c16b:   64 84 c0 74 19 a0 7d 67 b6 6d 84 c0 75 10 a1 90 
+
+
+Register to memory mapping:
+
+EAX=0x25153970 is an oop
+{method} 
+ - klass: {other class}
+EBX=0x10038000 is an unallocated location in the heap
+ECX=0x00000001 is an unknown value
+EDX=0x2a080000 is an unknown value
+ESP=0x2a6dfb60 is an unknown value
+EBP=0x2a6dfb6c is an unknown value
+ESI=0x2a6dfc88 is an unknown value
+EDI=0x2a6dfcb4 is an unknown value
+
+
+Stack: [0x2a690000,0x2a6e0000],  sp=0x2a6dfb60,  free space=318k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [jvm.dll+0x1ac15b]
+V  [jvm.dll+0x8e24f]
+V  [jvm.dll+0x1a47aa]
+V  [jvm.dll+0x1a847f]
+V  [jvm.dll+0x19d83d]
+V  [jvm.dll+0x1a979f]
+V  [jvm.dll+0x1ab5e4]
+V  [jvm.dll+0x1ac83c]
+V  [jvm.dll+0x1ad310]
+V  [jvm.dll+0x1ae73d]
+C  [msvcr71.dll+0x9565]  endthreadex+0xa0
+C  [KERNEL32.DLL+0x17ba9]  BaseThreadInitThunk+0x19
+C  [ntdll.dll+0x6bdab]  RtlInitializeExceptionChain+0x6b
+C  [ntdll.dll+0x6bd2f]  RtlClearBits+0xbf
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+  0x2ac46c00 JavaThread "ConnectionEngine[LANTEST.TCP] Thread" [_thread_in_native, id=14720, stack(0x2c1a0000,0x2c1f0000)]
+  0x29007000 JavaThread "Low Memory Detector" daemon [_thread_blocked, id=19616, stack(0x2ab50000,0x2aba0000)]
+  0x29000c00 JavaThread "C1 CompilerThread0" daemon [_thread_blocked, id=3388, stack(0x2aac0000,0x2ab10000)]
+  0x28fff800 JavaThread "Attach Listener" daemon [_thread_blocked, id=8812, stack(0x2aa30000,0x2aa80000)]
+  0x28ffd000 JavaThread "Signal Dispatcher" daemon [_thread_blocked, id=2844, stack(0x2a9a0000,0x2a9f0000)]
+  0x28ffa800 JavaThread "Surrogate Locker Thread (Concurrent GC)" daemon [_thread_blocked, id=22056, stack(0x2a910000,0x2a960000)]
+  0x28fdd800 JavaThread "Finalizer" daemon [_thread_blocked, id=8972, stack(0x2a880000,0x2a8d0000)]
+  0x28fdd000 JavaThread "Reference Handler" daemon [_thread_blocked, id=20908, stack(0x2a7b0000,0x2a800000)]
+  0x02539000 JavaThread "main" [_thread_in_vm, id=4700, stack(0x02430000,0x02480000)]
+
+Other Threads:
+  0x28fd9000 VMThread [stack: 0x2a720000,0x2a770000] [id=7472]
+  0x29012800 WatcherThread [stack: 0x2abe0000,0x2ac30000] [id=22120]
+
+=>0x0263b800 (exited) ConcurrentGCThread [stack: 0x2a690000,0x2a6e0000] [id=3260]
+
+VM state:not at safepoint (normal execution)
+
+VM Mutex/Monitor currently owned by a thread:  ([mutex/lock_event])
+[0x02538278] Heap_lock - owner thread: 0x02539000
+
+Heap
+ par new generation   total 14784K, used 12787K [0x04c20000, 0x05c20000, 0x08c20000)
+  eden space 13184K,  84% used [0x04c20000, 0x0570cfd8, 0x05900000)
+  from space 1600K, 100% used [0x05900000, 0x05a90000, 0x05a90000)
+  to   space 1600K,   0% used [0x05a90000, 0x05a90000, 0x05c20000)
+ concurrent mark-sweep generation total 245760K, used 12071K [0x08c20000, 0x17c20000, 0x24c20000)
+ concurrent-mark-sweep perm gen total 12288K, used 5337K [0x24c20000, 0x25820000, 0x28c20000)
+
+Code Cache  [0x02640000, 0x026e0000, 0x04640000)
+ total_blobs=251 nmethods=87 adapters=100 free_code_cache=32906752 largest_free_block=0
+
+Dynamic libraries:
+0x00400000 - 0x00425000 	C:\Users\aokom\Desktop\GetAmped\jdk\bin\javaw.exe
+0x77540000 - 0x776f1000 	C:\Windows\SYSTEM32\ntdll.dll
+0x753c0000 - 0x754b0000 	C:\Windows\System32\KERNEL32.DLL
+0x761c0000 - 0x76434000 	C:\Windows\System32\KERNELBASE.dll
+0x754c0000 - 0x7553f000 	C:\Windows\System32\ADVAPI32.dll
+0x77260000 - 0x77324000 	C:\Windows\System32\msvcrt.dll
+0x76ab0000 - 0x76b35000 	C:\Windows\System32\sechost.dll
+0x756d0000 - 0x756ea000 	C:\Windows\System32\bcrypt.dll
+0x757d0000 - 0x7588a000 	C:\Windows\System32\RPCRT4.dll
+0x751b0000 - 0x75358000 	C:\Windows\System32\USER32.dll
+0x76e00000 - 0x76e1a000 	C:\Windows\System32\win32u.dll
+0x76fa0000 - 0x76fc3000 	C:\Windows\System32\GDI32.dll
+0x77330000 - 0x77412000 	C:\Windows\System32\gdi32full.dll
+0x75750000 - 0x757c9000 	C:\Windows\System32\msvcp_win.dll
+0x76e20000 - 0x76f32000 	C:\Windows\System32\ucrtbase.dll
+0x75540000 - 0x75565000 	C:\Windows\System32\IMM32.DLL
+0x7c340000 - 0x7c396000 	C:\Users\aokom\Desktop\GetAmped\jdk\jre\bin\msvcr71.dll
+0x6d8e0000 - 0x6db90000 	C:\Users\aokom\Desktop\GetAmped\jdk\jre\bin\client\jvm.dll
+0x747c0000 - 0x747f1000 	C:\Windows\SYSTEM32\WINMM.dll
+0x6d890000 - 0x6d89c000 	C:\Users\aokom\Desktop\GetAmped\jdk\jre\bin\verify.dll
+0x6d3e0000 - 0x6d3ff000 	C:\Users\aokom\Desktop\GetAmped\jdk\jre\bin\java.dll
+0x6d8d0000 - 0x6d8df000 	C:\Users\aokom\Desktop\GetAmped\jdk\jre\bin\zip.dll
+0x2b030000 - 0x2b38a000 	C:\Users\aokom\Desktop\GetAmped\bin\ktprafl.dll
+0x75a00000 - 0x7609a000 	C:\Windows\System32\SHELL32.dll
+0x5fae0000 - 0x5fb52000 	C:\Windows\SYSTEM32\DSOUND.dll
+0x75570000 - 0x756c0000 	C:\Windows\System32\ole32.dll
+0x64950000 - 0x64988000 	C:\Windows\SYSTEM32\DINPUT8.dll
+0x76fe0000 - 0x7725c000 	C:\Windows\System32\combase.dll
+0x76d60000 - 0x76dfc000 	C:\Windows\System32\OLEAUT32.dll
+0x6b3f0000 - 0x6b489000 	C:\Windows\SYSTEM32\ResampleDmo.DLL
+0x73f00000 - 0x73f45000 	C:\Windows\SYSTEM32\powrprof.dll
+0x5fac0000 - 0x5fadf000 	C:\Windows\SYSTEM32\winmmbase.dll
+0x6e050000 - 0x6e059000 	C:\Windows\SYSTEM32\msdmo.dll
+0x2b390000 - 0x2b501000 	C:\Windows\SYSTEM32\d3d9.dll
+0x70650000 - 0x70674000 	C:\Windows\SYSTEM32\dwmapi.dll
+0x70310000 - 0x7033e000 	C:\Windows\SYSTEM32\dxcore.dll
+0x73ef0000 - 0x73efe000 	C:\Windows\SYSTEM32\UMPDC.dll
+0x64800000 - 0x6494b000 	C:\Windows\SYSTEM32\inputhost.dll
+0x64730000 - 0x647fe000 	C:\Windows\SYSTEM32\CoreMessaging.dll
+0x74800000 - 0x7487f000 	C:\Windows\system32\uxtheme.dll
+0x6ddd0000 - 0x6de65000 	C:\Windows\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_362f239e9bd019fc\nvldumd.dll
+0x747b0000 - 0x747b8000 	C:\Windows\SYSTEM32\VERSION.dll
+0x76cf0000 - 0x76d52000 	C:\Windows\System32\bcryptPrimitives.dll
+0x70220000 - 0x7022e000 	C:\Windows\SYSTEM32\msasn1.dll
+0x701f0000 - 0x70217000 	C:\Windows\SYSTEM32\cryptnet.dll
+0x75890000 - 0x75993000 	C:\Windows\System32\CRYPT32.dll
+0x700e0000 - 0x701e9000 	C:\Windows\SYSTEM32\drvstore.dll
+0x70e20000 - 0x70e44000 	C:\Windows\SYSTEM32\devobj.dll
+0x70de0000 - 0x70e1d000 	C:\Windows\SYSTEM32\cfgmgr32.dll
+0x70090000 - 0x700d4000 	C:\Windows\SYSTEM32\wldp.dll
+0x73db0000 - 0x73dbb000 	C:\Windows\SYSTEM32\cryptbase.dll
+0x76f40000 - 0x76f98000 	C:\Windows\System32\wintrust.dll
+0x760a0000 - 0x760bb000 	C:\Windows\System32\imagehlp.dll
+0x73df0000 - 0x73e05000 	C:\Windows\SYSTEM32\CRYPTSP.dll
+0x73dc0000 - 0x73df0000 	C:\Windows\system32\rsaenh.dll
+0x6e510000 - 0x70088000 	C:\Windows\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_362f239e9bd019fc\nvgpucomp32.dll
+0x65d40000 - 0x67ff9000 	C:\Windows\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_362f239e9bd019fc\nvd3dum.dll
+0x702d0000 - 0x7030c000 	C:\Windows\SYSTEM32\directxdatabasehelper.dll
+0x74760000 - 0x74773000 	C:\Windows\SYSTEM32\kernel.appcore.dll
+0x6d6c0000 - 0x6d6d3000 	C:\Users\aokom\Desktop\GetAmped\jdk\jre\bin\net.dll
+0x756f0000 - 0x7574f000 	C:\Windows\System32\WS2_32.dll
+0x711b0000 - 0x71201000 	C:\Windows\system32\mswsock.dll
+0x6d6e0000 - 0x6d6e9000 	C:\Users\aokom\Desktop\GetAmped\jdk\jre\bin\nio.dll
+0x74ee0000 - 0x74f04000 	C:\Windows\SYSTEM32\USERENV.dll
+0x72180000 - 0x7219d000 	C:\Windows\SYSTEM32\profapi.dll
+0x2c710000 - 0x2c74c000 	C:\Users\aokom\Desktop\GetAmped\bin\radio.dll
+0x64180000 - 0x64188000 	C:\Windows\SYSTEM32\WSOCK32.DLL
+0x64660000 - 0x6466b000 	C:\Windows\SYSTEM32\HID.DLL
+0x76670000 - 0x76aad000 	C:\Windows\System32\SETUPAPI.DLL
+0x756c0000 - 0x756c6000 	C:\Windows\System32\PSAPI.DLL
+
+VM Arguments:
+jvm_args: -Xms256m -Xmx512m -Xincgc -Djava.library.path=bin -Dktpraf.file=ktprafl 
+java_command: com.nr.GA2 -port 8000
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+PATH=C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\aokom\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\aokom\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\aokom\AppData\Local\Programs\Python\Python310\;C:\Users\aokom\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\aokom\AppData\Local\Programs\Python\Python311\;C:\Users\aokom\AppData\Local\Microsoft\WindowsApps;C:\Users\aokom\AppData\Local\GitHubDesktop\bin;C:\Users\aokom\AppData\Roaming\npm;C:\Users\aokom\.dotnet\tools;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.1.2\bin;;C:\Program Files\JetBrains\JetBrains Rider 2023.1.2\bin;;C:\Program Files\JetBrains\PhpStorm 2023.1.2\bin;;C:\Users\aokom\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\JetBrains\IntelliJ IDEA 2023.2.4\bin;;
+USERNAME=aokom
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 8 , 64 bit Build 9200 
+
+CPU:total 12 (12 cores per cpu, 1 threads per core) family 25 model 33 stepping 2, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, mmxext, 3dnowpref, lzcnt, sse4a
+
+Memory: 4k page, physical 16701536k(6292476k free), swap 35575904k(14520836k free)
+
+vm_info: Java HotSpot(TM) Client VM (20.45-b01) for windows-x86 JRE (1.6.0_45-b06), built on Mar 26 2013 13:40:03 by "java_re" with MS VC++ 7.1 (VS2003)
+
+time: Tue Apr 09 14:41:05 2024
+elapsed time: 0 seconds
+

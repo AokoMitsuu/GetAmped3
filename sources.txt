@@ -1,0 +1,16 @@
+C:\Users\aokom\Desktop\GetAmped\com\nr\GA2.java
+C:\Users\aokom\Desktop\GetAmped\com\nr\Utils.java
+C:\Users\aokom\Desktop\GetAmped\com\nr\tool\LocalStorage.java
+C:\Users\aokom\Desktop\GetAmped\com\nr\ui\InputPopup.java
+C:\Users\aokom\Desktop\GetAmped\Console\FileWatcher.java
+C:\Users\aokom\Desktop\GetAmped\ga2\client\LookAndFeel.java
+C:\Users\aokom\Desktop\GetAmped\ga2\client\SDOAClient.java
+C:\Users\aokom\Desktop\GetAmped\ga2\client\ui\AmpedRootPanel.java
+C:\Users\aokom\Desktop\GetAmped\ga2\client\ui\CompanyLogoScene.java
+C:\Users\aokom\Desktop\GetAmped\ga2\client\ui\LanPlayWindow.java
+C:\Users\aokom\Desktop\GetAmped\ga2\data\ItemFilter.java
+C:\Users\aokom\Desktop\GetAmped\ga2\data\UserData.java
+C:\Users\aokom\Desktop\GetAmped\ga2\ganl\DebugClientTracker.java
+C:\Users\aokom\Desktop\GetAmped\kotori\app\Console.java
+C:\Users\aokom\Desktop\GetAmped\kotori\app\DisplayMode.java
+C:\Users\aokom\Desktop\GetAmped\kotori\net\TCPConnection.java

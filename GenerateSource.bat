@@ -1,0 +1,1 @@
+dir src /b /s .\\*.java > sources.txt
