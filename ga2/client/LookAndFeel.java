@@ -22,7 +22,7 @@ package ga2.client;
     /*     */ static {
         /* 20 */ if ((GameSetting.getSetting()).usewidescreen) {
             /* 21 */ sizename = new String[] { "svga", "xga", "fwxga" };
-            /* 22 */ sizedim = new Vector2D[] { new Vector2D(2560.0F, 1440.0F), new Vector2D(2560.0F, 1440.0F),
+            /* 22 */ sizedim = new Vector2D[] { new Vector2D(1920.0F, 1080.0F), new Vector2D(2560.0F, 1440.0F),
                     new Vector2D(2560.0F, 1440.0F) };
             /*     */ } else {
             /*     */
