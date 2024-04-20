@@ -1,9 +1,15 @@
 package com.nr;
 
+import java.io.PrintStream;
+
 import ga2.client.ui.LanPlayWindow;
 
 public class GA2 {
 	public static void main(String[] args) throws Exception {
+		PrintStream stream = new PrintStream("logs.txt");
+		// System.setOut(stream);
+		// System.setErr(stream);
+
 		String[] base = new String[] { "-developer", "-kxrres", "-kxrgs" };
 		args = com.nr.Utils.mergeStringArray(base, args);
 

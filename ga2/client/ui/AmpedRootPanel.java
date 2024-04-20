@@ -288,7 +288,6 @@ public class AmpedRootPanel extends Container {
                         System.err.println(ex.getMessage());
                     }
                 } else if (c == 120) { // F9
-                    System.out.println("test");
                     KWTManager m = getKWTManager();
                     if (m == null)
                         return true;
@@ -310,6 +309,8 @@ public class AmpedRootPanel extends Container {
                     UserData ud = GetAmped2.getAmped2().getUserData();
                     p.setShopPanel(ud, false, false);
                     p.show2(m);
+                } else if (c == 122) { // F11
+                    com.nr.Utils.AutoLoadSkin();
                 }
             }
         return super.processKeyEvent(e);

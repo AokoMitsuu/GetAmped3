@@ -965,9 +965,6 @@ public class UserItems
                 this.items.add(_i);
             }
 
-            if (_i.kind == 9)
-                com.nr.Utils.SaveSkins(this);
-
         } else if (i.hasNumber()) {
             Item _i = this.items.get(idx);
             _i.num = (short) Math.min(getMaxItemNum(i.kind, i.id), _i.num + i.num);
@@ -990,14 +987,6 @@ public class UserItems
             } else if (addiData != null) {
                 addiData.removeExpireTimeInfo(i);
             }
-        }
-    }
-
-    public void AddSkin(Item i) throws AmpedException {
-        int idx = itemIndexOf(i.kind, i.id);
-        if (idx < 0) {
-            Item _i = new Item(i);
-            this.items.add(_i);
         }
     }
 

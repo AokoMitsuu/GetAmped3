@@ -22,7 +22,7 @@ import ga2.setting.GameSetting;
 import ga2.stage.StageConnector;
 import ga2.stage.StageServer;
 import ga2.stage.StageServerRunner;
-
+import java.util.Random;
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
@@ -336,7 +336,7 @@ public class LanPlayWindow extends Window {
         }
         ChannelInfo ci = new ChannelInfo();
         ci.addr = new InetSocketAddress("localhost", PortBase);
-        ga22.setUserID("_lanplay" + hashCode(), StageConstants.clienttitle);
+        ga22.setUserID("_lanplay" + hashCode() + new Random().nextInt(100000000), StageConstants.clienttitle);
         try {
             ga22.login(ci);
             ga22.setChannels((ChannelInfo[]) ga22.command("get_channels", null));
@@ -563,7 +563,7 @@ public class LanPlayWindow extends Window {
                     Thread.sleep(700L);
                 } catch (Exception e) {
                 }
-                ga22.setUserID("_lanplay" + hashCode(), StageConstants.clienttitle);
+                ga22.setUserID("_lanplay" + hashCode() + new Random().nextInt(100000000), StageConstants.clienttitle);
                 LanPlayWindow.this.ci = new ChannelInfo();
                 LanPlayWindow.this.ci.chid = -1;
                 int i = (int) (Math.random() * ip.length);

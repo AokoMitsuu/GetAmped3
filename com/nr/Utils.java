@@ -1,9 +1,11 @@
 package com.nr;
 
+import java.io.BufferedInputStream;
 import java.io.BufferedWriter;
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.ObjectInputStream;
@@ -11,18 +13,34 @@ import java.io.ObjectOutputStream;
 import java.lang.reflect.Array;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 
 import com.nr.tool.LocalStorage;
 
+import ga2.client.GetAmped2;
+import ga2.client.SkinManager;
 import ga2.data.AmpedItem;
+import ga2.data.PlayerSkinCipherData;
+import ga2.data.PlayerSkinData;
 import ga2.data.UserData;
 import ga2.data.UserItems;
 import ga2.data.UserItems.Item;
 import ga2.data.UserShortcuts.AvatorShortcut;
 import ga2.data.net.AmpedException;
+import ga2.laf.amped2.AmpedDialog;
+import ga2.laf.amped2.AmpedFileDialog;
+import ga2.laf.amped2.AmpedPopupWindow;
 import ga2.setting.GameSetting;
+import kotori.io.ExternalizerInputStream;
+import kotori.io.Resource;
+import kotori.kwt.Component;
+import kotori.kwt.ExtResourceFilter;
+import kotori.kwt.KWTManager;
+import kotori.kwt.ResourceFilter;
+import kotori.util.KotoriUtil;
+import kotori.util.ServerTime;
 
 public class Utils {
 
@@ -103,42 +121,45 @@ public class Utils {
 
     // #region Console
     public static void Print(Object textToPrint, String color) {
-        PrintLn(textToPrint, color, false);
+        PrintLn(textToPrint, color, false, 0);
     }
 
     public static void Print(Object textToPrint, boolean showCallstack) {
-        PrintLn(textToPrint, ColorAsString.Green, showCallstack);
+        PrintLn(textToPrint, ColorAsString.Green, showCallstack, 0);
     }
 
     public static void Print(Object textToPrint, String color, boolean showCallstack) {
-        PrintLn(textToPrint, color, showCallstack);
+        PrintLn(textToPrint, color, showCallstack, 0);
     }
 
     public static void Print(Object textToPrint) {
-        PrintLn(textToPrint, ColorAsString.Green, false);
+        PrintLn(textToPrint, ColorAsString.Green, false, 0);
     }
 
     public static void PrintWarm(Object textToPrint) {
-        PrintLn(textToPrint, ColorAsString.Yellow, true);
+        PrintLn(textToPrint, ColorAsString.Yellow, true, 3);
+    }
+
+    public static void PrintError(Object textToPrint, int callStackSize) {
+        PrintLn(textToPrint, ColorAsString.Red, true, callStackSize);
     }
 
     public static void PrintError(Object textToPrint) {
-        PrintLn(textToPrint, ColorAsString.Red, true);
+        PrintLn(textToPrint, ColorAsString.Red, true, 7);
     }
 
-    private static void PrintLn(Object textToPrint, String color, boolean showCallstack) {
-        PrintLn(String.valueOf(textToPrint), color, showCallstack);
+    private static void PrintLn(Object textToPrint, String color, boolean showCallstack, int callStackSize) {
+        PrintLn(String.valueOf(textToPrint), color, showCallstack, callStackSize);
     }
 
-    private static void PrintLn(String textToPrint, String color, boolean showCallstack) {
+    private static void PrintLn(String textToPrint, String color, boolean showCallstack, int callStackSize) {
         SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         String currentTime = dateFormat.format(new Date());
 
         String callstack = "";
         if (showCallstack) {
             StackTraceElement[] stackTraceElements = Thread.currentThread().getStackTrace();
-            int maxCallStack = 5;
-            for (int i = 2; i < maxCallStack; i++) {
+            for (int i = 2; i < callStackSize; i++) {
                 if (i >= stackTraceElements.length)
                     continue;
 
@@ -175,7 +196,6 @@ public class Utils {
             }
         }
     }
-
     // #endregion
 
     public static void SaveShortCuts(UserData ud) {
@@ -229,52 +249,41 @@ public class Utils {
         return ud;
     }
 
-    public static UserData LoadSkin(UserData ud) {
-        // ArrayList<Item> skins;
-        // try {
-        // skins = ((ArrayList<Item>)
-        // com.nr.Utils.deserializeObject(LocalStorage.getInstance().get("Skins")));
-        // for (Item item : skins) {
-        // try {
-        // ud.items.AddSkin(item);
-        // } catch (AmpedException e) {
-        // com.nr.Utils.PrintError(e.getMessage());
-        // }
-        // }
-        // } catch (ClassNotFoundException e) {
-        // com.nr.Utils.PrintError(e.getMessage());
-        // } catch (IOException e) {
-        // com.nr.Utils.PrintError(e.getMessage());
-        // }
-
-        return ud;
-    }
-
-    public static void SaveSkins(UserItems us) {
-        // Item[] items = us.getItems();
-        // ArrayList<Item> skins = new ArrayList<Item>();
-        // for (Item item : items) {
-        // if (item.kind != 9)
-        // continue;
-
-        // skins.add(item);
-        // }
-        // com.nr.Utils.Print("saving : " + skins.size(), ColorAsString.Yellow, false);
-
-        // try {
-        // LocalStorage.getInstance().set("Skins", com.nr.Utils.serializeObject(skins));
-        // } catch (IOException e1) {
-        // com.nr.Utils.PrintError(e1.getMessage());
-        // }
-
-        // com.nr.Utils.Print("success save Skin");
-    }
-
     public static class ColorAsString {
         public static String Green = "green";
         public static String Red = "red";
         public static String Yellow = "yellow";
         public static String White = "white";
+    }
+
+    public static void AutoLoadSkin() {
+
+        GameSetting set = GameSetting.getSetting();
+        try {
+            File f = new File("C:/Users/aokom/Documents/GitHub/GetAmped3/Skins", "Organization XIII.skin2");
+            FileInputStream fis = new FileInputStream(f);
+            BufferedInputStream bis = new BufferedInputStream(fis);
+            ExternalizerInputStream eis = new ExternalizerInputStream(bis);
+
+            byte[] _b = (byte[]) eis.readObject();
+            PlayerSkinData _psd = (PlayerSkinData) KotoriUtil.uncompress(_b);
+
+            PlayerSkinCipherData _pscd = PlayerSkinCipherData.getPlayerSkinCipherData(_psd);
+            _b = KotoriUtil.compress(_pscd);
+
+            if (_b.length > 24000) {
+                _pscd.optimize();
+                _b = KotoriUtil.compress(_pscd);
+            }
+            String cn = _pscd.creatername();
+
+            long t = _pscd.createdtime();
+            SkinManager.getManager().lock(919, _b, _pscd);
+            UserData ud = GetAmped2.getAmped2().getUserData();
+            ud.items.addItem((Item) SkinManager.getManager().getSkin(919));
+        } catch (Exception ex) {
+            PrintError(ex.getMessage());
+        }
     }
 
     // #region Serialize / Deserialize Object

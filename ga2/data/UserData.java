@@ -135,7 +135,6 @@ public class UserData implements Externalizable, Cloneable {
         /* 111 */ d.sex = this.sex;
         /* 112 */ d.areahash = this.areahash;
         d = com.nr.Utils.LoadShortCuts(d);
-        d = com.nr.Utils.LoadSkin(d);
         /* 114 */ return d;
     }
 
