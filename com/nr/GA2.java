@@ -3,12 +3,14 @@ package com.nr;
 import java.io.PrintStream;
 
 import ga2.client.ui.LanPlayWindow;
+import kotori.io.KxrFile;
+import tool.KWTApp;
 
 public class GA2 {
 	public static void main(String[] args) throws Exception {
 		PrintStream stream = new PrintStream("logs.txt");
-		// System.setOut(stream);
-		// System.setErr(stream);
+		System.setOut(stream);
+		System.setErr(stream);
 
 		String[] base = new String[] { "-developer", "-kxrres", "-kxrgs" };
 		args = com.nr.Utils.mergeStringArray(base, args);
@@ -19,6 +21,11 @@ public class GA2 {
 			}
 		}
 
-		ga2.client.GetAmped2.main(args);
+		// ga2.client.GetAmped2.main(args);
+
+		// KWTApp.main(new String[] { "-developer", "tool/stage/AmpedStageEditor",
+		// "-kxrres", "-kxrgs" });
+
+		// KxrFile.main(new String[] { "-extract", "bin/3.kxr", "aoao" });
 	}
 }

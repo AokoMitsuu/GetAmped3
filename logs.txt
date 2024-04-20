@@ -1,7 +1,134 @@
+0 -kxrres
+1 -kxrgs
+----- PIXELFORMAT ref:21 -----
+COLOR BITS:32(8,8,8),8
+DEPTH BITS:24
+STENCIL BITS:8
+package version check: 1.kxr
+PW CHECK file:2dc4dc  in:0   size:334889186
+accs
+action
+efx
+icon
+item
+special
+test
+#version.1.kxr
+version check ok.
 
-<red>2024-04-20 19:02:57 : test01 0 <callstack><endLine>fichier : com.nr.Utils (ligne:152) : Fonction : PrintLn<endLine>fichier : com.nr.Utils (ligne:144) : Fonction : PrintError<endLine>fichier : ga2.data.net.GameRoomInfo (ligne:142) : Fonction : set<endLine>fichier : ga2.server.ChannelServer (ligne:1563) : Fonction : createGameRoom<endLine>fichier : ga2.server.ChannelServer (ligne:1551) : Fonction : createGameRoom<endLine>fichier : ga2.server.ChannelCommandHandler (ligne:829) : Fonction : handleCommand<endLine>fichier : kotori.net.Terminal$1 (ligne:179) : Fonction : run<endLine>fichier : kotori.util.ThreadPool$Runner (ligne:70) : Fonction : run</callstack> </red><endLine>
-<red>2024-04-20 19:02:57 : test01 0 <callstack><endLine>fichier : com.nr.Utils (ligne:152) : Fonction : PrintLn<endLine>fichier : com.nr.Utils (ligne:144) : Fonction : PrintError<endLine>fichier : ga2.data.net.GameRoomInfo (ligne:142) : Fonction : set<endLine>fichier : ga2.stage.Stage (ligne:273) : Fonction : setGameRoomInfo<endLine>fichier : ga2.server.ChannelServer (ligne:1606) : Fonction : createGameRoom<endLine>fichier : ga2.server.ChannelServer (ligne:1551) : Fonction : createGameRoom<endLine>fichier : ga2.server.ChannelCommandHandler (ligne:829) : Fonction : handleCommand<endLine>fichier : kotori.net.Terminal$1 (ligne:179) : Fonction : run<endLine>fichier : kotori.util.ThreadPool$Runner (ligne:70) : Fonction : run</callstack> </red><endLine>
-<red>2024-04-20 19:02:58 : test01 0 <callstack><endLine>fichier : com.nr.Utils (ligne:152) : Fonction : PrintLn<endLine>fichier : com.nr.Utils (ligne:144) : Fonction : PrintError<endLine>fichier : ga2.data.net.GameRoomInfo (ligne:142) : Fonction : set<endLine>fichier : ga2.stage.ui.MatchingRoomStagePanel$Player (ligne:1227) : Fonction : processMatchingEvent<endLine>fichier : ga2.stage.ui.MatchingRoomStagePanel (ligne:837) : Fonction : processMatchingEvent<endLine>fichier : ga2.stage.ui.MatchingRoomStagePanel (ligne:784) : Fonction : processAmpedEvent<endLine>fichier : ga2.stage.ui.StagePanel (ligne:722) : Fonction : setParam<endLine>fichier : ga2.stage.StageConnector$Remote (ligne:2536) : Fonction : updateStage<endLine>fichier : ga2.client.GetAmped2 (ligne:883) : Fonction : process<endLine>fichier : ga2.client.GetAmped2 (ligne:472) : Fonction : appmain<endLine>fichier : ga2.client.GetAmped2 (ligne:323) : Fonction : main<endLine>fichier : com.nr.GA2 (ligne:22) : Fonction : main</callstack> </red><endLine>
-<red>2024-04-20 19:05:39 : test01 0 <callstack><endLine>fichier : com.nr.Utils (ligne:152) : Fonction : PrintLn<endLine>fichier : com.nr.Utils (ligne:144) : Fonction : PrintError<endLine>fichier : ga2.data.net.GameRoomInfo (ligne:142) : Fonction : set<endLine>fichier : ga2.server.ChannelServer (ligne:1563) : Fonction : createGameRoom<endLine>fichier : ga2.server.ChannelServer (ligne:1551) : Fonction : createGameRoom<endLine>fichier : ga2.server.ChannelServer (ligne:1935) : Fonction : createTeamStreetFightRoom<endLine>fichier : ga2.server.ChannelServer (ligne:2760) : Fonction : updateThread<endLine>fichier : ga2.server.ChannelServer$ChannelThread (ligne:2626) : Fonction : run</callstack> </red><endLine>
-<red>2024-04-20 19:05:39 : test01 0 <callstack><endLine>fichier : com.nr.Utils (ligne:152) : Fonction : PrintLn<endLine>fichier : com.nr.Utils (ligne:144) : Fonction : PrintError<endLine>fichier : ga2.data.net.GameRoomInfo (ligne:142) : Fonction : set<endLine>fichier : ga2.stage.Stage (ligne:273) : Fonction : setGameRoomInfo<endLine>fichier : ga2.server.ChannelServer (ligne:1606) : Fonction : createGameRoom<endLine>fichier : ga2.server.ChannelServer (ligne:1551) : Fonction : createGameRoom<endLine>fichier : ga2.server.ChannelServer (ligne:1935) : Fonction : createTeamStreetFightRoom<endLine>fichier : ga2.server.ChannelServer (ligne:2760) : Fonction : updateThread<endLine>fichier : ga2.server.ChannelServer$ChannelThread (ligne:2626) : Fonction : run</callstack> </red><endLine>
-<red>2024-04-20 19:06:39 : test01 0 <callstack><endLine>fichier : com.nr.Utils (ligne:152) : Fonction : PrintLn<endLine>fichier : com.nr.Utils (ligne:144) : Fonction : PrintError<endLine>fichier : ga2.data.net.GameRoomInfo (ligne:142) : Fonction : set<endLine>fichier : ga2.stage.ui.MatchingRoomStagePanel$Player (ligne:1227) : Fonction : processMatchingEvent<endLine>fichier : ga2.stage.ui.MatchingRoomStagePanel (ligne:837) : Fonction : processMatchingEvent<endLine>fichier : ga2.stage.ui.MatchingRoomStagePanel (ligne:784) : Fonction : processAmpedEvent<endLine>fichier : ga2.stage.ui.StagePanel (ligne:722) : Fonction : setParam<endLine>fichier : ga2.stage.StageConnector$Remote (ligne:2536) : Fonction : updateStage<endLine>fichier : ga2.client.GetAmped2 (ligne:883) : Fonction : process<endLine>fichier : ga2.client.GetAmped2 (ligne:472) : Fonction : appmain<endLine>fichier : ga2.client.GetAmped2 (ligne:323) : Fonction : main<endLine>fichier : com.nr.GA2 (ligne:22) : Fonction : main</callstack> </red><endLine>
+package version check: 2.kxr
+PW CHECK file:2dc4dc  in:0   size:149035666
+chara
+#version.2.kxr
+version check ok.
+
+package version check: 3.kxr
+PW CHECK file:2dc4dc  in:0   size:455724233
+myroom
+stage
+#version.3.kxr
+version check ok.
+
+package version check: 4.kxr
+PW CHECK file:2dc4dc  in:0   size:71228150
+illust
+kwttool
+snd
+#version.4.kxr
+version check ok.
+
+package version check: 5 - Copy.kxr
+PW CHECK file:2dc4dc  in:0   size:61319050
+kwtamped2
+lang
+#version.5.kxr
+version check ok.
+
+package version check: 5.kxr
+PW CHECK file:2dc4dc  in:0   size:54512453
+#version.5.kxr
+kwtamped2
+lang
+version check ok.
+
+package version check: classes.kxr
+PW CHECK file:64d99bb  in:0   size:17954170
+ga2
+kotori
+radio
+test
+tool
+#version.classes.kxr
+version check ok.
+
+package version check: fs.kxr
+PW CHECK file:34b64e  in:0   size:123125
+fs
+#version.fs.kxr
+version check ok.
+
+package version check: gs.kxr
+PW CHECK file:34b64e  in:0   size:11188065
+gs
+#version.gs.kxr
+version check ok.
+
+package version check: gs2.kxr
+PW CHECK file:34b64e  in:0   size:10822158
+gs
+#version.gs.kxr
+version check ok.
+
+PW CHECK file:2dc4dc  in:2dc4dc   size:334889186
+PW CHECK file:2dc4dc  in:2dc4dc   size:149035666
+PW CHECK file:2dc4dc  in:2dc4dc   size:455724233
+PW CHECK file:2dc4dc  in:2dc4dc   size:71228150
+PW CHECK file:2dc4dc  in:2dc4dc   size:54512453
+PW CHECK file:34b64e  in:34b64e   size:11188065
+PW CHECK file:34b64e  in:34b64e   size:123125
+initSetting set_inital:ga2.setting.FluidSetting@84a784
+PW CHECK file:-6105fcd2  in:-6105fcd2   size:2527
+java.io.FileNotFoundException: properties\palette.conf (Le chemin d’accès spécifié est introuvable)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:120)
+	at tool.ColorButton2.loadPalette(ColorButton2.java:142)
+	at tool.ColorButton2.<clinit>(ColorButton2.java:37)
+	at tool.stage.LayerPanel.<init>(LayerPanel.java:169)
+	at tool.stage.AmpedStageEditor$LeftPanel.<init>(AmpedStageEditor.java:681)
+	at tool.stage.AmpedStageEditor.init(AmpedStageEditor.java:116)
+	at tool.KWTApp.appmain(KWTApp.java:94)
+	at tool.KWTApp.main(KWTApp.java:247)
+	at com.nr.GA2.main(GA2.java:26)
+error palette load properties/palette.confname = , partsdata text = 
+null  ?????
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor.performApplicationEvent(AmpedStageEditor.java:492)
+	at kotori.kwt.KWTManager$1.timerInvoked(KWTManager.java:500)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:127)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.StageParamPanel.paramname(StageParamPanel.java:672)
+	at tool.stage.StageParamPanel.addParam(StageParamPanel.java:653)
+	at tool.stage.StageParamPanel.actionPerformed(StageParamPanel.java:313)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Container.processActionEvent(Container.java:1924)
+	at kotori.kwt.KeyFrameEventContainer.processActionEvent(KeyFrameEventContainer.java:201)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor.performApplicationEvent(AmpedStageEditor.java:492)
+	at kotori.kwt.KWTManager$1.timerInvoked(KWTManager.java:500)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:127)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+KWTManager.QUIT
