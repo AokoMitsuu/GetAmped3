@@ -25,3 +25,4 @@ C:\Users\aokom\Documents\GitHub\GetAmped3\kotori\app\DisplayMode.java
 C:\Users\aokom\Documents\GitHub\GetAmped3\kotori\net\TCPConnection.java
 C:\Users\aokom\Documents\GitHub\GetAmped3\tool\JRunner.java
 C:\Users\aokom\Documents\GitHub\GetAmped3\tool\KWTApp.java
+C:\Users\aokom\Documents\GitHub\GetAmped3\tool\stage\AmpedStageEditor.java

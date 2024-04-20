@@ -86,24 +86,25 @@ PW CHECK file:2dc4dc  in:2dc4dc   size:71228150
 PW CHECK file:2dc4dc  in:2dc4dc   size:54512453
 PW CHECK file:34b64e  in:34b64e   size:11188065
 PW CHECK file:34b64e  in:34b64e   size:123125
-initSetting set_inital:ga2.setting.FluidSetting@84a784
+initSetting set_inital:ga2.setting.FluidSetting@bc35af
 PW CHECK file:-6105fcd2  in:-6105fcd2   size:2527
-java.io.FileNotFoundException: properties\palette.conf (Le chemin d’accès spécifié est introuvable)
+test ---------------------------------------------------------------------------------------------------------------
+java.io.FileNotFoundException: properties\palette.conf (Le fichier spécifié est introuvable)
 	at java.io.FileInputStream.open(Native Method)
 	at java.io.FileInputStream.<init>(FileInputStream.java:120)
 	at tool.ColorButton2.loadPalette(ColorButton2.java:142)
 	at tool.ColorButton2.<clinit>(ColorButton2.java:37)
 	at tool.stage.LayerPanel.<init>(LayerPanel.java:169)
-	at tool.stage.AmpedStageEditor$LeftPanel.<init>(AmpedStageEditor.java:681)
-	at tool.stage.AmpedStageEditor.init(AmpedStageEditor.java:116)
+	at tool.stage.AmpedStageEditor$LeftPanel.<init>(AmpedStageEditor.java:609)
+	at tool.stage.AmpedStageEditor.init(AmpedStageEditor.java:121)
 	at tool.KWTApp.appmain(KWTApp.java:94)
 	at tool.KWTApp.main(KWTApp.java:247)
 	at com.nr.GA2.main(GA2.java:26)
 error palette load properties/palette.confname = , partsdata text = 
-null  ?????
+null  é–‹ã?‘ã?¾ã?›ã‚“
 An Exception occured at KWTManager.deliverEvent()!!
 java.lang.NullPointerException
-	at tool.stage.AmpedStageEditor.performApplicationEvent(AmpedStageEditor.java:492)
+	at tool.stage.AmpedStageEditor.performApplicationEvent(AmpedStageEditor.java:442)
 	at kotori.kwt.KWTManager$1.timerInvoked(KWTManager.java:500)
 	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:127)
 	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
@@ -111,9 +112,1536 @@ java.lang.NullPointerException
 	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
 An Exception occured at KWTManager.deliverEvent()!!
 java.lang.NullPointerException
-	at tool.stage.StageParamPanel.paramname(StageParamPanel.java:672)
-	at tool.stage.StageParamPanel.addParam(StageParamPanel.java:653)
-	at tool.stage.StageParamPanel.actionPerformed(StageParamPanel.java:313)
+	at tool.stage.AmpedStageEditor.performApplicationEvent(AmpedStageEditor.java:442)
+	at kotori.kwt.KWTManager$1.timerInvoked(KWTManager.java:500)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:127)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at tool.stage.AmpedStageEditor$LeftPanel.moveFrame(AmpedStageEditor.java:635)
+	at tool.stage.AmpedStageEditor$LeftPanel.actionPerformed(AmpedStageEditor.java:628)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
+	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
+	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
+name = be1_land_l, partsdata text = 
+name = kakine, partsdata text = 
+name = be1_nami, partsdata text = 
+name = be1_parasol_1, partsdata text = 
+name = be1_kanban, partsdata text = 
+name = be1_kadan_1, partsdata text = 
+name = be1_glass, partsdata text = 
+name = be1_deck, partsdata text = 
+name = be1_bridge, partsdata text = 
+name = be1_bg_r, partsdata text = 
+name = be1_benchi, partsdata text = 
+name = be1_al_yashi1, partsdata text = 
+name = be1_al_yashi2, partsdata text = 
+name = be1_al_yashi3, partsdata text = 
+name = be1_al_yashi4, partsdata text = 
+name = be1_al_yashi5, partsdata text = 
+name = be1_shadow, partsdata text = 
+name = be1_gaitou, partsdata text = 
+name = be1_rikkyou_1, partsdata text = 
+name = be1_yashhinomi, partsdata text = 
+name = be1_al_yashi6, partsdata text = 
+name = be1_bg_l, partsdata text = 
+name = be1_land_r, partsdata text = 
+name = be1_toudai, partsdata text = 
+name = be1_field_sand_3, partsdata text = 
+name = be1_field_sand_1, partsdata text = 
+name = be1_field_sand_2, partsdata text = 
+name = be1_field_3, partsdata text = 
+name = be1_field_1, partsdata text = 
+name = be1_field_5, partsdata text = 
+name = be1_field_4, partsdata text = 
+name = be1_kadan_2, partsdata text = 
+name = be1_yashhinomi, partsdata text = 
+name = be1_shadow, partsdata text = 
+name = be1_yashhinomi, partsdata text = 
+name = PLAYER0, partsdata text = 
+name = PLAYER1, partsdata text = 
+name = OBJ0, partsdata text = /stage/wrestling_ring/data/wre_wall.scm
+name = PLAYER0, partsdata text = 
+name = PLAYER1, partsdata text = 
+name = wre_poster, partsdata text = 
+name = wre_obj01, partsdata text = 
+An Exception occured at KWTManager.deliverEvent()!!
+java.lang.NullPointerException
+	at ga2.stage.StageConnector.checkPlaybackRecord(StageConnector.java:551)
+	at ga2.stage.StageConnector$Local.processStageSetup(StageConnector.java:1311)
+	at ga2.stage.StageConnector$Local.login(StageConnector.java:1303)
+	at tool.stage.TestPlayPanel.start(TestPlayPanel.java:42)
+	at tool.stage.StageCanvas.testPlay(StageCanvas.java:142)
+	at tool.stage.StageCanvas.actionPerformed(StageCanvas.java:103)
 	at kotori.kwt.Component.processActionEvent(Component.java:1314)
 	at kotori.kwt.Container.processActionEvent(Container.java:1924)
 	at kotori.kwt.KeyFrameEventContainer.processActionEvent(KeyFrameEventContainer.java:201)
@@ -125,10 +1653,18 @@ java.lang.NullPointerException
 	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
 An Exception occured at KWTManager.deliverEvent()!!
 java.lang.NullPointerException
-	at tool.stage.AmpedStageEditor.performApplicationEvent(AmpedStageEditor.java:492)
-	at kotori.kwt.KWTManager$1.timerInvoked(KWTManager.java:500)
-	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:127)
+	at ga2.stage.StageConnector.checkPlaybackRecord(StageConnector.java:551)
+	at ga2.stage.StageConnector$Local.processStageSetup(StageConnector.java:1311)
+	at ga2.stage.StageConnector$Local.login(StageConnector.java:1303)
+	at tool.stage.TestPlayPanel.start(TestPlayPanel.java:42)
+	at tool.stage.StageCanvas.testPlay(StageCanvas.java:142)
+	at tool.stage.StageCanvas.actionPerformed(StageCanvas.java:103)
+	at kotori.kwt.Component.processActionEvent(Component.java:1314)
+	at kotori.kwt.Container.processActionEvent(Container.java:1924)
+	at kotori.kwt.KeyFrameEventContainer.processActionEvent(KeyFrameEventContainer.java:201)
+	at kotori.kwt.Component.processEvent(Component.java:1103)
+	at kotori.kwt.Component.postEvent(Component.java:1057)
+	at kotori.kwt.EventDispatchThread.dispatchEvent(EventDispatchThread.java:124)
 	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:70)
 	at kotori.kwt.EventDispatchThread.eventLoop(EventDispatchThread.java:51)
 	at kotori.kwt.EventDispatchThread.run(EventDispatchThread.java:47)
-KWTManager.QUIT

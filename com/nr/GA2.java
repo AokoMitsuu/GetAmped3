@@ -23,9 +23,16 @@ public class GA2 {
 
 		// ga2.client.GetAmped2.main(args);
 
-		// KWTApp.main(new String[] { "-developer", "tool/stage/AmpedStageEditor",
-		// "-kxrres", "-kxrgs" });
+		KWTApp.main(new String[] { "-developer", "tool/stage/AmpedStageEditor",
+				"-kxrres", "-kxrgs" });
 
-		// KxrFile.main(new String[] { "-extract", "bin/3.kxr", "aoao" });
+		KxrFile.main(new String[] { "-extract", "bin/1.kxr", "aoao" });
+		KxrFile.main(new String[] { "-extract", "bin/2.kxr", "aoao" });
+		KxrFile.main(new String[] { "-extract", "bin/3.kxr", "aoao" });
+		KxrFile.main(new String[] { "-extract", "bin/4.kxr", "aoao" });
+		KxrFile.main(new String[] { "-extract", "bin/5.kxr", "aoao" });
+
+		KxrFile.main(new String[] { "-extract", "bin/4.kxr", "aoao" });
+		KxrFile.main(new String[] { "-extract", "bin/5.kxr", "aoao" });
 	}
 }
