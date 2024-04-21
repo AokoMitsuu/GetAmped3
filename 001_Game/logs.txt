@@ -1,0 +1,65 @@
+no GPK : java.lang.UnsatisfiedLinkError: ga2.client.SDOAClient.openGPK()V
+not bind port
+CONTROLLERS : 0
+PW CHECK file:34b64e  in:34b64e   size:11188065
+PW CHECK file:34b64e  in:34b64e   size:10822158
+file conf\us\chatfilter.conf  time :1
+conf\us\style *.conf, all:[Ljava.io.File;@92b487
+file conf\us\style\0_fighter.conf  time :34
+file conf\us\style\1_army.conf  time :5
+file conf\us\style\2_spy.conf  time :3
+file conf\us\style\3_superman.conf  time :5
+file conf\us\style\4_armor.conf  time :4
+file conf\us\style\5_dancer.conf  time :4
+file conf\us\style\6_swordplay.conf  time :3
+file conf\us\style\7_ninja.conf  time :4
+file conf\us\style\8_magician.conf  time :6
+file conf\us\style\body.conf  time :982
+file conf\us\style\deco.conf  time :281
+file conf\us\style\face.conf  time :15
+file conf\us\style\head.conf  time :595
+conf\us\emotion *.conf, all:[Ljava.io.File;@1f71096
+file conf\us\emotion\001_010.conf  time :1
+conf\us\npc *.conf, all:[Ljava.io.File;@d09191
+file conf\us\npc\2supporter.conf  time :35
+file conf\us\npc\l_spinsquare.conf  time :24
+PW CHECK file:34b64e  in:34b64e   size:10822158
+file conf\us\chatfilter.conf  time :1
+conf\us\style *.conf, all:[Ljava.io.File;@899f7b
+file conf\us\style\0_fighter.conf  time :21
+file conf\us\style\1_army.conf  time :3
+file conf\us\style\2_spy.conf  time :3
+file conf\us\style\3_superman.conf  time :2
+file conf\us\style\4_armor.conf  time :2
+file conf\us\style\5_dancer.conf  time :2
+file conf\us\style\6_swordplay.conf  time :2
+file conf\us\style\7_ninja.conf  time :2
+file conf\us\style\8_magician.conf  time :4
+file conf\us\style\body.conf  time :30
+file conf\us\style\deco.conf  time :60
+file conf\us\style\face.conf  time :14
+file conf\us\style\head.conf  time :6
+conf\us\emotion *.conf, all:[Ljava.io.File;@1d21a81
+file conf\us\emotion\001_010.conf  time :1
+conf\us\npc *.conf, all:[Ljava.io.File;@89cede
+file conf\us\npc\2supporter.conf  time :24
+file conf\us\npc\l_spinsquare.conf  time :15
+PW CHECK file:34b64e  in:34b64e   size:123125
+initSetting set_inital:ga2.setting.FluidSetting@1c3414
+PW CHECK file:-6105fcd2  in:-6105fcd2   size:2527
+test
+----- PIXELFORMAT ref:21 -----
+COLOR BITS:32(8,8,8),8
+DEPTH BITS:24
+STENCIL BITS:8
+false
+java.io.IOException: Resource[classes] version incorrect : 1376260 != 66208
+	at ga2.client.PackageManager.versionCheck(PackageManager.java:92)
+	at ga2.client.PackageManager.getVersion(PackageManager.java:47)
+	at ga2.client.GetAmped2.appmain(GetAmped2.java:397)
+	at ga2.client.GetAmped2.main(GetAmped2.java:323)
+	at com.nr.GA2.main(GA2.java:23)
+KWTStruct versionID:1
+KWTStruct versionID:1
+KWTStruct versionID:2
+broadcast open : local 40000 - remote null

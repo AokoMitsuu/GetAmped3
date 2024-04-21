@@ -1,0 +1,545 @@
+no GPK : java.lang.UnsatisfiedLinkError: ga2.client.SDOAClient.openGPK()V
+not bind port
+CONTROLLERS : 0
+PW CHECK file:34b64e  in:34b64e   size:11188065
+PW CHECK file:34b64e  in:34b64e   size:10822158
+file conf\us\chatfilter.conf  time :1
+conf\us\style *.conf, all:[Ljava.io.File;@167fa47
+file conf\us\style\0_fighter.conf  time :36
+file conf\us\style\1_army.conf  time :4
+file conf\us\style\2_spy.conf  time :4
+file conf\us\style\3_superman.conf  time :5
+file conf\us\style\4_armor.conf  time :3
+file conf\us\style\5_dancer.conf  time :3
+file conf\us\style\6_swordplay.conf  time :4
+file conf\us\style\7_ninja.conf  time :4
+file conf\us\style\8_magician.conf  time :5
+file conf\us\style\body.conf  time :911
+file conf\us\style\deco.conf  time :254
+file conf\us\style\face.conf  time :14
+file conf\us\style\head.conf  time :544
+conf\us\emotion *.conf, all:[Ljava.io.File;@1795388
+file conf\us\emotion\001_010.conf  time :1
+conf\us\npc *.conf, all:[Ljava.io.File;@14c4a60
+file conf\us\npc\2supporter.conf  time :36
+file conf\us\npc\l_spinsquare.conf  time :24
+PW CHECK file:34b64e  in:34b64e   size:10822158
+file conf\us\chatfilter.conf  time :1
+conf\us\style *.conf, all:[Ljava.io.File;@183e608
+file conf\us\style\0_fighter.conf  time :21
+file conf\us\style\1_army.conf  time :3
+file conf\us\style\2_spy.conf  time :3
+file conf\us\style\3_superman.conf  time :2
+file conf\us\style\4_armor.conf  time :2
+file conf\us\style\5_dancer.conf  time :2
+file conf\us\style\6_swordplay.conf  time :2
+file conf\us\style\7_ninja.conf  time :2
+file conf\us\style\8_magician.conf  time :4
+file conf\us\style\body.conf  time :29
+file conf\us\style\deco.conf  time :60
+file conf\us\style\face.conf  time :11
+file conf\us\style\head.conf  time :5
+conf\us\emotion *.conf, all:[Ljava.io.File;@1259107
+file conf\us\emotion\001_010.conf  time :1
+conf\us\npc *.conf, all:[Ljava.io.File;@149e55e
+file conf\us\npc\2supporter.conf  time :25
+file conf\us\npc\l_spinsquare.conf  time :13
+PW CHECK file:34b64e  in:34b64e   size:123125
+initSetting set_inital:ga2.setting.FluidSetting@5c11cb
+PW CHECK file:-6105fcd2  in:-6105fcd2   size:2527
+test
+----- PIXELFORMAT ref:21 -----
+COLOR BITS:32(8,8,8),8
+DEPTH BITS:24
+STENCIL BITS:8
+false
+java.io.IOException: Resource[classes] version incorrect : 1376260 != 66208
+	at ga2.client.PackageManager.versionCheck(PackageManager.java:92)
+	at ga2.client.PackageManager.getVersion(PackageManager.java:47)
+	at ga2.client.GetAmped2.appmain(GetAmped2.java:397)
+	at ga2.client.GetAmped2.main(GetAmped2.java:323)
+	at com.nr.GA2.main(GA2.java:23)
+KWTStruct versionID:1
+KWTStruct versionID:1
+KWTStruct versionID:2
+broadcast open : local 40000 - remote null
+KWTStruct versionID:1
+Package Version : 
+UDPConnectionServer bound at 0.0.0.0/0.0.0.0:8001
+UDPConnectionServer bound at 0.0.0.0/0.0.0.0:8002
+UDPConnectionServer bound at 0.0.0.0/0.0.0.0:8003
+UDPConnectionServer bound at 0.0.0.0/0.0.0.0:8004
+ItemModel processAmpedEvent id:61e.id:65 srcid:61 smode:3 path:hiroba_bench.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:61e.id:67 srcid:61 smode:3 path:hiroba_bench.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:62e.id:65 srcid:62 smode:3 path:hiroba_bench.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:62e.id:67 srcid:62 smode:3 path:hiroba_bench.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:63e.id:65 srcid:63 smode:3 path:hiroba_bench.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:63e.id:67 srcid:63 smode:3 path:hiroba_bench.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:64e.id:65 srcid:64 smode:3 path:hiroba_bench.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:64e.id:67 srcid:64 smode:3 path:hiroba_bench.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:65e.id:65 srcid:65 smode:3 path:hiroba_bench.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:65e.id:67 srcid:65 smode:3 path:hiroba_bench.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:67e.id:65 srcid:67 smode:3 path:/stage/lounge/data/hiroba_wingdom.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:67e.id:67 srcid:67 smode:3 path:/stage/lounge/data/hiroba_wingdom.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:68e.id:65 srcid:68 smode:3 path:hiroba_bench.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:68e.id:67 srcid:68 smode:3 path:hiroba_bench.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:69e.id:65 srcid:69 smode:3 path:hiroba_bench.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:69e.id:67 srcid:69 smode:3 path:hiroba_bench.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:70e.id:65 srcid:70 smode:3 path:hiroba_bench.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:70e.id:67 srcid:70 smode:3 path:hiroba_bench.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:71e.id:65 srcid:71 smode:3 path:hiroba_bench.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:71e.id:67 srcid:71 smode:3 path:hiroba_bench.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:72e.id:65 srcid:72 smode:3 path:hiroba_bench.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:72e.id:67 srcid:72 smode:3 path:hiroba_bench.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:73e.id:65 srcid:73 smode:3 path:hiroba_bench.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:73e.id:67 srcid:73 smode:3 path:hiroba_bench.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:74e.id:65 srcid:74 smode:3 path:hiroba_bench.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:74e.id:67 srcid:74 smode:3 path:hiroba_bench.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:75e.id:65 srcid:75 smode:3 path:hiroba_bench.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:75e.id:67 srcid:75 smode:3 path:hiroba_bench.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:76e.id:65 srcid:76 smode:3 path:hiroba_bench.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:76e.id:67 srcid:76 smode:3 path:hiroba_bench.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:77e.id:65 srcid:77 smode:3 path:hiroba_bench.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:77e.id:67 srcid:77 smode:3 path:hiroba_bench.scm event:class ga2.stage.event.ItemScriptEvent
+StageServer bound. stageserverid:0
+stadium main
+PlayerModel processAmpedEvent npcid:1943 e.id:49 srcid:45 smode:12 event:class ga2.stage.event.BasicAmpedEvent
+StageServer bound. stageserverid:1
+PlayerModel processAmpedEvent npcid:1944 e.id:49 srcid:33 smode:13 event:class ga2.stage.event.BasicAmpedEvent
+StageServer bound. stageserverid:2
+ItemModel processAmpedEvent id:48e.id:65 srcid:48 smode:11 path:/item/gacha/gacha0.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:48e.id:67 srcid:48 smode:11 path:/item/gacha/gacha0.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:50e.id:65 srcid:50 smode:11 path:/item/gacha/gacha3.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:50e.id:67 srcid:50 smode:11 path:/item/gacha/gacha3.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:51e.id:65 srcid:51 smode:11 path:/item/baloon/baloon.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:51e.id:67 srcid:51 smode:11 path:/item/baloon/baloon.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:52e.id:65 srcid:52 smode:11 path:/item/baloon/baloon.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:52e.id:67 srcid:52 smode:11 path:/item/baloon/baloon.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:53e.id:65 srcid:53 smode:11 path:/item/gacha/gacha1.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:53e.id:67 srcid:53 smode:11 path:/item/gacha/gacha1.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:54e.id:65 srcid:54 smode:11 path:/item/gacha/gacha9.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:54e.id:67 srcid:54 smode:11 path:/item/gacha/gacha9.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:55e.id:65 srcid:55 smode:11 path:/item/gacha/gacha2.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:55e.id:67 srcid:55 smode:11 path:/item/gacha/gacha2.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:56e.id:65 srcid:56 smode:11 path:/item/gacha/gacha8.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:56e.id:67 srcid:56 smode:11 path:/item/gacha/gacha8.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:57e.id:65 srcid:57 smode:11 path:hiroba_bench.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:58e.id:65 srcid:58 smode:11 path:hiroba_bench.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:59e.id:65 srcid:59 smode:11 path:hiroba_bench.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:60e.id:65 srcid:60 smode:11 path:hiroba_bench.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:61e.id:65 srcid:61 smode:11 path:hiroba_bench.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:62e.id:65 srcid:62 smode:11 path:hiroba_bench.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:63e.id:65 srcid:63 smode:11 path:hiroba_bench.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:64e.id:65 srcid:64 smode:11 path:hiroba_bench.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:65e.id:65 srcid:65 smode:11 path:hiroba_bench.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:66e.id:65 srcid:66 smode:11 path:hiroba_bench.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:67e.id:65 srcid:67 smode:11 path:hiroba_bench.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:68e.id:65 srcid:68 smode:11 path:hiroba_bench.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:69e.id:65 srcid:69 smode:11 path:/item/gacha/gacha4.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:69e.id:67 srcid:69 smode:11 path:/item/gacha/gacha4.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:70e.id:65 srcid:70 smode:11 path:/item/gacha/gacha5.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:70e.id:67 srcid:70 smode:11 path:/item/gacha/gacha5.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:71e.id:65 srcid:71 smode:11 path:/item/gacha/gacha10.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:71e.id:67 srcid:71 smode:11 path:/item/gacha/gacha10.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:72e.id:65 srcid:72 smode:11 path:/item/gacha/gacha11.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:72e.id:67 srcid:72 smode:11 path:/item/gacha/gacha11.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:73e.id:65 srcid:73 smode:11 path:/item/gacha/gacha12.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:73e.id:67 srcid:73 smode:11 path:/item/gacha/gacha12.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:74e.id:65 srcid:74 smode:11 path:/item/gacha/gacha13.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:74e.id:67 srcid:74 smode:11 path:/item/gacha/gacha13.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:75e.id:65 srcid:75 smode:11 path:/item/gacha/gacha7.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:75e.id:67 srcid:75 smode:11 path:/item/gacha/gacha7.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:76e.id:65 srcid:76 smode:11 path:/item/gacha/gacha15.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:76e.id:67 srcid:76 smode:11 path:/item/gacha/gacha15.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:77e.id:65 srcid:77 smode:11 path:/item/gacha/gacha18.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:77e.id:67 srcid:77 smode:11 path:/item/gacha/gacha18.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:78e.id:65 srcid:78 smode:11 path:/item/gacha/gacha19.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:78e.id:67 srcid:78 smode:11 path:/item/gacha/gacha19.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:79e.id:65 srcid:79 smode:11 path:/item/gacha/gacha26.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:79e.id:67 srcid:79 smode:11 path:/item/gacha/gacha26.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:80e.id:65 srcid:80 smode:11 path:/item/gacha/gacha28.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:80e.id:67 srcid:80 smode:11 path:/item/gacha/gacha28.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:81e.id:65 srcid:81 smode:11 path:/item/gacha/gacha29.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:81e.id:67 srcid:81 smode:11 path:/item/gacha/gacha29.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:48e.id:67 srcid:48 smode:11 path:/item/gacha/gacha0.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:53e.id:67 srcid:53 smode:11 path:/item/gacha/gacha1.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:55e.id:67 srcid:55 smode:11 path:/item/gacha/gacha2.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:50e.id:67 srcid:50 smode:11 path:/item/gacha/gacha3.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:69e.id:67 srcid:69 smode:11 path:/item/gacha/gacha4.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:70e.id:67 srcid:70 smode:11 path:/item/gacha/gacha5.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:56e.id:67 srcid:56 smode:11 path:/item/gacha/gacha8.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:54e.id:67 srcid:54 smode:11 path:/item/gacha/gacha9.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:71e.id:67 srcid:71 smode:11 path:/item/gacha/gacha10.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:72e.id:67 srcid:72 smode:11 path:/item/gacha/gacha11.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:73e.id:67 srcid:73 smode:11 path:/item/gacha/gacha12.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:74e.id:67 srcid:74 smode:11 path:/item/gacha/gacha13.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:76e.id:67 srcid:76 smode:11 path:/item/gacha/gacha15.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:77e.id:67 srcid:77 smode:11 path:/item/gacha/gacha18.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:78e.id:67 srcid:78 smode:11 path:/item/gacha/gacha19.scm event:class ga2.stage.event.ItemScriptEvent
+StageServer bound. stageserverid:3
+StageServer bound. stageserverid:0
+StageServer bound. stageserverid:1
+StageServer bound. stageserverid:2
+StageServer bound. stageserverid:3
+StageServer bound. stageserverid:4
+StageServer bound. stageserverid:5
+StageServer bound. stageserverid:6
+StageServer bound. stageserverid:7
+StageServer bound. stageserverid:8
+StageServer bound. stageserverid:4
+ItemModel processAmpedEvent id:72e.id:65 srcid:72 smode:3 path:hiroba_bench.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:72e.id:67 srcid:72 smode:3 path:hiroba_bench.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:73e.id:65 srcid:73 smode:3 path:hiroba_bench.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:73e.id:67 srcid:73 smode:3 path:hiroba_bench.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:74e.id:65 srcid:74 smode:3 path:hiroba_bench.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:74e.id:67 srcid:74 smode:3 path:hiroba_bench.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:75e.id:65 srcid:75 smode:3 path:hiroba_bench.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:75e.id:67 srcid:75 smode:3 path:hiroba_bench.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:76e.id:65 srcid:76 smode:3 path:hiroba_bench.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:76e.id:67 srcid:76 smode:3 path:hiroba_bench.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:78e.id:65 srcid:78 smode:3 path:/stage/lounge/data/hiroba_wingdom.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:78e.id:67 srcid:78 smode:3 path:/stage/lounge/data/hiroba_wingdom.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:79e.id:65 srcid:79 smode:3 path:hiroba_bench.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:79e.id:67 srcid:79 smode:3 path:hiroba_bench.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:80e.id:65 srcid:80 smode:3 path:hiroba_bench.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:80e.id:67 srcid:80 smode:3 path:hiroba_bench.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:81e.id:65 srcid:81 smode:3 path:hiroba_bench.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:81e.id:67 srcid:81 smode:3 path:hiroba_bench.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:82e.id:65 srcid:82 smode:3 path:hiroba_bench.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:82e.id:67 srcid:82 smode:3 path:hiroba_bench.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:83e.id:65 srcid:83 smode:3 path:hiroba_bench.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:83e.id:67 srcid:83 smode:3 path:hiroba_bench.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:84e.id:65 srcid:84 smode:3 path:hiroba_bench.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:84e.id:67 srcid:84 smode:3 path:hiroba_bench.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:85e.id:65 srcid:85 smode:3 path:hiroba_bench.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:85e.id:67 srcid:85 smode:3 path:hiroba_bench.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:86e.id:65 srcid:86 smode:3 path:hiroba_bench.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:86e.id:67 srcid:86 smode:3 path:hiroba_bench.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:87e.id:65 srcid:87 smode:3 path:hiroba_bench.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:87e.id:67 srcid:87 smode:3 path:hiroba_bench.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:88e.id:65 srcid:88 smode:3 path:hiroba_bench.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:88e.id:67 srcid:88 smode:3 path:hiroba_bench.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:91e.id:65 srcid:91 smode:3 path:/stage/hiroba_xmas2009/data/run_sori.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:91e.id:67 srcid:91 smode:3 path:/stage/hiroba_xmas2009/data/run_sori.scm event:class ga2.stage.event.ItemScriptEvent
+StageServer bound. stageserverid:5
+ItemModel processAmpedEvent id:46e.id:65 srcid:46 smode:11 path:/item/gacha/gacha0.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:46e.id:67 srcid:46 smode:11 path:/item/gacha/gacha0.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:52e.id:65 srcid:52 smode:11 path:/item/gacha/gacha3.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:52e.id:67 srcid:52 smode:11 path:/item/gacha/gacha3.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:53e.id:65 srcid:53 smode:11 path:/item/baloon/baloon.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:53e.id:67 srcid:53 smode:11 path:/item/baloon/baloon.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:54e.id:65 srcid:54 smode:11 path:/item/baloon/baloon.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:54e.id:67 srcid:54 smode:11 path:/item/baloon/baloon.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:55e.id:65 srcid:55 smode:11 path:/item/gacha/gacha1.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:55e.id:67 srcid:55 smode:11 path:/item/gacha/gacha1.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:56e.id:65 srcid:56 smode:11 path:/item/gacha/gacha9.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:56e.id:67 srcid:56 smode:11 path:/item/gacha/gacha9.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:57e.id:65 srcid:57 smode:11 path:/item/gacha/gacha2.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:57e.id:67 srcid:57 smode:11 path:/item/gacha/gacha2.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:58e.id:65 srcid:58 smode:11 path:/item/gacha/gacha8.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:58e.id:67 srcid:58 smode:11 path:/item/gacha/gacha8.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:59e.id:65 srcid:59 smode:11 path:/stage/lounge/data/market_bench.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:59e.id:67 srcid:59 smode:11 path:/stage/lounge/data/market_bench.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:60e.id:65 srcid:60 smode:11 path:/stage/lounge/data/market_bench.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:60e.id:67 srcid:60 smode:11 path:/stage/lounge/data/market_bench.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:61e.id:65 srcid:61 smode:11 path:/stage/lounge/data/market_bench.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:61e.id:67 srcid:61 smode:11 path:/stage/lounge/data/market_bench.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:62e.id:65 srcid:62 smode:11 path:/stage/lounge/data/market_bench.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:62e.id:67 srcid:62 smode:11 path:/stage/lounge/data/market_bench.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:63e.id:65 srcid:63 smode:11 path:/stage/lounge/data/market_bench.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:63e.id:67 srcid:63 smode:11 path:/stage/lounge/data/market_bench.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:64e.id:65 srcid:64 smode:11 path:/stage/lounge/data/market_bench.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:64e.id:67 srcid:64 smode:11 path:/stage/lounge/data/market_bench.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:65e.id:65 srcid:65 smode:11 path:/stage/lounge/data/market_bench.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:65e.id:67 srcid:65 smode:11 path:/stage/lounge/data/market_bench.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:66e.id:65 srcid:66 smode:11 path:/stage/lounge/data/market_bench.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:66e.id:67 srcid:66 smode:11 path:/stage/lounge/data/market_bench.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:67e.id:65 srcid:67 smode:11 path:/stage/lounge/data/market_bench.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:67e.id:67 srcid:67 smode:11 path:/stage/lounge/data/market_bench.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:68e.id:65 srcid:68 smode:11 path:/stage/lounge/data/market_bench.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:68e.id:67 srcid:68 smode:11 path:/stage/lounge/data/market_bench.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:69e.id:65 srcid:69 smode:11 path:/stage/lounge/data/market_bench.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:69e.id:67 srcid:69 smode:11 path:/stage/lounge/data/market_bench.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:70e.id:65 srcid:70 smode:11 path:/stage/lounge/data/market_bench.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:70e.id:67 srcid:70 smode:11 path:/stage/lounge/data/market_bench.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:71e.id:65 srcid:71 smode:11 path:/item/gacha/gacha4.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:71e.id:67 srcid:71 smode:11 path:/item/gacha/gacha4.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:72e.id:65 srcid:72 smode:11 path:/item/gacha/gacha10.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:72e.id:67 srcid:72 smode:11 path:/item/gacha/gacha10.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:73e.id:65 srcid:73 smode:11 path:/item/gacha/gacha11.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:73e.id:67 srcid:73 smode:11 path:/item/gacha/gacha11.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:74e.id:65 srcid:74 smode:11 path:/item/gacha/gacha12.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:74e.id:67 srcid:74 smode:11 path:/item/gacha/gacha12.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:75e.id:65 srcid:75 smode:11 path:/item/gacha/gacha13.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:75e.id:67 srcid:75 smode:11 path:/item/gacha/gacha13.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:76e.id:65 srcid:76 smode:11 path:/item/gacha/gacha14.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:76e.id:67 srcid:76 smode:11 path:/item/gacha/gacha14.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:77e.id:65 srcid:77 smode:11 path:/item/gacha/gacha16.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:77e.id:67 srcid:77 smode:11 path:/item/gacha/gacha16.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:78e.id:65 srcid:78 smode:11 path:/item/gacha/gacha18.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:78e.id:67 srcid:78 smode:11 path:/item/gacha/gacha18.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:79e.id:65 srcid:79 smode:11 path:/item/gacha/gacha5.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:79e.id:67 srcid:79 smode:11 path:/item/gacha/gacha5.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:80e.id:65 srcid:80 smode:11 path:/item/gacha/gacha15.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:80e.id:67 srcid:80 smode:11 path:/item/gacha/gacha15.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:81e.id:65 srcid:81 smode:11 path:/item/gacha/gacha17.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:81e.id:67 srcid:81 smode:11 path:/item/gacha/gacha17.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:82e.id:65 srcid:82 smode:11 path:/item/gacha/gacha19.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:82e.id:67 srcid:82 smode:11 path:/item/gacha/gacha19.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:83e.id:65 srcid:83 smode:11 path:/item/gacha/gacha6.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:83e.id:67 srcid:83 smode:11 path:/item/gacha/gacha6.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:84e.id:65 srcid:84 smode:11 path:/item/gacha/gacha20.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:84e.id:67 srcid:84 smode:11 path:/item/gacha/gacha20.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:85e.id:65 srcid:85 smode:11 path:/item/gacha/gacha21.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:85e.id:67 srcid:85 smode:11 path:/item/gacha/gacha21.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:86e.id:65 srcid:86 smode:11 path:/item/gacha/gacha22.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:86e.id:67 srcid:86 smode:11 path:/item/gacha/gacha22.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:87e.id:65 srcid:87 smode:11 path:/item/gacha/gacha7.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:87e.id:67 srcid:87 smode:11 path:/item/gacha/gacha7.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:88e.id:65 srcid:88 smode:11 path:/item/gacha/gacha25.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:88e.id:67 srcid:88 smode:11 path:/item/gacha/gacha25.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:89e.id:65 srcid:89 smode:11 path:/item/gacha/gacha23.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:89e.id:67 srcid:89 smode:11 path:/item/gacha/gacha23.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:90e.id:65 srcid:90 smode:11 path:/item/gacha/gacha24.scm event:class ga2.stage.event.ItemActionEvent
+ItemModel processAmpedEvent id:90e.id:67 srcid:90 smode:11 path:/item/gacha/gacha24.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:46e.id:67 srcid:46 smode:11 path:/item/gacha/gacha0.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:55e.id:67 srcid:55 smode:11 path:/item/gacha/gacha1.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:57e.id:67 srcid:57 smode:11 path:/item/gacha/gacha2.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:52e.id:67 srcid:52 smode:11 path:/item/gacha/gacha3.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:71e.id:67 srcid:71 smode:11 path:/item/gacha/gacha4.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:79e.id:67 srcid:79 smode:11 path:/item/gacha/gacha5.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:83e.id:67 srcid:83 smode:11 path:/item/gacha/gacha6.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:87e.id:67 srcid:87 smode:11 path:/item/gacha/gacha7.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:58e.id:67 srcid:58 smode:11 path:/item/gacha/gacha8.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:56e.id:67 srcid:56 smode:11 path:/item/gacha/gacha9.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:72e.id:67 srcid:72 smode:11 path:/item/gacha/gacha10.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:73e.id:67 srcid:73 smode:11 path:/item/gacha/gacha11.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:74e.id:67 srcid:74 smode:11 path:/item/gacha/gacha12.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:75e.id:67 srcid:75 smode:11 path:/item/gacha/gacha13.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:76e.id:67 srcid:76 smode:11 path:/item/gacha/gacha14.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:80e.id:67 srcid:80 smode:11 path:/item/gacha/gacha15.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:81e.id:67 srcid:81 smode:11 path:/item/gacha/gacha17.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:78e.id:67 srcid:78 smode:11 path:/item/gacha/gacha18.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:82e.id:67 srcid:82 smode:11 path:/item/gacha/gacha19.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:84e.id:67 srcid:84 smode:11 path:/item/gacha/gacha20.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:85e.id:67 srcid:85 smode:11 path:/item/gacha/gacha21.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:86e.id:67 srcid:86 smode:11 path:/item/gacha/gacha22.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:89e.id:67 srcid:89 smode:11 path:/item/gacha/gacha23.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:90e.id:67 srcid:90 smode:11 path:/item/gacha/gacha24.scm event:class ga2.stage.event.ItemScriptEvent
+ItemModel processAmpedEvent id:88e.id:67 srcid:88 smode:11 path:/item/gacha/gacha25.scm event:class ga2.stage.event.ItemScriptEvent
+StageServer bound. stageserverid:6
+StageServer bound. stageserverid:9
+StageServer bound. stageserverid:10
+StageServer bound. stageserverid:11
+StageServer bound. stageserverid:12
+StageServer bound. stageserverid:13
+StageServer bound. stageserverid:14
+StageServer bound. stageserverid:15
+StageServer bound. stageserverid:16
+StageServer bound. stageserverid:17
+StageServer bound. stageserverid:18
+StageServer bound. stageserverid:19
+StageServer bound. stageserverid:20
+cputime_game id 0 : 0 gseq 0 slp 1 proc 4 4 0 0 0 0 0 0 0
+ChannelServer ID : 0
+DATABASE [ USER-DB[0] ] connecting /127.0.0.1:8777
+	succeeded.
+TOO LONG DT WHILE CONNECTION ENGINE[ChannelCommon] : 16  selects:1 pendings:1
+DATABASE [ SKIN-DB ] connecting /127.0.0.1:8778
+	succeeded.
+DATABASE [ GUILD-DB ] connecting /127.0.0.1:8779
+	succeeded.
+DATABASE [ RANKING-DB ] connecting /127.0.0.1:8780
+	succeeded.
+DATABASE [ PICTURE-DB ] connecting /127.0.0.1:8783
+	succeeded.
+logoutUsers csid:0 empty.
+broadcast open : local 30393 - remote null
+get_loginlock:null
+java.io.FileNotFoundException: server\userdb\6\u2075165486.ud (Le fichier spécifié est introuvable)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:120)
+	at ga2.server.db.FileDatabase.readData(FileDatabase.java:71)
+	at ga2.server.db.UserDatabaseFS.loginUserData(UserDatabaseFS.java:78)
+	at ga2.server.db.UserDatabase.handleCommand(UserDatabase.java:451)
+	at kotori.net.Terminal$1.run(Terminal.java:179)
+	at kotori.util.ThreadPool$Runner.run(ThreadPool.java:70)
+UserData loading error... create test data : java.io.FileNotFoundException: server\userdb\6\u2075165486.ud (Le fichier spécifié est introuvable)
+activateUser... 2075165486 [Lga2.data.net.WeeklyRanking;@1f66eaf
+ch[0] login ok. uid:_lanplay2528579632218860 eid:16777215 addr:/127.0.0.1:59470
+setPeriod:-1
+process:0
+ChannelServer 209 value:49 userid:_lanplay2528579632218860
+ch[0] enter ok.  uid:_lanplay2528579632218860 eid:1 name:Silver
+ChannelCommandHander 209 value:49
+enterChannel eid : 1, _lanplay2528579632218860
+userdata.info style:0, accs:0, weapon0
+  10:1          11:1          20:1          21:1        
+  22:1          23:1          24:1          25:1        
+  26:1          27:1          28:1         200:1        
+ 201:7         209:31        300:1         301:5dc      
+ 302:1         304:1         305:1         400:1        
+ 457:1         500:1         513:ffffffff  700:1        
+ 701:1         702:1        
+checking list update[0] seq:0
+checking list update[1] seq:0
+test login... sid:26.147.255.149:8003 ssid:2075165486 eid:1 uid:2075165486
+connecting cnt:0
+new connection - from : 26.147.255.149:57765  connecting addr : /26.147.255.149:8003  total num:5
+connect ok: local ip = /26.147.255.149:57765
+connecting cnt:1
+UDPConnection created : /26.147.255.149:8003
+connect : response waiting.... _con:kotori.net.UDPConnection@10fd029
+MyRoom loginFromRemote  ( UDPConnection : /26.147.255.149:57765 )
+StageServer bound. stageserverid:2075165486
+UDP Unknown Error 26.147.255.149 java.nio.channels.CancelledKeyException
+java.nio.channels.CancelledKeyException
+	at sun.nio.ch.SelectionKeyImpl.ensureValid(SelectionKeyImpl.java:55)
+	at sun.nio.ch.SelectionKeyImpl.readyOps(SelectionKeyImpl.java:69)
+	at java.nio.channels.SelectionKey.isReadable(SelectionKey.java:271)
+	at kotori.net.ConnectionEngine.processSelect(ConnectionEngine.java:188)
+	at kotori.net.ConnectionEngine.process(ConnectionEngine.java:111)
+	at kotori.net.ConnectionEngine.run(ConnectionEngine.java:60)
+	at java.lang.Thread.run(Thread.java:662)
+KWTStruct versionID:2
+OPEN MEM
+Mem usage:13.181789,% used:69888.0 / 530186.0
+_connect addr : 26.147.255.149:8003
+connectconnecting cnt:0
+new connection - from : 26.147.255.149:57766  connecting addr : /26.147.255.149:8003  total num:5
+MyRoom loginFromRemote  ( UDPConnection : /26.147.255.149:57766 )
+connect ok: local ip = /26.147.255.149:57766
+connecting cnt:1
+UDPConnection created : /26.147.255.149:8003
+...ok. myid:0
+AmpedEvent.STAGE_SETUP 413
+setCurrentEpisode not guardianmode :0
+_addItemWarn 0, 0 : ga2.data.net.AmpedException: null [errid:0x62]
+_addItemWarn 1, 102 : ga2.data.net.AmpedException: null [errid:0x62]
+_addItemWarn 2, 65 : ga2.data.net.AmpedException: null [errid:0x62]
+_addItemWarn 3, 20 : ga2.data.net.AmpedException: null [errid:0x62]
+_addItemWarn 8, 1 : ga2.data.net.AmpedException: null [errid:0x62]
+_addItemWarn 8, 2 : ga2.data.net.AmpedException: null [errid:0x62]
+_addItemWarn 8, 3 : ga2.data.net.AmpedException: null [errid:0x62]
+_addItemWarn 8, 4 : ga2.data.net.AmpedException: null [errid:0x62]
+SyncUserData type:1
+SyncUserData ga2.data.UserItems@1e8ed26 type1 eid1 uidhash:2075165486 name:Silver
+PLAYER_READY...
+player[Silver eid:0001 PLAYER_READY. time:10812
+TOO LONG DT WHILE CONNECTION ENGINE[GA2] : 306  selects:1 pendings:0
+GAME_READY
+KWTStruct versionID:1
+KWTStruct versionID:2
+cputime_game id 0 : 1 gseq 492 slp 10 proc 0 0 0 0 0 0 0 0 0
+KWTStruct versionID:1
+TOO LONG DT WHILE CONNECTION ENGINE[GA2] : 3081  selects:1 pendings:0
+checkMask:0, mask:2, pintv:2, cintv:2, lastclock_get_event:0, lastupdate_playerlist:9920, lastupdate_chatlist:0, invokefriends:null
+checking list update[1] seq:0
+KWTStruct versionID:2
+KWTStruct versionID:1
+??????-1
+KWTStruct versionID:2
+OPEN MEM
+Mem usage:16.653778,% used:88296.0 / 530186.0
+processLogout!!! 1
+java.lang.ClassCastException: ga2.data.MyRoomData cannot be cast to java.lang.String
+	at ga2.stage.StageConnector$Remote.printEventLog(StageConnector.java:2687)
+	at ga2.stage.StageConnector$Remote.processLogout(StageConnector.java:2907)
+	at ga2.stage.StageConnector.processAmpedEvent(StageConnector.java:461)
+	at ga2.stage.StageConnector$Remote$RemoteTranseiver.received(StageConnector.java:3015)
+	at kotori.net.UDPConnection.addData(UDPConnection.java:694)
+	at kotori.net.ConnectionEngine.processSelect(ConnectionEngine.java:189)
+	at kotori.net.ConnectionEngine.process(ConnectionEngine.java:111)
+	at kotori.net.ConnectionEngine.run(ConnectionEngine.java:60)
+	at java.lang.Thread.run(Thread.java:662)
+client normaly disconencted. StageServerPlayerEntry$Remote[ eid:1, pid:1, uid:_lanplay2528579632218860, name:Silver ] ssid:2075165486 stagemode:14
+cputime_game id 0 : 1 gseq 987 slp 9 proc 0 0 0 0 0 0 0 0 0
+OPEN MEM
+Mem usage:16.506094,% used:87513.0 / 530186.0
+GAME_READY
+ILLEGAL STATE : -1 at sendToServer(BasicAmpedEvent[id=77, srcid:1], argi:0, args:null)
+STAGESERVER SHUTDOWN ssid[2075165486] ... empty player
+OPEN MEM
+Mem usage:18.29094,% used:96976.0 / 530186.0
+_connect addr : 26.147.255.149:8002
+connectconnecting cnt:0
+new connection - from : 26.147.255.149:55966  connecting addr : /26.147.255.149:8002  total num:5
+loginFromRemote ( UDPConnection : /26.147.255.149:55966 )
+connect ok: local ip = /26.147.255.149:55966
+connecting cnt:1
+UDPConnection created : /26.147.255.149:8002
+...ok. myid:0
+StageServer addEntry to STAGEMODE_STADIUM!!!! eid:1 pid:48 uid:_lanplay2528579632218860 uidh:2075165486 admin:0 nid:-1 name:Aoko
+setCurrentEpisode not guardianmode :0
+cputime_game id 0 : 1 gseq 1481 slp 10 proc 1 0 1 0 0 0 0 0 0
+OPEN MEM
+Mem usage:19.869064,% used:105343.0 / 530186.0
+PLAYER_READY...
+player[Aoko eid:0001 PLAYER_READY. time:23030
+TOO LONG DT WHILE CONNECTION ENGINE[GA2] : 437  selects:1 pendings:0
+GAME_READY
+KWTStruct versionID:2
+TOO LONG DT WHILE CONNECTION ENGINE[GA2] : 54  selects:1 pendings:0
+KWTStruct versionID:2
+checking list update[2] seq:0
+resetNexttimeRequireInformExpired()
+KWTStruct versionID:1
+cputime_game id 0 : 1 gseq 1976 slp 10 proc 0 0 0 0 0 0 0 0 0
+checkMask:0, mask:4, pintv:1, cintv:4, lastclock_get_event:9920, lastupdate_playerlist:9920, lastupdate_chatlist:0, invokefriends:null
+checking list update[2] seq:0
+checkMask:0, mask:4, pintv:5, cintv:2, lastclock_get_event:9920, lastupdate_playerlist:9920, lastupdate_chatlist:0, invokefriends:null
+checking list update[2] seq:0
+cputime_game id 0 : 1 gseq 2470 slp 9 proc 0 0 0 0 0 0 0 0 0
+checkMask:0, mask:4, pintv:0, cintv:0, lastclock_get_event:9920, lastupdate_playerlist:9920, lastupdate_chatlist:0, invokefriends:null
+checking list update[2] seq:0
+cputime_game id 0 : 1 gseq 2964 slp 10 proc 0 0 0 0 0 0 0 0 0
+checkMask:0, mask:4, pintv:4, cintv:4, lastclock_get_event:9920, lastupdate_playerlist:9920, lastupdate_chatlist:0, invokefriends:null
+checking list update[2] seq:0
+cputime_game id 0 : 1 gseq 3457 slp 9 proc 0 0 0 0 0 0 0 0 0
+checkMask:0, mask:4, pintv:8, cintv:2, lastclock_get_event:9920, lastupdate_playerlist:9920, lastupdate_chatlist:0, invokefriends:null
+checking list update[2] seq:0
+cputime_game id 0 : 1 gseq 3951 slp 8 proc 2 0 2 0 0 0 0 0 0
+checkMask:0, mask:4, pintv:3, cintv:0, lastclock_get_event:9920, lastupdate_playerlist:9920, lastupdate_chatlist:0, invokefriends:null
+checking list update[2] seq:0
+KWTStruct versionID:1
+channelExit ok : _lanplay2528579632218860 1 Aoko
+----------------------------------------------------------------------
+ChannelServerProcess Shotdown...
+Shutdown phase 1 : prepare 
+ done.
+Shutdown phase 2 : channel shutdown 0 java.lang.Exception: Stack trace: error client disconencted. StageServerPlayerEntry$Remote[ eid:1, pid:48, uid:_lanplay2528579632218860, name:Aoko ] ssid:1 stagemode:12
+	at ga2.setting.GameSetting.printStackTrace(GameSetting.java:159)
+	at ga2.stage.StageServer.remoteClosed(StageServer.java:802)
+	at ga2.stage.StageServerPlayerEntry$Remote.connectionStateChanged(StageServerPlayerEntry.java:2385)
+	at kotori.net.UDPConnection.postEvent(UDPConnection.java:902)
+	at kotori.net.UDPConnection.closeInternal(UDPConnection.java:374)
+	at kotori.net.UDPConnection.addData(UDPConnection.java:720)
+	at kotori.net.UDPConnectionServer.addData(UDPConnectionServer.java:163)
+	at kotori.net.ConnectionEngine.processSelect(ConnectionEngine.java:220)
+	at kotori.net.ConnectionEngine.process(ConnectionEngine.java:111)
+	at kotori.net.ConnectionEngine.run(ConnectionEngine.java:60)
+	at java.lang.Thread.run(Thread.java:662)
+SERVER CLOSED : 0.0.0.0/0.0.0.0:8002  open:false con:false reg:true
+    StageServer : Statistical Results of AmpedEvent
+        Received Amped Event Log -----------
+        AmpedEventLog Statics
+            Average Packets 0,38 /sec,  Datasize   33,33 bps
+            Maximum Packets 3,00 /sec,  Datasize  264,00 bps
+        AmpedEvents 
+user closed .. uid:_lanplay2528579632218860  eid:ffffff
+            ID[ 77] :     1  (12 byte)
+            ID[ 81] :     8  (88 byte)
+            ID[103] :     1  (11 byte)
+            total :    10
+SERVER CLOSED : 0.0.0.0/0.0.0.0:8001  open:false con:false reg:true
+SERVER CLOSED : 0.0.0.0/0.0.0.0:8003  open:false con:false reg:true
+SERVER CLOSED : 0.0.0.0/0.0.0.0:8004  open:false con:false reg:true
+AutoMatch play info
+play count
+select stage
+ChannelServer Thread interrupted... Thread[ChannelServer Game-thread[0],5,main]
+ done.
+Shutdown phase 3 : writeback onmemory caches  done.
+Shutdown phase 4 : flush out all database Database Maintenance Thread interrupted.
+ done.
+Shutdown Completed.

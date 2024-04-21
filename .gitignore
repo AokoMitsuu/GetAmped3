@@ -1,3 +1,6 @@
 bin/
 server/userdb/
 /sources.txt
+001_Game/resource/
+002_Tool/resource/
+003_ResourceRaw/
