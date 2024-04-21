@@ -16,9 +16,11 @@ C:\Users\aokom\Documents\GitHub\GetAmped3\ga2\data\UserItems.java
 C:\Users\aokom\Documents\GitHub\GetAmped3\ga2\data\UserShortcuts.java
 C:\Users\aokom\Documents\GitHub\GetAmped3\ga2\data\net\GameRoomInfo.java
 C:\Users\aokom\Documents\GitHub\GetAmped3\ga2\ganl\DebugClientTracker.java
+C:\Users\aokom\Documents\GitHub\GetAmped3\ga2\setting\GameSetting.java
 C:\Users\aokom\Documents\GitHub\GetAmped3\ga2\stage\StageConnector.java
 C:\Users\aokom\Documents\GitHub\GetAmped3\ga2\stage\StageServer.java
 C:\Users\aokom\Documents\GitHub\GetAmped3\ga2\stage\task\TournamentTaskChain.java
 C:\Users\aokom\Documents\GitHub\GetAmped3\kotori\app\Console.java
 C:\Users\aokom\Documents\GitHub\GetAmped3\kotori\app\DisplayMode.java
 C:\Users\aokom\Documents\GitHub\GetAmped3\kotori\net\TCPConnection.java
+C:\Users\aokom\Documents\GitHub\GetAmped3\tool\KWTApp.java

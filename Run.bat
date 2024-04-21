@@ -1,7 +1,7 @@
 @echo off
 dir src /b /s .\\*.java > sources.txt
 set javac6=%cd%\jdk\bin\javac.exe
-set java6=%cd%\jdk\bin\javaw.exe
+set java6=%cd%\jdk\bin\java.exe
 set lib=".;./lib/classes.jar;./lib/javassist.jar;./lib/jackson-core-asl.jar;./lib/jackson-mapper-asl.jar"
 set args=-Xms256m -Xmx512m -Xincgc -Djava.library.path=bin -Dktpraf.file=ktprafl -cp %lib%
 
@@ -11,4 +11,6 @@ cd Console
 start cmd /k java FileWatcher ../logs.txt false true
 cd ../
 %java6% %args% com.nr.GA2 -port 8000
-
+@REM %java6% %args% tool.builder.KWTBuilder -kxrres -kxrgs
+@REM %java6% %args% tool.KWTApp -developer tool/stage/AmpedStageEditor -kxrres -kxrgs
+@pause
