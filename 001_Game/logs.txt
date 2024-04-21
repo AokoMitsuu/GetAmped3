@@ -1,65 +1,57 @@
-no GPK : java.lang.UnsatisfiedLinkError: ga2.client.SDOAClient.openGPK()V
-not bind port
-CONTROLLERS : 0
-PW CHECK file:34b64e  in:34b64e   size:11188065
-PW CHECK file:34b64e  in:34b64e   size:10822158
-file conf\us\chatfilter.conf  time :1
-conf\us\style *.conf, all:[Ljava.io.File;@92b487
-file conf\us\style\0_fighter.conf  time :34
-file conf\us\style\1_army.conf  time :5
-file conf\us\style\2_spy.conf  time :3
-file conf\us\style\3_superman.conf  time :5
-file conf\us\style\4_armor.conf  time :4
-file conf\us\style\5_dancer.conf  time :4
-file conf\us\style\6_swordplay.conf  time :3
-file conf\us\style\7_ninja.conf  time :4
-file conf\us\style\8_magician.conf  time :6
-file conf\us\style\body.conf  time :982
-file conf\us\style\deco.conf  time :281
-file conf\us\style\face.conf  time :15
-file conf\us\style\head.conf  time :595
-conf\us\emotion *.conf, all:[Ljava.io.File;@1f71096
-file conf\us\emotion\001_010.conf  time :1
-conf\us\npc *.conf, all:[Ljava.io.File;@d09191
-file conf\us\npc\2supporter.conf  time :35
-file conf\us\npc\l_spinsquare.conf  time :24
-PW CHECK file:34b64e  in:34b64e   size:10822158
-file conf\us\chatfilter.conf  time :1
-conf\us\style *.conf, all:[Ljava.io.File;@899f7b
-file conf\us\style\0_fighter.conf  time :21
-file conf\us\style\1_army.conf  time :3
-file conf\us\style\2_spy.conf  time :3
-file conf\us\style\3_superman.conf  time :2
-file conf\us\style\4_armor.conf  time :2
-file conf\us\style\5_dancer.conf  time :2
-file conf\us\style\6_swordplay.conf  time :2
-file conf\us\style\7_ninja.conf  time :2
-file conf\us\style\8_magician.conf  time :4
-file conf\us\style\body.conf  time :30
-file conf\us\style\deco.conf  time :60
-file conf\us\style\face.conf  time :14
-file conf\us\style\head.conf  time :6
-conf\us\emotion *.conf, all:[Ljava.io.File;@1d21a81
-file conf\us\emotion\001_010.conf  time :1
-conf\us\npc *.conf, all:[Ljava.io.File;@89cede
-file conf\us\npc\2supporter.conf  time :24
-file conf\us\npc\l_spinsquare.conf  time :15
-PW CHECK file:34b64e  in:34b64e   size:123125
-initSetting set_inital:ga2.setting.FluidSetting@1c3414
-PW CHECK file:-6105fcd2  in:-6105fcd2   size:2527
-test
------ PIXELFORMAT ref:21 -----
-COLOR BITS:32(8,8,8),8
-DEPTH BITS:24
-STENCIL BITS:8
-false
 java.io.IOException: Resource[classes] version incorrect : 1376260 != 66208
 	at ga2.client.PackageManager.versionCheck(PackageManager.java:92)
 	at ga2.client.PackageManager.getVersion(PackageManager.java:47)
 	at ga2.client.GetAmped2.appmain(GetAmped2.java:397)
 	at ga2.client.GetAmped2.main(GetAmped2.java:323)
 	at com.nr.GA2.main(GA2.java:23)
-KWTStruct versionID:1
-KWTStruct versionID:1
-KWTStruct versionID:2
-broadcast open : local 40000 - remote null
+DATABASE [ USER-DB[0] ] connecting /127.0.0.1:8777
+	succeeded.
+DATABASE [ SKIN-DB ] connecting /127.0.0.1:8778
+	succeeded.
+DATABASE [ GUILD-DB ] connecting /127.0.0.1:8779
+	succeeded.
+DATABASE [ RANKING-DB ] connecting /127.0.0.1:8780
+	succeeded.
+DATABASE [ PICTURE-DB ] connecting /127.0.0.1:8783
+	succeeded.
+java.io.FileNotFoundException: server\userdb\5\u-2099138105.ud (Le fichier spécifié est introuvable)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:120)
+	at ga2.server.db.FileDatabase.readData(FileDatabase.java:71)
+	at ga2.server.db.UserDatabaseFS.loginUserData(UserDatabaseFS.java:78)
+	at ga2.server.db.UserDatabase.handleCommand(UserDatabase.java:451)
+	at kotori.net.Terminal$1.run(Terminal.java:179)
+	at kotori.util.ThreadPool$Runner.run(ThreadPool.java:70)
+UserData loading error... create test data : java.io.FileNotFoundException: server\userdb\5\u-2099138105.ud (Le fichier spécifié est introuvable)
+java.lang.ClassCastException: ga2.data.MyRoomData cannot be cast to java.lang.String
+	at ga2.stage.StageConnector$Remote.printEventLog(StageConnector.java:2687)
+	at ga2.stage.StageConnector$Remote.processLogout(StageConnector.java:2907)
+	at ga2.stage.StageConnector.processAmpedEvent(StageConnector.java:461)
+	at ga2.stage.StageConnector$Remote$RemoteTranseiver.received(StageConnector.java:3015)
+	at kotori.net.UDPConnection.addData(UDPConnection.java:694)
+	at kotori.net.ConnectionEngine.processSelect(ConnectionEngine.java:189)
+	at kotori.net.ConnectionEngine.process(ConnectionEngine.java:111)
+	at kotori.net.ConnectionEngine.run(ConnectionEngine.java:60)
+	at java.lang.Thread.run(Thread.java:662)
+java.lang.Exception: Stack trace: error client disconencted. StageServerPlayerEntry$Remote[ eid:1, pid:16, uid:_lanplay909380987549819, name:Aoko ] ssid:22 stagemode:2
+	at ga2.setting.GameSetting.printStackTrace(GameSetting.java:159)
+	at ga2.stage.StageServer.remoteClosed(StageServer.java:802)
+	at ga2.stage.StageServerPlayerEntry$Remote.connectionStateChanged(StageServerPlayerEntry.java:2385)
+	at kotori.net.UDPConnection.postEvent(UDPConnection.java:902)
+	at kotori.net.UDPConnection.closeInternal(UDPConnection.java:374)
+	at kotori.net.UDPConnection.addData(UDPConnection.java:720)
+	at kotori.net.UDPConnectionServer.addData(UDPConnectionServer.java:163)
+	at kotori.net.ConnectionEngine.processSelect(ConnectionEngine.java:220)
+	at kotori.net.ConnectionEngine.process(ConnectionEngine.java:111)
+	at kotori.net.ConnectionEngine.run(ConnectionEngine.java:60)
+	at java.lang.Thread.run(Thread.java:662)
+java.nio.channels.CancelledKeyException
+	at sun.nio.ch.SelectionKeyImpl.ensureValid(SelectionKeyImpl.java:55)
+	at sun.nio.ch.SelectionKeyImpl.readyOps(SelectionKeyImpl.java:69)
+	at java.nio.channels.SelectionKey.isAcceptable(SelectionKey.java:342)
+	at kotori.net.ConnectionEngine.processSelect(ConnectionEngine.java:243)
+	at kotori.net.ConnectionEngine.process(ConnectionEngine.java:111)
+	at kotori.net.ConnectionEngine.run(ConnectionEngine.java:60)
+	at java.lang.Thread.run(Thread.java:662)
+ChannelServer Thread interrupted... Thread[ChannelServer Game-thread[0],5,main]
+Database Maintenance Thread interrupted.

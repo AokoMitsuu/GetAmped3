@@ -57,6 +57,7 @@ public class DogfightMakeDialog
     int selecttouridx;
     int stageid;
     NumberCounter num;
+    NumberCounter roundCount;
     Container viewerpanel;
     AmpedCheckbox2 vieweron;
     AmpedCheckbox2 vieweroff;
@@ -109,7 +110,7 @@ public class DogfightMakeDialog
 
         /* 102 */ this.modeselect.updateList();
         /* 103 */ this.stageselect.updateList();
-        /* 105 */ this.roomname.setText(con.getUserData().info.name + " Round(3)");
+        /* 105 */ this.roomname.setText(con.getUserData().info.name);
 
         /* 108 */ if (((con.getUserData()).restrict & 0x20) != 0) {
             /* 109 */ this.create.setEnabled(false);
@@ -121,11 +122,18 @@ public class DogfightMakeDialog
         }
 
         /* 119 */ this.num = new NumberCounter();
-        /* 120 */ this.num.setContainer((Container) findNamedComponent("num", this), 9);
+        /* 120 */ this.num.setContainer((Container) findNamedComponent("num", this), 8);
         /* 121 */ this.num.inc.addActionListener((ActionListener) this);
         /* 122 */ this.num.dec.addActionListener((ActionListener) this);
         /* 123 */ this.num.setRange(this.tourlist[this.tourid[this.selecttouridx]]);
         /* 124 */ this.num.setValue((this.tourlist[this.tourid[this.selecttouridx]]).maxplayers);
+
+        /* 119 */ this.roundCount = new NumberCounter();
+        /* 120 */ this.roundCount.setContainer((Container) findNamedComponent("roundCount", this), 99);
+        /* 121 */ this.roundCount.inc.addActionListener((ActionListener) this);
+        /* 122 */ this.roundCount.dec.addActionListener((ActionListener) this);
+        /* 123 */ this.roundCount.setRange(1, 99);
+        /* 124 */ this.roundCount.setValue(3);
 
         /* 127 */ this.viewerpanel = (Container) findNamedComponent("viewerpanel", this);
         /* 128 */ this.vieweron = (AmpedCheckbox2) findNamedComponent("vieweron", this);
@@ -231,6 +239,8 @@ public class DogfightMakeDialog
         /* 227 */ this.num.setRange(this.tourlist[this.tourid[this.selecttouridx]]);
         /* 228 */ this.num.setValue(i.maxnum);
 
+        this.roundCount.setValue(Integer.valueOf(com.nr.tool.LocalStorage.getInstance().get(this.roomname.getText())));
+
         /* 230 */ this.stageid = 0;
         /* 231 */ this.stageselect.updateList();
         /* 232 */ this.stageselect.select(i.subid);
@@ -284,7 +294,7 @@ public class DogfightMakeDialog
             /* 274 */ this.result = new GameRoomInfo();
             /* 275 */ this.result.maxnum = this.num.val;
             com.nr.tool.LocalStorage.getInstance().set(this.roomname.getText(),
-                    String.valueOf(getRoundValue(this.roomname.getText())));
+                    String.valueOf(this.roundCount.val));
             /* 276 */ this.result.gameid = this.tourid[this.selecttouridx];
             /* 277 */ this.result.subid = this.stageid;
             /* 278 */ this.result.name = this.roomname.getText();
@@ -307,20 +317,11 @@ public class DogfightMakeDialog
             /* 296 */ this.num.incValue();
             /* 297 */ } else if (src == this.num.dec) {
             /* 298 */ this.num.decValue();
+        } else if (src == this.roundCount.inc) {
+            /* 296 */ this.roundCount.incValue();
+            /* 297 */ } else if (src == this.roundCount.dec) {
+            /* 298 */ this.roundCount.decValue();
         }
-    }
-
-    public static int getRoundValue(String input) {
-        // Utilisation d'une expression régulière pour trouver "Round(X)"
-        Pattern pattern = Pattern.compile("Round\\((\\d+)\\)");
-        Matcher matcher = pattern.matcher(input);
-
-        // Si on trouve le motif, on retourne le nombre trouvé
-        if (matcher.find()) {
-            return Integer.parseInt(matcher.group(1));
-        }
-        // Sinon, on retourne 3 par défaut
-        return 5;
     }
 
     void close() {

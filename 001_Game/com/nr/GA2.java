@@ -8,7 +8,7 @@ import kotori.io.KxrFile;
 public class GA2 {
 	public static void main(String[] args) throws Exception {
 		PrintStream stream = new PrintStream("logs.txt");
-		System.setOut(stream);
+		// System.setOut(stream);
 		System.setErr(stream);
 
 		String[] base = new String[] { "-developer", "-kxrgs" };

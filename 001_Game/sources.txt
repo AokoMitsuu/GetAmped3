@@ -14,8 +14,8 @@ C:\Users\aokom\Documents\GitHub\GetAmped3\001_Game\ga2\data\ItemFilter.java
 C:\Users\aokom\Documents\GitHub\GetAmped3\001_Game\ga2\data\UserData.java
 C:\Users\aokom\Documents\GitHub\GetAmped3\001_Game\ga2\data\UserItems.java
 C:\Users\aokom\Documents\GitHub\GetAmped3\001_Game\ga2\data\UserShortcuts.java
-C:\Users\aokom\Documents\GitHub\GetAmped3\001_Game\ga2\data\net\GameRoomInfo.java
 C:\Users\aokom\Documents\GitHub\GetAmped3\001_Game\ga2\ganl\DebugClientTracker.java
+C:\Users\aokom\Documents\GitHub\GetAmped3\001_Game\ga2\laf\amped2\NumberCounter.java
 C:\Users\aokom\Documents\GitHub\GetAmped3\001_Game\ga2\stage\StageConnector.java
 C:\Users\aokom\Documents\GitHub\GetAmped3\001_Game\ga2\stage\StageServer.java
 C:\Users\aokom\Documents\GitHub\GetAmped3\001_Game\ga2\stage\task\TournamentTaskChain.java
