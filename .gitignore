@@ -1,6 +1,5 @@
-bin/
 server/userdb/
-/sources.txt
 001_Game/resource/
 002_Tool/resource/
+002_Tool/bin/
 003_ResourceRaw/

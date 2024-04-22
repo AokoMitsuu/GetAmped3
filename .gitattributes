@@ -1,0 +1,4 @@
+001_Game/bin/1.kxr filter=lfs diff=lfs merge=lfs -text
+001_Game/bin/2.kxr filter=lfs diff=lfs merge=lfs -text
+001_Game/bin/3.kxr filter=lfs diff=lfs merge=lfs -text
+001_Game/bin/bin.tmp filter=lfs diff=lfs merge=lfs -text
