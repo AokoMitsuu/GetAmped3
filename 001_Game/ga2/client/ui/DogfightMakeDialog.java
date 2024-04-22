@@ -239,7 +239,8 @@ public class DogfightMakeDialog
         this.num.setValue(i.maxnum);
 
         this.roundCount.setValue(Integer
-                .valueOf(com.nr.tool.LocalStorage.getInstance().get(String.valueOf(this.tourid[this.selecttouridx]))));
+                .valueOf(com.nr.tool.LocalStorage.getInstance()
+                        .get("Round - " + String.valueOf(this.tourid[this.selecttouridx]))));
 
         this.stageid = 0;
         this.stageselect.updateList();
@@ -289,7 +290,7 @@ public class DogfightMakeDialog
             this.create.performMethodAndWait("blink");
             this.result = new GameRoomInfo();
             this.result.maxnum = this.num.val;
-            com.nr.tool.LocalStorage.getInstance().set(String.valueOf(this.result.gameid),
+            com.nr.tool.LocalStorage.getInstance().set("Round - " + String.valueOf(this.result.gameid),
                     String.valueOf(this.roundCount.val));
             this.result.gameid = this.tourid[this.selecttouridx];
             this.result.subid = this.stageid;

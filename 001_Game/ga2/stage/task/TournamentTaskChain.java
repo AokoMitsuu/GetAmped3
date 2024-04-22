@@ -561,7 +561,7 @@ public class TournamentTaskChain {
         void startGame() {
             TournamentTaskChain.this.roundCount = Integer
                     .valueOf(com.nr.tool.LocalStorage.getInstance()
-                            .get(String.valueOf(
+                            .get("Round - " + String.valueOf(
                                     ((GameRoomInfo) TournamentTaskChain.this.server.roominfo.clone()).gameid)));
 
             this.server.stageStateChanged(1);
