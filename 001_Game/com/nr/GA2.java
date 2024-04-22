@@ -11,7 +11,7 @@ public class GA2 {
 		// System.setOut(stream);
 		System.setErr(stream);
 
-		String[] base = new String[] { "-developer", "-kxrgs" };
+		String[] base = new String[] { "-developer", "-kxrres", "-kxrgs" };
 		args = com.nr.Utils.mergeStringArray(base, args);
 
 		for (int l = 0; l < args.length; ++l) {

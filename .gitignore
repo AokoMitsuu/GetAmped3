@@ -1,5 +1,8 @@
-server/userdb/
+001_Game/server/userdb/
 001_Game/resource/
+001_Game/bin/cache
 002_Tool/resource/
 002_Tool/bin/
+002_Tool/lang
+002_Tool/kwtamped2
 003_ResourceRaw/
