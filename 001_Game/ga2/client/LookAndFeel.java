@@ -20,28 +20,28 @@ package ga2.client;
     /*     */ public static final Vector2D[] sizedim;
     /*     */
     /*     */ static {
-        /* 20 */ if ((GameSetting.getSetting()).usewidescreen) {
-            /* 21 */ sizename = new String[] { "svga", "xga", "fwxga" };
-            /* 22 */ sizedim = new Vector2D[] { new Vector2D(1920.0F, 1080.0F), new Vector2D(2560.0F, 1440.0F),
+        if ((GameSetting.getSetting()).usewidescreen) {
+            sizename = new String[] { "svga", "xga", "fwxga" };
+            sizedim = new Vector2D[] { new Vector2D(1920.0F, 1080.0F), new Vector2D(2560.0F, 1440.0F),
                     new Vector2D(2560.0F, 1440.0F) };
             /*     */ } else {
             /*     */
-            /* 25 */ sizename = new String[] { "svga", "xga" };
-            /* 22 */ sizedim = new Vector2D[] { new Vector2D(1920.0F, 1080.0F),
+            sizename = new String[] { "svga", "xga" };
+            sizedim = new Vector2D[] { new Vector2D(1920.0F, 1080.0F),
                     new Vector2D(2560.0F, 1440.0F) };
             /*     */ }
         /*     */ }
     /*     */
-    /* 30 */ private static LookAndFeel lookandfeel = new LookAndFeel();
+    private static LookAndFeel lookandfeel = new LookAndFeel();
 
     /*     */
     /*     */ public static LookAndFeel getLAF() {
-        /* 33 */ return lookandfeel;
+        return lookandfeel;
         /*     */ }
 
     /*     */
-    /* 36 */ String laf = null;
-    /* 37 */ int size = -1;
+    String laf = null;
+    int size = -1;
 
     /*     */
     /*     */
@@ -51,45 +51,45 @@ package ga2.client;
     /*     */
     /*     */
     /*     */ public void initLookAndFeel(String _laf, int _size) {
-        /* 46 */ Resource lafdir = ResourceManager.getResource(_laf);
-        /* 47 */ Resource commondir = lafdir.getResource("common");
-        /* 48 */ Resource sizedir = lafdir.getResource(sizename[_size]);
+        Resource lafdir = ResourceManager.getResource(_laf);
+        Resource commondir = lafdir.getResource("common");
+        Resource sizedir = lafdir.getResource(sizename[_size]);
         /*     */
         /*     */
-        /* 51 */ ResourceLibrary rlib = (KWTManager.getLibrary() instanceof ResourceLibrary)
+        ResourceLibrary rlib = (KWTManager.getLibrary() instanceof ResourceLibrary)
                 ? (ResourceLibrary) KWTManager.getLibrary()
                 : (ResourceLibrary) KWTManager.getBaseLibrary();
-        /* 52 */ while (rlib.size() > 1) {
-            /* 53 */ Resource r = rlib.removeResource(1);
-            /* 54 */ if (r != commondir && r != sizedir)
+        while (rlib.size() > 1) {
+            Resource r = rlib.removeResource(1);
+            if (r != commondir && r != sizedir)
                 r.flush(5);
             /*     */ }
-        /* 56 */ rlib.addResource(commondir);
-        /* 57 */ rlib.addResource(sizedir);
-        /* 58 */ rlib.refresh();
+        rlib.addResource(commondir);
+        rlib.addResource(sizedir);
+        rlib.refresh();
         /*     */
-        /* 60 */ this.laf = _laf;
-        /* 61 */ this.size = _size;
+        this.laf = _laf;
+        this.size = _size;
         /*     */ }
 
     /*     */
     /*     */ public int getSize() {
-        /* 65 */ return this.size;
+        return this.size;
         /*     */ }
 
     /*     */
     /*     */ public Vector2D getSizeDimension() {
-        /* 69 */ return sizedim[this.size];
+        return sizedim[this.size];
         /*     */ }
 
     /*     */
     /*     */ public static Vector2D getSizeDimension(int size_) {
-        /* 73 */ return (size_ >= 0 && size_ < sizedim.length) ? sizedim[size_] : null;
+        return (size_ >= 0 && size_ < sizedim.length) ? sizedim[size_] : null;
         /*     */ }
 
     /*     */
     /*     */ public String getSizeName() {
-        /* 77 */ return sizename[this.size];
+        return sizename[this.size];
         /*     */ }
 
     /*     */
@@ -97,23 +97,23 @@ package ga2.client;
     /*     */
     /*     */ public KWTStruct getKWTStruct(String s) {
         /*     */ Resource r;
-        /* 84 */ if (s.startsWith("$")) {
-            /* 85 */ r = GameSetting.getSetting().getLocalResource(s.substring(1));
+        if (s.startsWith("$")) {
+            r = GameSetting.getSetting().getLocalResource(s.substring(1));
             /*     */ } else {
-            /* 87 */ r = KWTManager.getLibrary().getResource(s);
+            r = KWTManager.getLibrary().getResource(s);
             /*     */ }
-        /* 89 */ Object o = (r == null) ? null : r.getContent();
-        /* 90 */ if (o instanceof KWTStruct) {
-            /* 91 */ return (KWTStruct) o;
+        Object o = (r == null) ? null : r.getContent();
+        if (o instanceof KWTStruct) {
+            return (KWTStruct) o;
             /*     */ }
-        /* 93 */ if (o instanceof KWTStructHolder) {
+        if (o instanceof KWTStructHolder) {
             /*     */ try {
-                /* 95 */ return ((KWTStructHolder) o).getKWTStruct();
-                /* 96 */ } catch (Exception e) {
-                /* 97 */ throw new RuntimeException("error loading kwtstruct: " + e);
+                return ((KWTStructHolder) o).getKWTStruct();
+            } catch (Exception e) {
+                throw new RuntimeException("error loading kwtstruct: " + e);
                 /*     */ }
             /*     */ }
-        /* 100 */ throw new RuntimeException("not kwtstruct : " + s + " = " + o);
+        throw new RuntimeException("not kwtstruct : " + s + " = " + o);
         /*     */ }
     /*     */ }
 

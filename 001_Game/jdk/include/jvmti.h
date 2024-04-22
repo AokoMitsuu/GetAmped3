@@ -950,7 +950,7 @@ typedef struct {
     jvmtiEventDynamicCodeGenerated DynamicCodeGenerated;
                               /*   71 : Data Dump Request */
     jvmtiEventDataDumpRequest DataDumpRequest;
-                              /*   72 */
+                              
     jvmtiEventReserved reserved72;
                               /*   73 : Monitor Wait */
     jvmtiEventMonitorWait MonitorWait;
@@ -960,11 +960,11 @@ typedef struct {
     jvmtiEventMonitorContendedEnter MonitorContendedEnter;
                               /*   76 : Monitor Contended Entered */
     jvmtiEventMonitorContendedEntered MonitorContendedEntered;
-                              /*   77 */
+                              
     jvmtiEventReserved reserved77;
-                              /*   78 */
+                              
     jvmtiEventReserved reserved78;
-                              /*   79 */
+                              
     jvmtiEventReserved reserved79;
                               /*   80 : Resource Exhausted */
     jvmtiEventResourceExhausted ResourceExhausted;
