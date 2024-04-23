@@ -7,5 +7,5 @@ set args=-Xms256m -Xmx512m -Xincgc -Djava.library.path=bin -Dktpraf.file=ktprafl
 
 %javac6% -cp %lib% @sources.txt
 @echo off
-%java6% %args% resource.Repack ../bin/5.kxr aoao ./kwtamped2 ./lang ./#version.5.kxr
+%java6% %args% Repack
 @pause
