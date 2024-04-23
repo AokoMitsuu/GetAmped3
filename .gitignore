@@ -6,3 +6,5 @@
 002_Tool/lang
 002_Tool/kwtamped2
 003_ResourceRaw/
+001_Game/logs.txt
+*.class
