@@ -4,3 +4,44 @@ java.io.IOException: Resource[classes] version incorrect : 1376260 != 66208
 	at ga2.client.GetAmped2.appmain(GetAmped2.java:397)
 	at ga2.client.GetAmped2.main(GetAmped2.java:323)
 	at com.nr.GA2.main(GA2.java:23)
+DATABASE [ USER-DB[0] ] connecting /127.0.0.1:8777
+	succeeded.
+DATABASE [ SKIN-DB ] connecting /127.0.0.1:8778
+	succeeded.
+DATABASE [ GUILD-DB ] connecting /127.0.0.1:8779
+	succeeded.
+DATABASE [ RANKING-DB ] connecting /127.0.0.1:8780
+	succeeded.
+DATABASE [ PICTURE-DB ] connecting /127.0.0.1:8783
+	succeeded.
+java.io.FileNotFoundException: server\userdb\0\u1468189930.ud (Le fichier spécifié est introuvable)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:120)
+	at ga2.server.db.FileDatabase.readData(FileDatabase.java:71)
+	at ga2.server.db.UserDatabaseFS.loginUserData(UserDatabaseFS.java:78)
+	at ga2.server.db.UserDatabase.handleCommand(UserDatabase.java:451)
+	at kotori.net.Terminal$1.run(Terminal.java:179)
+	at kotori.util.ThreadPool$Runner.run(ThreadPool.java:70)
+UserData loading error... create test data : java.io.FileNotFoundException: server\userdb\0\u1468189930.ud (Le fichier spécifié est introuvable)
+java.lang.Exception: Stack trace: error client disconencted. StageServerPlayerEntry$Remote[ eid:1, pid:1, uid:_lanplay2551367594497300, name:Fabicro ] ssid:1468189930 stagemode:14
+	at ga2.setting.GameSetting.printStackTrace(GameSetting.java:159)
+	at ga2.stage.StageServer.remoteClosed(StageServer.java:975)
+	at ga2.stage.StageServerPlayerEntry$Remote.connectionStateChanged(StageServerPlayerEntry.java:2385)
+	at kotori.net.UDPConnection.postEvent(UDPConnection.java:902)
+	at kotori.net.UDPConnection.closeInternal(UDPConnection.java:374)
+	at kotori.net.UDPConnection.addData(UDPConnection.java:720)
+	at kotori.net.UDPConnectionServer.addData(UDPConnectionServer.java:163)
+	at kotori.net.ConnectionEngine.processSelect(ConnectionEngine.java:220)
+	at kotori.net.ConnectionEngine.process(ConnectionEngine.java:111)
+	at kotori.net.ConnectionEngine.run(ConnectionEngine.java:60)
+	at java.lang.Thread.run(Thread.java:662)
+java.nio.channels.CancelledKeyException
+	at sun.nio.ch.SelectionKeyImpl.ensureValid(SelectionKeyImpl.java:55)
+	at sun.nio.ch.SelectionKeyImpl.readyOps(SelectionKeyImpl.java:69)
+	at java.nio.channels.SelectionKey.isAcceptable(SelectionKey.java:342)
+	at kotori.net.ConnectionEngine.processSelect(ConnectionEngine.java:243)
+	at kotori.net.ConnectionEngine.process(ConnectionEngine.java:111)
+	at kotori.net.ConnectionEngine.run(ConnectionEngine.java:60)
+	at java.lang.Thread.run(Thread.java:662)
+ChannelServer Thread interrupted... Thread[ChannelServer Game-thread[0],5,main]
+Database Maintenance Thread interrupted.

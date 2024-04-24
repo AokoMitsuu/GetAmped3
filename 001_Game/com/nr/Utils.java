@@ -173,7 +173,7 @@ public class Utils {
     // not full working
     public static void AutoLoadSkin() {
         try {
-            File f = new File("C:/Users/aokom/Documents/GitHub/GetAmped3/Skins", "Organization XIII.skin2");
+            File f = new File("./Skins", "Organization XIII.skin2");
             FileInputStream fis = new FileInputStream(f);
             BufferedInputStream bis = new BufferedInputStream(fis);
             ExternalizerInputStream eis = new ExternalizerInputStream(bis);

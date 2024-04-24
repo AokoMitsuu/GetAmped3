@@ -3,7 +3,6 @@ C:\Users\aokom\Documents\GitHub\GetAmped3\001_Game\com\nr\Utils.java
 C:\Users\aokom\Documents\GitHub\GetAmped3\001_Game\com\nr\tool\LocalStorage.java
 C:\Users\aokom\Documents\GitHub\GetAmped3\001_Game\com\nr\ui\InputPopup.java
 C:\Users\aokom\Documents\GitHub\GetAmped3\001_Game\Console\FileWatcher.java
-C:\Users\aokom\Documents\GitHub\GetAmped3\001_Game\ga2\client\LookAndFeel.java
 C:\Users\aokom\Documents\GitHub\GetAmped3\001_Game\ga2\client\SDOAClient.java
 C:\Users\aokom\Documents\GitHub\GetAmped3\001_Game\ga2\client\ui\AmpedRootPanel.java
 C:\Users\aokom\Documents\GitHub\GetAmped3\001_Game\ga2\client\ui\CompanyLogoScene.java
@@ -18,5 +17,4 @@ C:\Users\aokom\Documents\GitHub\GetAmped3\001_Game\ga2\ganl\DebugClientTracker.j
 C:\Users\aokom\Documents\GitHub\GetAmped3\001_Game\ga2\laf\amped2\NumberCounter.java
 C:\Users\aokom\Documents\GitHub\GetAmped3\001_Game\ga2\stage\task\TournamentTaskChain.java
 C:\Users\aokom\Documents\GitHub\GetAmped3\001_Game\kotori\app\Console.java
-C:\Users\aokom\Documents\GitHub\GetAmped3\001_Game\kotori\app\DisplayMode.java
 C:\Users\aokom\Documents\GitHub\GetAmped3\001_Game\kotori\net\TCPConnection.java

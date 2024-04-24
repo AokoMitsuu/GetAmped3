@@ -143,7 +143,7 @@ public abstract class Console {
     public void createWindow(String title, int w, int h, boolean resize) {
         title = "Hihi";
         System.out.println("test");
-        createWindow(title, 1920, 1080, 1);
+        createWindow(title, w, h, 1);
     }
 
     public synchronized Event peekEvent() {
