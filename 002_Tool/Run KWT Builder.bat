@@ -7,8 +7,5 @@ set args=-Xms256m -Xmx512m -Xincgc -Djava.library.path=bin -Dktpraf.file=ktprafl
 
 %javac6% -cp %lib% @sources.txt
 @echo off
-cd Console
-start cmd /k java FileWatcher ../logs.txt false true
-cd ../
 %java6% %args% tool.builder.KWTBuilder -kxrgs
 @pause

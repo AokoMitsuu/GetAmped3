@@ -1,4 +1,5 @@
 @echo off
+start /wait Updater/Updater.exe
 dir src /b /s .\\*.java > sources.txt
 set javac6=%cd%\jdk\bin\javac.exe
 set java6=%cd%\jdk\bin\java.exe
