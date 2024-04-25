@@ -141,8 +141,7 @@ public abstract class Console {
     }
 
     public void createWindow(String title, int w, int h, boolean resize) {
-        title = "Hihi";
-        System.out.println("test");
+        title = "Get Amped 3";
         createWindow(title, w, h, 1);
     }
 

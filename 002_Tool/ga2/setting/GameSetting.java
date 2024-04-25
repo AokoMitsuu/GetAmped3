@@ -121,45 +121,45 @@ import kotori.util.ResourceManager;
 import kotori.util.ServerTime;
 
 public class GameSetting implements Externalizable {
-    /* 25 */ public static String deflang = "ja";
+    public static String deflang = "ja";
     private static GameSetting set;
-    /* 26 */ public static String defchar = "sjis";
+    public static String defchar = "sjis";
 
-    /* 28 */ private static HashMap localemap = new HashMap<Object, Object>();
+    private static HashMap localemap = new HashMap<Object, Object>();
     public boolean printoff;
     static {
-        /* 30 */ localemap.put("ja", Locale.JAPAN);
+        localemap.put("ja", Locale.JAPAN);
 
-        /* 32 */ localemap.put("us", Locale.US);
-        /* 33 */ localemap.put("cn", Locale.CHINA);
-        /* 34 */ localemap.put("kr", Locale.KOREA);
-        /* 35 */ localemap.put("tw", Locale.TAIWAN);
+        localemap.put("us", Locale.US);
+        localemap.put("cn", Locale.CHINA);
+        localemap.put("kr", Locale.KOREA);
+        localemap.put("tw", Locale.TAIWAN);
     }
 
     public void print(Object s) {
-        /* 40 */ if (this.version < 0 && !this.printoff) {
-            /* 41 */ System.out.print(s);
+        if (this.version < 0 && !this.printoff) {
+            System.out.print(s);
         }
     }
 
     public void println(Object s) {
-        /* 48 */ if (this.version < 0 && !this.printoff) {
-            /* 49 */ System.out.println(s);
+        if (this.version < 0 && !this.printoff) {
+            System.out.println(s);
         }
     }
 
     public static void printStackTrace() {
-        /* 54 */ printStackTrace("");
+        printStackTrace("");
     }
 
     public static void printStackTrace(Object str) {
-        /* 58 */ (new Exception("Stack trace: " + str)).printStackTrace();
+        (new Exception("Stack trace: " + str)).printStackTrace();
     }
 
-    /* 61 */ public int version = -1;
+    public int version = -1;
 
-    /* 63 */ public String language = deflang;
-    /* 64 */ public String charset = defchar;
+    public String language = deflang;
+    public String charset = defchar;
 
     public String timezone;
 
@@ -239,8 +239,8 @@ public class GameSetting implements Externalizable {
     public StreetfightTreasureTable[] streettreasures;
     public RankData rank;
     public RankingSetting ranking;
-    /* 144 */ public HashMap kwtinfo = new HashMap<Object, Object>();
-    /* 145 */ public HashMap dicts = new HashMap<Object, Object>();
+    public HashMap kwtinfo = new HashMap<Object, Object>();
+    public HashMap dicts = new HashMap<Object, Object>();
 
     public PlayerScriptInfo[] scpinfo;
 
@@ -248,8 +248,8 @@ public class GameSetting implements Externalizable {
 
     public GuildSetting guild;
 
-    /* 153 */ public ShopLineupData shoplineup = new ShopLineupData();
-    /* 154 */ public GachaLineupData gachalineup = new GachaLineupData();
+    public ShopLineupData shoplineup = new ShopLineupData();
+    public GachaLineupData gachalineup = new GachaLineupData();
 
     public DungeonShopData dungeonshop;
 
@@ -324,8 +324,8 @@ public class GameSetting implements Externalizable {
     public boolean destselection;
     public boolean announcegacha;
     public boolean questnpcguide;
-    /* 229 */ public byte showgachaprizecount = 5;
-    /* 230 */ public byte gacha_roten_ticket_limit = 90;
+    public byte showgachaprizecount = 5;
+    public byte gacha_roten_ticket_limit = 90;
 
     public short autochselthreshold;
 
@@ -374,20 +374,20 @@ public class GameSetting implements Externalizable {
     public boolean showservertime;
     public int trademode;
     public int roommasterkicktime;
-    /* 279 */ public int basemixcost = 20;
+    public int basemixcost = 20;
 
-    /* 281 */ public int alchemycost = 100;
+    public int alchemycost = 100;
 
-    /* 283 */ public int potentialcost = 100;
+    public int potentialcost = 100;
 
     public boolean plainpassword;
 
     public boolean loginquest;
 
-    /* 290 */ public int edituserdatavalidtime = -1;
+    public int edituserdatavalidtime = -1;
 
     public boolean disablegetnewmedal;
-    /* 293 */ public int newmedalrate = 200;
+    public int newmedalrate = 200;
 
     public String pwsaltgeturl;
 
@@ -445,8 +445,8 @@ public class GameSetting implements Externalizable {
 
     public boolean overitemsendmailenabled;
     public boolean ranklimitenabled;
-    /* 351 */ public int friendlistmax = 1000;
-    /* 352 */ public int blacklistmax = 1000;
+    public int friendlistmax = 1000;
+    public int blacklistmax = 1000;
 
     public boolean showchannelinfo;
 
@@ -502,7 +502,7 @@ public class GameSetting implements Externalizable {
     public String gg_tester;
     public boolean presentskinenabled;
     public boolean itemsortenabled;
-    /* 408 */ public int tourkeyroomrank = -1;
+    public int tourkeyroomrank = -1;
 
     public boolean dogfightenabled;
 
@@ -517,9 +517,9 @@ public class GameSetting implements Externalizable {
     public boolean reduceStrWidth_Adv;
     public boolean showtoppanelmyinfo = true;
     public boolean shortnavi;
-    /* 423 */ public String replacefont = null;
+    public String replacefont = null;
 
-    /* 425 */ public String cacheclearversion = null;
+    public String cacheclearversion = null;
 
     public boolean writepresetguildiconenabled;
 
@@ -529,10 +529,10 @@ public class GameSetting implements Externalizable {
 
     public boolean skinchatenabled;
 
-    /* 435 */ public int sendmailchecktime = 0;
+    public int sendmailchecktime = 0;
 
     public int autoopenshuttertime;
-    /* 438 */ public int tutorialshopbuynum = 1;
+    public int tutorialshopbuynum = 1;
 
     public boolean fullscreenminimizationenabled;
 
@@ -587,789 +587,786 @@ public class GameSetting implements Externalizable {
     public PotentialSkillData[] potentialskilldata;
 
     public static boolean isEmail(String str) {
-        /* 493 */ if (!(getSetting()).userid_email)
+        if (!(getSetting()).userid_email)
             return false;
-        /* 494 */ return KotoriUtil.isEmail(str);
+        return KotoriUtil.isEmail(str);
     }
 
     public static boolean isIDCUid(String str) {
-        /* 498 */ if (!(getSetting()).idcchanneling)
+        if (!(getSetting()).idcchanneling)
             return false;
-        /* 499 */ return KotoriUtil.isIDCUid(str);
+        return KotoriUtil.isIDCUid(str);
     }
 
     public static void setDefaultLanguage(String lang) {
-        /* 503 */ int i = lang.indexOf(':');
-        /* 504 */ if (i < 0) {
-            /* 505 */ deflang = lang;
-            /* 506 */ defchar = null;
+        int i = lang.indexOf(':');
+        if (i < 0) {
+            deflang = lang;
+            defchar = null;
         } else {
-            /* 508 */ deflang = lang.substring(0, i);
-            /* 509 */ defchar = lang.substring(i + 1);
+            deflang = lang.substring(0, i);
+            defchar = lang.substring(i + 1);
         }
     }
 
     public void setLanguage(String lang) {
-        /* 514 */ int i = lang.indexOf(':');
-        /* 515 */ if (i < 0) {
-            /* 516 */ this.language = lang;
-            /* 517 */ this.charset = null;
+        int i = lang.indexOf(':');
+        if (i < 0) {
+            this.language = lang;
+            this.charset = null;
         } else {
-            /* 519 */ this.language = lang.substring(0, i);
-            /* 520 */ this.charset = lang.substring(i + 1);
+            this.language = lang.substring(0, i);
+            this.charset = lang.substring(i + 1);
         }
     }
 
     public boolean isLanguage(String lang) {
-        /* 525 */ return this.language.equals(lang);
+        return this.language.equals(lang);
     }
 
     public boolean isLanguage(String... lang) {
-        /* 529 */ if (lang != null)
-            /* 530 */ for (int l = 0; l < lang.length; l++) {
-                /* 531 */ if (isLanguage(lang[l]))
+        if (lang != null)
+            for (int l = 0; l < lang.length; l++) {
+                if (isLanguage(lang[l]))
                     return true;
 
             }
-        /* 534 */ return false;
+        return false;
     }
 
     public boolean isLoggingTalkFlags() {
-        /* 541 */ return false;
+        return false;
     }
 
     public boolean isNavigationImmediate() {
-        /* 548 */ return !isLanguage("kr");
+        return !isLanguage("kr");
     }
 
     public boolean isEventExitEnabled() {
-        /* 555 */ return isLanguage("kr");
+        return isLanguage("kr");
     }
 
     public boolean isMenuEffectEnabled() {
-        /* 562 */ return isLanguage("kr");
+        return isLanguage("kr");
     }
 
     public boolean isOrderEpisodeEnabled() {
-        /* 566 */ return isLanguage("kr");
+        return isLanguage("kr");
     }
 
-    /* 569 */ private TimeZone tz = null;
+    private TimeZone tz = null;
 
     public TimeZone getTimeZone(boolean reflesh) {
-        /* 571 */ if (reflesh || this.tz == null) {
-            /* 572 */ if (KotoriUtil.isNotEmpty(this.timezone)) {
-                /* 573 */ this.tz = TimeZone.getTimeZone(this.timezone);
+        if (reflesh || this.tz == null) {
+            if (KotoriUtil.isNotEmpty(this.timezone)) {
+                this.tz = TimeZone.getTimeZone(this.timezone);
             }
-            /* 575 */ if (this.tz == null)
+            if (this.tz == null)
                 this.tz = TimeZone.getDefault();
         }
-        /* 577 */ return this.tz;
+        return this.tz;
     }
 
     public TimeZone getTimeZone() {
-        /* 579 */ return getTimeZone(false);
+        return getTimeZone(false);
     }
 
     public long getTimeZoneTime() {
-        /* 582 */ return ServerTime.getTimeZoneTime(getTimeZone());
+        return ServerTime.getTimeZoneTime(getTimeZone());
     }
 
     public Locale getLocale() {
-        /* 586 */ return (this.locale != null) ? this.locale : Locale.getDefault();
+        return (this.locale != null) ? this.locale : Locale.getDefault();
     }
 
     private void makeFlagTable() {
-        /* 592 */ String[] files = (String[]) null;
-        /* 593 */ if (this.localres == null) {
+        String[] files = (String[]) null;
+        if (this.localres == null) {
 
-            /* 595 */ File resdir = new File("resource/lang/" + set.language + "/icon/flag");
-            /* 596 */ files = resdir.list();
-            /* 597 */ if (files == null || files.length == 0) {
+            File resdir = new File("resource/lang/" + set.language + "/icon/flag");
+            files = resdir.list();
+            if (files == null || files.length == 0) {
                 return;
             }
         } else {
-            /* 601 */ Resource res = getSetting().getLocalResource("icon/flag");
-            /* 602 */ if (res == null)
-                /* 603 */ return;
+            Resource res = getSetting().getLocalResource("icon/flag");
+            if (res == null)
+                return;
             Resource[] list = res.getList();
-            /* 604 */ files = new String[list.length];
-            /* 605 */ for (int j = 0; j < list.length; j++) {
-                /* 606 */ files[j] = list[j].getName();
+            files = new String[list.length];
+            for (int j = 0; j < list.length; j++) {
+                files[j] = list[j].getName();
             }
         }
-        /* 609 */ this.area = new Inttable();
-        /* 610 */ for (int i = 0; i < files.length; i++) {
-            /* 611 */ String f = files[i];
-            /* 612 */ int idx = f.indexOf(".");
-            /* 613 */ String flag = null;
-            /* 614 */ if (idx > 1) {
-                /* 615 */ flag = f.substring(0, idx);
-                /* 616 */ this.area.put(flag.hashCode(), flag);
-                /* 617 */ set.println("makeFlagTable put hash:" + flag.hashCode() + ", flag:" + flag);
+        this.area = new Inttable();
+        for (int i = 0; i < files.length; i++) {
+            String f = files[i];
+            int idx = f.indexOf(".");
+            String flag = null;
+            if (idx > 1) {
+                flag = f.substring(0, idx);
+                this.area.put(flag.hashCode(), flag);
+                set.println("makeFlagTable put hash:" + flag.hashCode() + ", flag:" + flag);
             }
         }
     }
 
     public String getFlag(int fhash) {
-        /* 623 */ if (this.area == null)
+        if (this.area == null)
             return "";
-        /* 624 */ String flag = (String) this.area.get(fhash);
-        /* 625 */ return (flag != null) ? flag : "";
+        String flag = (String) this.area.get(fhash);
+        return (flag != null) ? flag : "";
     }
 
     public boolean enabledRankEquip() {
-        /* 630 */ return (this.rankitemmode >= 1);
+        return (this.rankitemmode >= 1);
     }
 
     public boolean enabledChallengeRank() {
-        /* 634 */ return false;
+        return false;
     }
 
     public boolean isPrivately(int kind, int id) {
-        /* 639 */ AmpedItem ai = getAmpedItem(kind, id);
-        /* 640 */ return !(ai != null && !ai.isPrivately());
+        AmpedItem ai = getAmpedItem(kind, id);
+        return !(ai != null && !ai.isPrivately());
     }
 
     public boolean isBoostEnable(int chiket, UserItems.Item item) {
-        /* 644 */ return this.dropboost[chiket].isBoostEnable(item);
+        return this.dropboost[chiket].isBoostEnable(item);
     }
 
     public boolean isDisableEvent(int eid) {
-        /* 651 */ if (this.disableeventid == null)
+        if (this.disableeventid == null)
             return false;
-        /* 652 */ for (int i = 0; i < this.disableeventid.length; i++) {
-            /* 653 */ if (this.disableeventid[i] == eid)
+        for (int i = 0; i < this.disableeventid.length; i++) {
+            if (this.disableeventid[i] == eid)
                 return true;
         }
-        /* 655 */ return false;
+        return false;
     }
 
     public StyleData getStyle(int id) {
-        /* 659 */ return (id < 0 || id >= this.style.length) ? null : this.style[id];
+        return (id < 0 || id >= this.style.length) ? null : this.style[id];
     }
 
     public StyleData.Head getHead(int id) {
-        /* 663 */ return (id < 0 || id >= this.head.length) ? null : this.head[id];
+        return (id < 0 || id >= this.head.length) ? null : this.head[id];
     }
 
     public StyleData.Face getFace(int id) {
-        /* 667 */ return (id < 0 || id >= this.face.length) ? null : this.face[id];
+        return (id < 0 || id >= this.face.length) ? null : this.face[id];
     }
 
     public StyleData.Body getBody(int id) {
-        /* 671 */ return (id < 0 || id >= this.body.length) ? null : this.body[id];
+        return (id < 0 || id >= this.body.length) ? null : this.body[id];
     }
 
     public StyleData.Build getBuild(int id) {
-        /* 675 */ return this.build[id];
+        return this.build[id];
     }
 
     public StyleData.Build findBuild(String name) {
-        /* 679 */ for (int l = 0; l < this.build.length; l++) {
-            /* 680 */ if (this.build[l] != null && name.equals((this.build[l]).name))
+        for (int l = 0; l < this.build.length; l++) {
+            if (this.build[l] != null && name.equals((this.build[l]).name))
                 return this.build[l];
         }
-        /* 682 */ return null;
+        return null;
     }
 
     public StyleData.Decoration getDecoration(int id) {
-        /* 686 */ return (id < 0 || id >= this.deco.length) ? null : this.deco[id];
+        return (id < 0 || id >= this.deco.length) ? null : this.deco[id];
     }
 
     public AccessoryData getAccs(int id) {
-        /* 690 */ return (id < 0 || id >= this.accs.length) ? null : this.accs[id];
+        return (id < 0 || id >= this.accs.length) ? null : this.accs[id];
     }
 
     public SkillData getSkill(int id) {
-        /* 694 */ return (id < 0 || id >= this.skill.length) ? null : this.skill[id];
+        return (id < 0 || id >= this.skill.length) ? null : this.skill[id];
     }
 
     public WeaponData getWeapon(int id) {
-        /* 698 */ return (id < 0 || id >= this.weapon.length) ? null : this.weapon[id];
+        return (id < 0 || id >= this.weapon.length) ? null : this.weapon[id];
     }
 
     public VehicleData getVehicle(int id) {
-        /* 702 */ return this.vehicle[id];
+        return this.vehicle[id];
     }
 
     public EmotionData getEmotion(int id) {
-        /* 706 */ if (id < 0) {
-            /* 707 */ int sid = -id;
-            /* 708 */ return (sid >= this.semo.length) ? null : this.semo[sid];
+        if (id < 0) {
+            int sid = -id;
+            return (sid >= this.semo.length) ? null : this.semo[sid];
         }
-        /* 710 */ return (id >= this.emo.length) ? null : this.emo[id];
+        return (id >= this.emo.length) ? null : this.emo[id];
     }
 
     public OfficialSkinData getOfficialSkin(int id) {
-        /* 715 */ return (id < 0 || id >= this.officialskins.length || this.officialskins[id] == null) ? null
+        return (id < 0 || id >= this.officialskins.length || this.officialskins[id] == null) ? null
                 : this.officialskins[id];
     }
 
     public String getSDOAEntranceName(int entranceid) {
-        /* 719 */ for (int i = 0; i < this.sdoaip.login.length; i++) {
-            /* 720 */ if (entranceid == (this.sdoaip.login[i]).entranceid) {
-                /* 721 */ return (this.sdoaip.login[i]).name;
+        for (int i = 0; i < this.sdoaip.login.length; i++) {
+            if (entranceid == (this.sdoaip.login[i]).entranceid) {
+                return (this.sdoaip.login[i]).name;
             }
         }
-        /* 724 */ return "";
+        return "";
     }
 
     public int emo(String scm) {
         int l;
-        /* 728 */ for (l = 0; l < this.emo.length; l++) {
-            /* 729 */ if (this.emo[l] != null && (this.emo[l]).scp.equals(scm))
+        for (l = 0; l < this.emo.length; l++) {
+            if (this.emo[l] != null && (this.emo[l]).scp.equals(scm))
                 return l;
         }
-        /* 731 */ for (l = 0; l < this.semo.length; l++) {
-            /* 732 */ if (this.semo[l] != null && (this.semo[l]).scp.equals(scm))
+        for (l = 0; l < this.semo.length; l++) {
+            if (this.semo[l] != null && (this.semo[l]).scp.equals(scm))
                 return -l;
         }
-        /* 734 */ return 0;
+        return 0;
     }
 
     public UserShortcuts.ChatShortcut getChatShortcut(int id) {
-        /* 738 */ return (id >= 0 && id < this.shortcut.length) ? this.shortcut[id] : null;
+        return (id >= 0 && id < this.shortcut.length) ? this.shortcut[id] : null;
     }
 
     public NPCInfo getNPCInfo(int id) {
-        /* 742 */ return (id >= 0 && id < this.npc.length) ? this.npc[id] : null;
+        return (id >= 0 && id < this.npc.length) ? this.npc[id] : null;
     }
 
     public static int id(String stageCode, int ofs) {
-        /* 746 */ return NPCInfo.id(stageCode, ofs);
+        return NPCInfo.id(stageCode, ofs);
     }
 
     public TournamentData getTournament(int id) {
-        /* 750 */ return this.tour[id];
+        return this.tour[id];
     }
 
-    /* 753 */ private int max_bannerid = -1;
-    /* 754 */ public static final int[] refTornamentData = new int[] {
+    private int max_bannerid = -1;
+    public static final int[] refTornamentData = new int[] {
 
-            /* 756 */ 0, 1,
-            /* 757 */ 8,
-            /* 758 */ 9,
-            /* 759 */ 5 };
+            0, 1,
+            8,
+            9,
+            5 };
 
     public int getBanneridMax() {
-        /* 762 */ if (this.max_bannerid != -1)
+        if (this.max_bannerid != -1)
             return this.max_bannerid;
 
-        /* 764 */ for (int i = 0; i < refTornamentData.length; i++) {
-            /* 765 */ TournamentData t = getTournament(refTornamentData[i]);
-            /* 766 */ for (int j = 0; j < t.stageTbl.length; j++) {
-                /* 767 */ TournamentData.Stage stage = t.stage[t.stageTbl[j]];
-                /* 768 */ if (stage.bannerid < 0)
-                /* 769 */ {
+        for (int i = 0; i < refTornamentData.length; i++) {
+            TournamentData t = getTournament(refTornamentData[i]);
+            for (int j = 0; j < t.stageTbl.length; j++) {
+                TournamentData.Stage stage = t.stage[t.stageTbl[j]];
+                if (stage.bannerid < 0) {
                     for (int k = 0; k < stage.randomstage.length; k++) {
-                        /* 770 */ if (stage.randomstage[k] > this.max_bannerid)
+                        if (stage.randomstage[k] > this.max_bannerid)
                             this.max_bannerid = stage.randomstage[k];
 
                     }
-                }
-                /* 773 */ else if (stage.bannerid > this.max_bannerid) {
+                } else if (stage.bannerid > this.max_bannerid) {
                     this.max_bannerid = stage.bannerid;
                 }
 
             }
         }
-        /* 777 */ return this.max_bannerid;
+        return this.max_bannerid;
     }
 
     public GuardianData getGuardian() {
-        /* 781 */ return this.guardian[0];
+        return this.guardian[0];
     }
 
     public Object getLounge(int id) {
-        /* 785 */ return (id >= 0 && id < this.lounge.length) ? this.lounge[id] : null;
+        return (id >= 0 && id < this.lounge.length) ? this.lounge[id] : null;
     }
 
     public StreetNPCData getStreetNPCData(int id) {
-        /* 789 */ return (id >= 0 && id < this.stnpcset.length) ? this.stnpcset[id] : null;
+        return (id >= 0 && id < this.stnpcset.length) ? this.stnpcset[id] : null;
     }
 
     public UnitedfightNPCData getUnitedfightNPCData() {
-        /* 793 */ return this.ufnpcset;
+        return this.ufnpcset;
     }
 
     public int[] getItemSortData(byte kind) {
-        /* 797 */ return this.itemsort.getSortData(kind);
+        return this.itemsort.getSortData(kind);
     }
 
     public String getSortName(int id) {
-        /* 801 */ return this.itemsort.getSortName(id);
+        return this.itemsort.getSortName(id);
     }
 
     public int getMailSortKind() {
-        /* 805 */ return this.mailsort.getSortKind();
+        return this.mailsort.getSortKind();
     }
 
     public String getMailSortName(int id) {
-        /* 809 */ return this.mailsort.getSortName(id);
+        return this.mailsort.getSortName(id);
     }
 
     public PracticeData getPractice() {
-        /* 813 */ return this.practice;
+        return this.practice;
     }
 
     public LanData getLanData() {
-        /* 817 */ return this.landata;
+        return this.landata;
     }
 
     public AutoMatchData getAutoMatchData() {
-        /* 821 */ return this.automatchdata;
+        return this.automatchdata;
     }
 
     public ArcadeData getArcade(int id) {
-        /* 825 */ return (id >= 0 && id < this.arcade.length) ? this.arcade[id] : null;
+        return (id >= 0 && id < this.arcade.length) ? this.arcade[id] : null;
     }
 
     public QuestEventData[] getQuestEventList(int type) {
-        /* 829 */ if (this.questevent.length <= type)
+        if (this.questevent.length <= type)
             return null;
-        /* 830 */ return this.questevent[type];
+        return this.questevent[type];
     }
 
     public QuestionaryData getQuestionaryData() {
-        /* 834 */ return this.questionary;
+        return this.questionary;
     }
 
     public EventSceneData getEventScene(int id) {
-        /* 838 */ if (this.event == null) {
-            /* 839 */ return (EventSceneData) KotoriUtil.uncompress(this.eventbytes[id]);
+        if (this.event == null) {
+            return (EventSceneData) KotoriUtil.uncompress(this.eventbytes[id]);
         }
-        /* 841 */ return this.event[id];
+        return this.event[id];
     }
 
     public PotentialSkillData getPotentialSkillData(int id) {
-        /* 845 */ for (int i = 0; i < this.potentialskilldata.length; i++) {
-            /* 846 */ if (this.potentialskilldata[i].chkPotentialSkill(id))
+        for (int i = 0; i < this.potentialskilldata.length; i++) {
+            if (this.potentialskilldata[i].chkPotentialSkill(id))
                 return this.potentialskilldata[i];
         }
-        /* 848 */ return null;
+        return null;
     }
 
     public UserItems.Item[] getEventPresent(int eventid, int presentindex) {
         try {
-            /* 853 */ EventSceneData ev = getEventScene(eventid);
-            /* 854 */ UserItems.Item[] p = (UserItems.Item[]) ev.present[presentindex];
-            /* 855 */ return UserItems.convertTreasure(p);
-            /* 856 */ } catch (Exception ex) {
-            /* 857 */ return null;
+            EventSceneData ev = getEventScene(eventid);
+            UserItems.Item[] p = (UserItems.Item[]) ev.present[presentindex];
+            return UserItems.convertTreasure(p);
+        } catch (Exception ex) {
+            return null;
         }
     }
 
     public int getEventRank(int eventid) {
         try {
-            /* 863 */ EventSceneData ev = getEventScene(eventid);
+            EventSceneData ev = getEventScene(eventid);
 
-            /* 865 */ if (ev == null)
+            if (ev == null)
                 return -1;
-            /* 866 */ return ev.rank;
-            /* 867 */ } catch (Exception ex) {
-            /* 868 */ return -1;
+            return ev.rank;
+        } catch (Exception ex) {
+            return -1;
         }
     }
 
     public int getEventTalkflag(int eventid) {
         try {
-            /* 874 */ EventSceneData ev = getEventScene(eventid);
+            EventSceneData ev = getEventScene(eventid);
 
-            /* 876 */ if (ev == null)
+            if (ev == null)
                 return -1;
-            /* 877 */ return ev.talkflag;
-            /* 878 */ } catch (Exception ex) {
-            /* 879 */ return -1;
+            return ev.talkflag;
+        } catch (Exception ex) {
+            return -1;
         }
     }
 
     public UserItems.Item[] getEventPresent(int eventid) {
         try {
-            /* 886 */ EventSceneData ev = getEventScene(eventid);
-            /* 887 */ int count = 0;
-            /* 888 */ for (int i = 0; i < ev.present.length; i++) {
-                /* 889 */ count += ((UserItems.Item[]) ev.present[i]).length;
+            EventSceneData ev = getEventScene(eventid);
+            int count = 0;
+            for (int i = 0; i < ev.present.length; i++) {
+                count += ((UserItems.Item[]) ev.present[i]).length;
             }
-            /* 891 */ UserItems.Item[] p = new UserItems.Item[count];
-            /* 892 */ count = 0;
-            /* 893 */ for (int j = 0; j < ev.present.length; j++) {
-                /* 894 */ UserItems.Item[] _p = (UserItems.Item[]) ev.present[j];
-                /* 895 */ for (int m = 0; m < _p.length; m++) {
-                    /* 896 */ p[count] = _p[m];
-                    /* 897 */ count++;
+            UserItems.Item[] p = new UserItems.Item[count];
+            count = 0;
+            for (int j = 0; j < ev.present.length; j++) {
+                UserItems.Item[] _p = (UserItems.Item[]) ev.present[j];
+                for (int m = 0; m < _p.length; m++) {
+                    p[count] = _p[m];
+                    count++;
                 }
             }
-            /* 900 */ return UserItems.convertTreasure(p);
-            /* 901 */ } catch (Exception ex) {
-            /* 902 */ return null;
+            return UserItems.convertTreasure(p);
+        } catch (Exception ex) {
+            return null;
         }
     }
 
     public UserItems.Item[] getNpcPresent(int npcid, int presentindex) {
         try {
-            /* 908 */ NPCInfo npcinfo = getNPCInfo(npcid);
-            /* 909 */ UserItems.Item[] p = (UserItems.Item[]) npcinfo.talkpresent[presentindex];
-            /* 910 */ return UserItems.convertTreasure(p);
-            /* 911 */ } catch (Exception ex) {
-            /* 912 */ return null;
+            NPCInfo npcinfo = getNPCInfo(npcid);
+            UserItems.Item[] p = (UserItems.Item[]) npcinfo.talkpresent[presentindex];
+            return UserItems.convertTreasure(p);
+        } catch (Exception ex) {
+            return null;
         }
     }
 
     public UserItems.Item[] getQuestPresent(int qid, int presentindex) {
         try {
-            /* 918 */ QuestData qd = getQuest(qid);
-            /* 919 */ UserItems.Item[] p = (UserItems.Item[]) qd.talkpresent[presentindex];
-            /* 920 */ return UserItems.convertTreasure(p);
-            /* 921 */ } catch (Exception ex) {
-            /* 922 */ return null;
+            QuestData qd = getQuest(qid);
+            UserItems.Item[] p = (UserItems.Item[]) qd.talkpresent[presentindex];
+            return UserItems.convertTreasure(p);
+        } catch (Exception ex) {
+            return null;
         }
     }
 
     public UserItems.Item[] getQuestionaryPresent(int presentindex) {
         try {
-            /* 928 */ UserItems.Item[] p = (UserItems.Item[]) this.questionary.talkpresent[presentindex];
-            /* 929 */ return UserItems.convertTreasure(p);
-            /* 930 */ } catch (Exception ex) {
-            /* 931 */ return null;
+            UserItems.Item[] p = (UserItems.Item[]) this.questionary.talkpresent[presentindex];
+            return UserItems.convertTreasure(p);
+        } catch (Exception ex) {
+            return null;
         }
     }
 
     public MaterialData getMaterial(int id) {
-        /* 936 */ return (id < 0 || id >= this.mat.length) ? null : this.mat[id];
+        return (id < 0 || id >= this.mat.length) ? null : this.mat[id];
     }
 
     public QuestData getQuest(int id) {
-        /* 941 */ return (id < 0 || id >= this.quest.length) ? null : this.quest[id];
+        return (id < 0 || id >= this.quest.length) ? null : this.quest[id];
     }
 
     public QuestData.RankupQuestData getRankupQuest(UserData ud) {
-        /* 945 */ for (int i = 0; i < this.rankupquest.length; i++) {
-            /* 946 */ if (this.rankupquest[i] != null &&
-            /* 947 */ !(this.rankupquest[i]).disable &&
-            /* 948 */ !this.rankupquest[i].isClear(ud) && this.rankupquest[i].checkSubFlags(ud)
+        for (int i = 0; i < this.rankupquest.length; i++) {
+            if (this.rankupquest[i] != null &&
+                    !(this.rankupquest[i]).disable &&
+                    !this.rankupquest[i].isClear(ud) && this.rankupquest[i].checkSubFlags(ud)
                     && !isDisableEvent((this.rankupquest[i]).eventid)) {
-                /* 949 */ return this.rankupquest[i];
+                return this.rankupquest[i];
             }
         }
-        /* 952 */ return null;
+        return null;
     }
 
     public int getPreRankupQuest(int r) {
-        /* 956 */ if (this.rankupquest == null)
+        if (this.rankupquest == null)
             return 0;
 
-        /* 958 */ Comparator<? super Integer> c = new Comparator() {
+        Comparator<? super Integer> c = new Comparator() {
             public int compare(Object obj, Object obj1) {
-                /* 960 */ if (obj instanceof Integer && obj1 instanceof Integer) {
-                    /* 961 */ int t1 = ((Integer) obj).intValue();
-                    /* 962 */ int t2 = ((Integer) obj1).intValue();
-                    /* 963 */ return (t1 == t2) ? 0 : ((t1 > t2) ? 1 : -1);
+                if (obj instanceof Integer && obj1 instanceof Integer) {
+                    int t1 = ((Integer) obj).intValue();
+                    int t2 = ((Integer) obj1).intValue();
+                    return (t1 == t2) ? 0 : ((t1 > t2) ? 1 : -1);
                 }
-                /* 965 */ return 0;
+                return 0;
             }
         };
 
-        /* 969 */ ArrayList<Integer> tmp = new ArrayList<Integer>();
-        /* 970 */ for (int i = 0; i < this.rankupquest.length; i++) {
-            /* 971 */ if (!(this.rankupquest[i]).disable
+        ArrayList<Integer> tmp = new ArrayList<Integer>();
+        for (int i = 0; i < this.rankupquest.length; i++) {
+            if (!(this.rankupquest[i]).disable
                     && !tmp.contains(Integer.valueOf(this.rankupquest[i].getRank()))) {
-                /* 972 */ tmp.add(Integer.valueOf(this.rankupquest[i].getRank()));
+                tmp.add(Integer.valueOf(this.rankupquest[i].getRank()));
             }
         }
 
-        /* 976 */ if (tmp.size() > 0) {
-            /* 977 */ Integer[] ret = tmp.<Integer>toArray(new Integer[tmp.size()]);
-            /* 978 */ Arrays.sort(ret, c);
+        if (tmp.size() > 0) {
+            Integer[] ret = tmp.<Integer>toArray(new Integer[tmp.size()]);
+            Arrays.sort(ret, c);
 
-            /* 980 */ if (r <= ret[0].intValue())
+            if (r <= ret[0].intValue())
                 return -1;
-            /* 981 */ for (int j = 1; j < ret.length; j++) {
-                /* 982 */ if (r <= ret[j].intValue()) {
-                    /* 983 */ return ret[j - 1].intValue();
+            for (int j = 1; j < ret.length; j++) {
+                if (r <= ret[j].intValue()) {
+                    return ret[j - 1].intValue();
                 }
             }
         }
-        /* 987 */ return 0;
+        return 0;
     }
 
     public ChallengeData getChallenge(int id) {
-        /* 991 */ return (id < 0 || id >= this.challenge.length) ? null : this.challenge[id];
+        return (id < 0 || id >= this.challenge.length) ? null : this.challenge[id];
     }
 
     public QuestBuyData getQuestBuyData(int id) {
-        /* 995 */ return (id < 0 || id >= this.questbuy.length) ? null : this.questbuy[id];
+        return (id < 0 || id >= this.questbuy.length) ? null : this.questbuy[id];
     }
 
     public int getUnitProgress(int id) {
-        /* 999 */ QuestData q = getQuest(id);
-        /* 1000 */ if (q == null || q.arg == null)
+        QuestData q = getQuest(id);
+        if (q == null || q.arg == null)
             return 0;
-        /* 1001 */ if (q.arg instanceof int[][]) {
-            /* 1002 */ int[][] data = (int[][]) q.arg;
-            /* 1003 */ if (data.length == 0)
+        if (q.arg instanceof int[][]) {
+            int[][] data = (int[][]) q.arg;
+            if (data.length == 0)
                 return 0;
-            /* 1004 */ return q.ordernum / data.length;
+            return q.ordernum / data.length;
         }
-        /* 1006 */ return 0;
+        return 0;
     }
 
     public int getStateProgress(int id, int progress) {
-        /* 1010 */ int unit = getUnitProgress(id);
-        /* 1011 */ if (unit == 0)
+        int unit = getUnitProgress(id);
+        if (unit == 0)
             return -1;
 
-        /* 1013 */ return progress % unit;
+        return progress % unit;
     }
 
     public MyRoomStage getMyRoom(int id) {
-        /* 1017 */ return (id < 0 || id >= this.myroom.length) ? null : this.myroom[id];
+        return (id < 0 || id >= this.myroom.length) ? null : this.myroom[id];
     }
 
     public MyRoomFurniture getFurniture(int id) {
-        /* 1021 */ return (id < 0 || id >= this.furniture.length) ? null : this.furniture[id];
+        return (id < 0 || id >= this.furniture.length) ? null : this.furniture[id];
     }
 
     public MyRoomTutorialData getMyRoomTutorialData(int id) {
-        /* 1025 */ return (id >= 0 && this.myroomtutorial != null && id < this.myroomtutorial.length)
+        return (id >= 0 && this.myroomtutorial != null && id < this.myroomtutorial.length)
                 ? this.myroomtutorial[id]
                 : null;
     }
 
     public ETCItem getETCItem(int id) {
-        /* 1029 */ return (id < 0 || id >= this.etc.length) ? null : this.etc[id];
+        return (id < 0 || id >= this.etc.length) ? null : this.etc[id];
     }
 
     public EventItem getEventItem(int id) {
-        /* 1033 */ return (id < 0 || id >= this.eventitem.length) ? null : this.eventitem[id];
+        return (id < 0 || id >= this.eventitem.length) ? null : this.eventitem[id];
     }
 
     public boolean checkRank(int id) {
-        /* 1037 */ RankData.Rank d = getRank(id);
-        /* 1038 */ return (d != null && !d.isPrivately());
+        RankData.Rank d = getRank(id);
+        return (d != null && !d.isPrivately());
     }
 
     public RankData.Rank getRank(int id) {
-        /* 1042 */ return (id < 0 || id >= this.rank.rank.length) ? null : this.rank.rank[id];
+        return (id < 0 || id >= this.rank.rank.length) ? null : this.rank.rank[id];
     }
 
     public RankData.Rank getFormulaRank() {
-        /* 1046 */ return getRank(50);
+        return getRank(50);
     }
 
     public BingoData getBingo(int id) {
-        /* 1050 */ return (id < 0 || id >= this.bingo.length) ? null : this.bingo[id];
+        return (id < 0 || id >= this.bingo.length) ? null : this.bingo[id];
     }
 
     public NPCItem getNPCItem(int id) {
-        /* 1054 */ return (id < 0 || id >= this.npcitem.length) ? null : this.npcitem[id];
+        return (id < 0 || id >= this.npcitem.length) ? null : this.npcitem[id];
     }
 
     public Object[] getStyleGroup(int group) {
-        /* 1058 */ ArrayList<StyleData> a = new ArrayList();
-        /* 1059 */ for (int i = 0; i < this.style.length;) {
+        ArrayList<StyleData> a = new ArrayList();
+        for (int i = 0; i < this.style.length;) {
             if ((getStyle(i)).group == group)
                 a.add(getStyle(i));
             i++;
         }
-        /* 1060 */ return (a.size() == 0) ? null : a.toArray();
+        return (a.size() == 0) ? null : a.toArray();
     }
 
     public Object[] getStyleID(int group) {
-        /* 1064 */ ArrayList<Integer> a = new ArrayList();
-        /* 1065 */ for (int i = 0; i < this.style.length;) {
+        ArrayList<Integer> a = new ArrayList();
+        for (int i = 0; i < this.style.length;) {
             if ((getStyle(i)).group == group)
                 a.add(Integer.valueOf(i));
             i++;
         }
-        /* 1066 */ return (a.size() == 0) ? null : a.toArray();
+        return (a.size() == 0) ? null : a.toArray();
     }
 
     public AmpedItem getAmpedItem(int kind, int id) {
-        /* 1070 */ switch (kind) {
+        switch (kind) {
             case 0:
-                /* 1071 */ return (AmpedItem) getStyle(id);
-            /* 1072 */ case 5:
+                return (AmpedItem) getStyle(id);
+            case 5:
                 return (AmpedItem) getAccs(id);
-            /* 1073 */ case 1:
+            case 1:
                 return (AmpedItem) getHead(id);
-            /* 1074 */ case 2:
+            case 2:
                 return (AmpedItem) getFace(id);
-            /* 1075 */ case 3:
+            case 3:
                 return (AmpedItem) getBody(id);
-            /* 1076 */ case 4:
+            case 4:
                 return (AmpedItem) getDecoration(id);
             case 8:
             case 18:
-                /* 1078 */ return (AmpedItem) getEmotion(id);
-            /* 1079 */ case 11:
+                return (AmpedItem) getEmotion(id);
+            case 11:
                 return (AmpedItem) getQuest(id);
-            /* 1080 */ case 7:
+            case 7:
                 return (AmpedItem) getWeapon(id);
-            /* 1081 */ case 6:
+            case 6:
                 return (AmpedItem) getSkill(id);
-            /* 1082 */ case 12:
+            case 12:
                 return (AmpedItem) getMaterial(id);
-            /* 1083 */ case 13:
+            case 13:
                 return (AmpedItem) getFurniture(id);
-            /* 1084 */ case 14:
+            case 14:
                 return (AmpedItem) getMyRoom(id);
-            /* 1085 */ case 10:
+            case 10:
                 return (AmpedItem) getETCItem(id);
-            /* 1086 */ case 15:
+            case 15:
                 return (AmpedItem) getEventItem(id);
-            /* 1087 */ case 16:
+            case 16:
                 return (AmpedItem) getVoiceSet(id);
-            /* 1088 */ case 21:
+            case 21:
                 return (AmpedItem) FluidSetting.getSetting().getItemPack(id);
-            /* 1089 */ case 26:
+            case 26:
                 return (AmpedItem) FluidSetting.getSetting().getAutoSetItemPack(id);
-            /* 1090 */ case 17:
+            case 17:
                 return (AmpedItem) getRank(id);
             case 22:
-                /* 1092 */ return (AmpedItem) new PointItem(0, id);
-            /* 1093 */ case 23:
+                return (AmpedItem) new PointItem(0, id);
+            case 23:
                 return (AmpedItem) new PointItem(1, id);
-            /* 1094 */ case 9:
+            case 9:
                 return (id == 0) ? null : (AmpedItem) new SkinItem(id);
-            /* 1095 */ case 24:
+            case 24:
                 return (AmpedItem) getQuestBuyData(id);
-            /* 1096 */ case 25:
+            case 25:
                 return (AmpedItem) getNPCItem(id);
         }
 
-        /* 1098 */ throw new NullPointerException("INVALID KIND : " + kind);
+        throw new NullPointerException("INVALID KIND : " + kind);
     }
 
     public RandomTreasure[] getRandomTreasure() {
-        /* 1102 */ return this.randtreasure;
+        return this.randtreasure;
     }
 
     public RandomTreasure2 getRandomTreasure2() {
-        /* 1106 */ return this.randtreasure2;
+        return this.randtreasure2;
     }
 
     public RandomGuardianTreasure[] getRandomGuardianTreasure() {
-        /* 1110 */ return this.randguardiantreasure;
+        return this.randguardiantreasure;
     }
 
     public boolean isUsableSkinBBS(UserData ud) {
-        /* 1114 */ if (this.skinbbs_usablerank == 0)
+        if (this.skinbbs_usablerank == 0)
             return true;
-        /* 1115 */ if (ud == null || ud.info == null || ud.info.getRank(true) == null)
+        if (ud == null || ud.info == null || ud.info.getRank(true) == null)
             return true;
 
-        /* 1117 */ return ((ud.info.getRank(true)).idx >= this.skinbbs_usablerank);
+        return ((ud.info.getRank(true)).idx >= this.skinbbs_usablerank);
     }
 
     public FairyGachaList getFairyGachaList(int list) {
-        /* 1121 */ if (list < 0 || this.fairygacha == null || list > this.fairygacha.length)
+        if (list < 0 || this.fairygacha == null || list > this.fairygacha.length)
             return null;
-        /* 1122 */ return this.fairygacha[list];
+        return this.fairygacha[list];
     }
 
     public boolean restrictionGachaRMCharge() {
-        /* 1131 */ String key = "$gacha.rmchargeweb.url";
-        /* 1132 */ String url = getSetting().getLocalText(key);
-        /* 1133 */ if (!url.equals(key) && !url.equals(""))
+        String key = "$gacha.rmchargeweb.url";
+        String url = getSetting().getLocalText(key);
+        if (!url.equals(key) && !url.equals(""))
             return true;
-        /* 1134 */ return false;
+        return false;
     }
 
     public LightData getStageLight(int id) {
-        /* 1145 */ return (id < 0 || id >= this.stagelight.length || this.stagelight[id] == null) ? this.stagelight[0]
+        return (id < 0 || id >= this.stagelight.length || this.stagelight[id] == null) ? this.stagelight[0]
                 : this.stagelight[id];
     }
 
     public PostEffectData getStageEffect(int id) {
-        /* 1149 */ return (id < 0 || id >= this.postefx.length || this.postefx[id] == null) ? null : this.postefx[id];
+        return (id < 0 || id >= this.postefx.length || this.postefx[id] == null) ? null : this.postefx[id];
     }
 
     public HitEffectData getHitEffect(int id) {
-        /* 1153 */ return (id >= 0 && id < this.hitefx.length) ? this.hitefx[id] : null;
+        return (id >= 0 && id < this.hitefx.length) ? this.hitefx[id] : null;
     }
 
     public Resource getLocalResource(String s) {
         System.out.println(this.localres);
-        /* 1160 */ return this.localres.getResource(s);
+        return this.localres.getResource(s);
     }
 
     public Object getLocalContent(String s) {
-        /* 1164 */ Resource r = this.localres.getResource(s);
-        /* 1165 */ return (r == null) ? null : r.getContent();
+        Resource r = this.localres.getResource(s);
+        return (r == null) ? null : r.getContent();
     }
 
     public Object getSearchedContent(String s) {
-        /* 1170 */ Resource r = this.localres.getResource(s);
-        /* 1171 */ return (r == null) ? ResourceManager.getContent("/" + s) : r.getContent();
+        Resource r = this.localres.getResource(s);
+        return (r == null) ? ResourceManager.getContent("/" + s) : r.getContent();
     }
 
     public String getLocalText(String key) {
-        /* 1175 */ String s = (String) this.dicts.get(key);
-        /* 1176 */ return (s == null) ? key : s;
+        String s = (String) this.dicts.get(key);
+        return (s == null) ? key : s;
     }
 
     public String getLocalTextOrNull(String key) {
-        /* 1180 */ String s = (String) this.dicts.get(key);
-        /* 1181 */ return (s == null) ? null : s;
+        String s = (String) this.dicts.get(key);
+        return (s == null) ? null : s;
     }
 
     public String getLocalText(String key, Object... arg) {
-        /* 1185 */ String s = (String) this.dicts.get(key);
-        /* 1186 */ return (s == null) ? key : (new Formatter()).format(s, arg).toString();
+        String s = (String) this.dicts.get(key);
+        return (s == null) ? key : (new Formatter()).format(s, arg).toString();
     }
 
     public KWTInfo kwtinfo(String pf) {
-        /* 1190 */ KWTInfo i = (KWTInfo) this.kwtinfo.get(pf);
-        /* 1191 */ if (i == null) {
-            /* 1192 */ i = new KWTInfo();
-            /* 1193 */ this.kwtinfo.put(pf, i);
+        KWTInfo i = (KWTInfo) this.kwtinfo.get(pf);
+        if (i == null) {
+            i = new KWTInfo();
+            this.kwtinfo.put(pf, i);
         }
-        /* 1195 */ return i;
+        return i;
     }
 
     public KWTInfo getPlatformKWTInfo() {
-        /* 1199 */ String os = System.getProperty("os.name");
-        /* 1200 */ if (os.startsWith("Windo")) {
-            /* 1201 */ return (KWTInfo) this.kwtinfo.get("win32");
+        String os = System.getProperty("os.name");
+        if (os.startsWith("Windo")) {
+            return (KWTInfo) this.kwtinfo.get("win32");
         }
-        /* 1203 */ if (os.indexOf("Mac OS X") != -1) {
-            /* 1204 */ return (KWTInfo) this.kwtinfo.get("mac");
+        if (os.indexOf("Mac OS X") != -1) {
+            return (KWTInfo) this.kwtinfo.get("mac");
         }
-        /* 1206 */ return null;
+        return null;
     }
 
     public void addDict(String key, String val) {
-        /* 1215 */ if (!key.startsWith("$"))
+        if (!key.startsWith("$"))
             throw new RuntimeException("Dictionary key must start with \"$\"");
-        /* 1216 */ this.dicts.put(key, val);
+        this.dicts.put(key, val);
     }
 
-    /* 1223 */ static final String[][] texcolor = new String[][] { { "y", "w", "b" }, { "bl", "r", "XX" } };
+    static final String[][] texcolor = new String[][] { { "y", "w", "b" }, { "bl", "r", "XX" } };
 
     public void bodyset(int baseid, StyleData.Body basebody) {
-        /* 1225 */ if (this.body == null) {
-            /* 1226 */ this.body = new StyleData.Body[baseid + 9];
-        }
-        /* 1228 */ else if (this.body.length < baseid + 9) {
-            /* 1229 */ StyleData.Body[] newb = new StyleData.Body[baseid + 9];
-            /* 1230 */ System.arraycopy(this.body, 0, newb, 0, this.body.length);
-            /* 1231 */ this.body = newb;
+        if (this.body == null) {
+            this.body = new StyleData.Body[baseid + 9];
+        } else if (this.body.length < baseid + 9) {
+            StyleData.Body[] newb = new StyleData.Body[baseid + 9];
+            System.arraycopy(this.body, 0, newb, 0, this.body.length);
+            this.body = newb;
         }
 
-        /* 1234 */ for (int l = 0; l < 9; l++) {
-            /* 1235 */ StyleData.Body b = basebody.clone();
-            /* 1236 */ String btex = b.texture;
-            /* 1237 */ for (int j = 0; j < texcolor.length; j++) {
-                /* 1238 */ b.texture = String.valueOf(texcolor[j][l / 3]) + "/" + btex + "_" + texcolor[j][l / 3]
+        for (int l = 0; l < 9; l++) {
+            StyleData.Body b = basebody.clone();
+            String btex = b.texture;
+            for (int j = 0; j < texcolor.length; j++) {
+                b.texture = String.valueOf(texcolor[j][l / 3]) + "/" + btex + "_" + texcolor[j][l / 3]
                         + (l % 3 + 1);
-                /* 1239 */ b.color = j * 3 + l / 3;
-                /* 1240 */ if (b.hasTexture()) {
-                    /* 1241 */ if (b.texture2 != null) {
-                        /* 1242 */ b.texture2 = String.valueOf(texcolor[j][l / 3]) + "/" + b.texture2 + "_"
+                b.color = j * 3 + l / 3;
+                if (b.hasTexture()) {
+                    if (b.texture2 != null) {
+                        b.texture2 = String.valueOf(texcolor[j][l / 3]) + "/" + b.texture2 + "_"
                                 + texcolor[j][l / 3] + (l % 3 + 1);
                     }
-                    /* 1244 */ this.body[baseid + l] = b;
+                    this.body[baseid + l] = b;
                     break;
                 }
             }
@@ -1377,1053 +1374,1048 @@ public class GameSetting implements Externalizable {
     }
 
     public void bodyOverride(int baseid, String name) {
-        /* 1252 */ for (int l = baseid; l < baseid + 9; l++) {
-            /* 1253 */ if (l < this.body.length && this.body[l] != null)
-                /* 1254 */ (this.body[l]).name = name;
+        for (int l = baseid; l < baseid + 9; l++) {
+            if (l < this.body.length && this.body[l] != null)
+                (this.body[l]).name = name;
         }
     }
 
     public void headset(int baseid, StyleData.Head basehead) {
-        /* 1259 */ headset(baseid, 10, basehead);
+        headset(baseid, 10, basehead);
     }
 
     public void headset(int baseid, int range, StyleData.Head basehead) {
-        /* 1263 */ if (this.head == null) {
-            /* 1264 */ this.head = new StyleData.Head[baseid + range];
-        }
-        /* 1266 */ else if (this.head.length < baseid + range) {
-            /* 1267 */ StyleData.Head[] newh = new StyleData.Head[baseid + range];
-            /* 1268 */ System.arraycopy(this.head, 0, newh, 0, this.head.length);
-            /* 1269 */ this.head = newh;
+        if (this.head == null) {
+            this.head = new StyleData.Head[baseid + range];
+        } else if (this.head.length < baseid + range) {
+            StyleData.Head[] newh = new StyleData.Head[baseid + range];
+            System.arraycopy(this.head, 0, newh, 0, this.head.length);
+            this.head = newh;
         }
 
-        /* 1272 */ for (int l = 0; l < range; l++) {
-            /* 1273 */ StyleData.Head h = basehead.clone();
-            /* 1274 */ h.texture = String.valueOf(h.texture) + "_" + l + ".agi";
-            /* 1275 */ if (h.hasTexture()) {
-                /* 1276 */ this.head[baseid + l] = h;
+        for (int l = 0; l < range; l++) {
+            StyleData.Head h = basehead.clone();
+            h.texture = String.valueOf(h.texture) + "_" + l + ".agi";
+            if (h.hasTexture()) {
+                this.head[baseid + l] = h;
             }
         }
     }
 
     public void headOverride(int baseid, String name) {
-        /* 1282 */ for (int l = baseid; l < baseid + 10; l++) {
-            /* 1283 */ if (l < this.head.length && this.head[l] != null)
-                /* 1284 */ (this.head[l]).name = name;
+        for (int l = baseid; l < baseid + 10; l++) {
+            if (l < this.head.length && this.head[l] != null)
+                (this.head[l]).name = name;
         }
     }
 
     public void decoset(int baseid, StyleData.Decoration basedeco) {
-        /* 1289 */ if (this.deco == null) {
-            /* 1290 */ this.deco = new StyleData.Decoration[baseid + 10];
-        }
-        /* 1292 */ else if (this.deco.length < baseid + 10) {
-            /* 1293 */ StyleData.Decoration[] newd = new StyleData.Decoration[baseid + 10];
-            /* 1294 */ System.arraycopy(this.deco, 0, newd, 0, this.deco.length);
-            /* 1295 */ this.deco = newd;
+        if (this.deco == null) {
+            this.deco = new StyleData.Decoration[baseid + 10];
+        } else if (this.deco.length < baseid + 10) {
+            StyleData.Decoration[] newd = new StyleData.Decoration[baseid + 10];
+            System.arraycopy(this.deco, 0, newd, 0, this.deco.length);
+            this.deco = newd;
         }
 
-        /* 1298 */ for (int l = 0; l < 10; l++) {
-            /* 1299 */ StyleData.Decoration d = basedeco.clone();
-            /* 1300 */ d.texture = String.valueOf(d.texture) + "_" + l;
-            /* 1301 */ if (d.hasTexture()) {
-                /* 1302 */ this.deco[baseid + l] = d;
+        for (int l = 0; l < 10; l++) {
+            StyleData.Decoration d = basedeco.clone();
+            d.texture = String.valueOf(d.texture) + "_" + l;
+            if (d.hasTexture()) {
+                this.deco[baseid + l] = d;
             }
         }
     }
 
     public void decoOverride(int baseid, String name) {
-        /* 1308 */ for (int l = baseid; l < baseid + 10; l++) {
-            /* 1309 */ if (l < this.deco.length && this.deco[l] != null)
-                /* 1310 */ (this.deco[l]).name = name;
+        for (int l = baseid; l < baseid + 10; l++) {
+            if (l < this.deco.length && this.deco[l] != null)
+                (this.deco[l]).name = name;
         }
     }
 
     public static ShopData newShopData() {
-        /* 1315 */ return new ShopData();
+        return new ShopData();
     }
 
     public static DungeonShopData newDungeonShopData() {
-        /* 1319 */ return new DungeonShopData();
+        return new DungeonShopData();
     }
 
     public DungeonShopData overrideDungeonShopData() {
-        /* 1323 */ return this.dungeonshop;
+        return this.dungeonshop;
     }
 
     public static GlobalShopData newGlobalShopData() {
-        /* 1327 */ return new GlobalShopData();
+        return new GlobalShopData();
     }
 
     public GlobalShopData overrideGlobalShopData() {
-        /* 1331 */ return this.globalshop;
+        return this.globalshop;
     }
 
     public ShopRotenData getShopRotenData() {
-        /* 1335 */ return this.shoprotendata;
+        return this.shoprotendata;
     }
 
     public VoiceSet getVoiceSet(int id) {
-        /* 1339 */ return this.voiceset[id];
+        return this.voiceset[id];
     }
 
     public String getReplaceFont() {
-        /* 1343 */ return this.replacefont;
+        return this.replacefont;
     }
 
     public boolean isCacheClearUpdate(int preversion) {
-        /* 1347 */ if (this.cacheclearversion == null || this.cacheclearversion.equals("") || preversion == -1)
+        if (this.cacheclearversion == null || this.cacheclearversion.equals("") || preversion == -1)
             return false;
         try {
-            /* 1349 */ int v = PackageUpdater.getVersionNumber(this.cacheclearversion);
-            /* 1350 */ return (preversion < v && v <= this.version);
-            /* 1351 */ } catch (Exception e) {
-            /* 1352 */ System.out.println("incorrect preversion...");
-            /* 1353 */ e.printStackTrace();
+            int v = PackageUpdater.getVersionNumber(this.cacheclearversion);
+            return (preversion < v && v <= this.version);
+        } catch (Exception e) {
+            System.out.println("incorrect preversion...");
+            e.printStackTrace();
 
-            /* 1355 */ return false;
+            return false;
         }
     }
 
     public BGMInfo getBGMInfo(String id) {
-        /* 1359 */ if (this.bgm == null)
+        if (this.bgm == null)
             return null;
-        /* 1360 */ for (int l = 0; l < this.bgm.length; l++) {
-            /* 1361 */ if (this.bgm[l] != null && (this.bgm[l]).id.equals(id))
+        for (int l = 0; l < this.bgm.length; l++) {
+            if (this.bgm[l] != null && (this.bgm[l]).id.equals(id))
                 return this.bgm[l];
         }
-        /* 1363 */ return null;
+        return null;
     }
 
     public String getRndBGMID() {
-        /* 1367 */ if (this.bgm == null || this.bgm.length < 1)
+        if (this.bgm == null || this.bgm.length < 1)
             return null;
-        /* 1368 */ return (this.bgm[KMath.rndi(this.bgm.length - 1)]).id;
+        return (this.bgm[KMath.rndi(this.bgm.length - 1)]).id;
     }
 
     public UserItems getInitialItems() {
-        /* 1375 */ return UserItems.getInitialItems(this.initialitems, System.currentTimeMillis());
+        return UserItems.getInitialItems(this.initialitems, System.currentTimeMillis());
     }
 
     public void rangeDemoItems(int num, UserItems.Item baseItem) {
-        /* 1382 */ for (int i = 0; i < num; i++) {
-            /* 1383 */ if (getAmpedItem(baseItem.kind, baseItem.id + i) != null) {
+        for (int i = 0; i < num; i++) {
+            if (getAmpedItem(baseItem.kind, baseItem.id + i) != null) {
 
-                /* 1385 */ UserItems.Item demoItem = baseItem.clone();
-                /* 1386 */ baseItem.id += i;
+                UserItems.Item demoItem = baseItem.clone();
+                baseItem.id += i;
                 try {
-                    /* 1388 */ this.demoitems.addItem(demoItem);
-                    /* 1389 */ } catch (Exception exception) {
+                    this.demoitems.addItem(demoItem);
+                } catch (Exception exception) {
                 }
             }
         }
     }
 
     private void finish() {
-        /* 1396 */ this.localres = ResourceManager.getResource("/lang/" + this.language);
-        /* 1398 */ this.locale = (Locale) localemap.get(this.language);
-        /* 1399 */ println("Locale : " + this.locale);
-        /* 1400 */ println("TimeZone : " + getTimeZone(true));
+        this.localres = ResourceManager.getResource("/lang/" + this.language);
+        this.locale = (Locale) localemap.get(this.language);
+        println("Locale : " + this.locale);
+        println("TimeZone : " + getTimeZone(true));
 
-        /* 1403 */ for (int l = 0; l < this.style.length; l++) {
-            /* 1404 */ if (this.style[l] != null)
+        for (int l = 0; l < this.style.length; l++) {
+            if (this.style[l] != null)
                 finishStyle(l, this.style[l]);
 
         }
 
-        /* 1409 */ boolean err = false;
+        boolean err = false;
         int j;
-        /* 1410 */ for (j = 0; j < this.npc.length; j++) {
-            /* 1411 */ NPCInfo n = this.npc[j];
-            /* 1412 */ if (n != null) {
+        for (j = 0; j < this.npc.length; j++) {
+            NPCInfo n = this.npc[j];
+            if (n != null) {
 
-                /* 1414 */ if (n.head != 0 && getHead(n.head) == null) {
-                    /* 1415 */ System.err.println("NPC[" + NPCInfo.npcIDName(j) + "] INVALID HEAD ID : " + n.head);
-                    /* 1416 */ err = true;
+                if (n.head != 0 && getHead(n.head) == null) {
+                    System.err.println("NPC[" + NPCInfo.npcIDName(j) + "] INVALID HEAD ID : " + n.head);
+                    err = true;
                 }
-                /* 1418 */ if (getBody(n.body) == null) {
-                    /* 1419 */ System.err.println("NPC[" + NPCInfo.npcIDName(j) + "] INVALID BODY ID : " + n.body);
-                    /* 1420 */ err = true;
+                if (getBody(n.body) == null) {
+                    System.err.println("NPC[" + NPCInfo.npcIDName(j) + "] INVALID BODY ID : " + n.body);
+                    err = true;
                 }
             }
         }
 
-        /* 1426 */ for (j = 0; j < this.guardian.length; j++) {
-            /* 1427 */ if (this.guardian[j] != null) {
-                /* 1428 */ err |= this.guardian[j].check();
-            }
-        }
+        // for (j = 0; j < this.guardian.length; j++) {
+        // if (this.guardian[j] != null) {
+        // err |= this.guardian[j].check();
+        // }
+        // }
 
-        /* 1433 */ for (j = 0; j < this.npctrade.length; j++) {
-            /* 1434 */ if (this.npctrade[j] != null)
-                this.npctrade[j].calcCheckSum();
+        // for (j = 0; j < this.npctrade.length; j++) {
+        // if (this.npctrade[j] != null)
+        // this.npctrade[j].calcCheckSum();
 
-        }
+        // }
 
-        /* 1438 */ for (int i = 0; i < this.challenge.length; i++) {
-            /* 1439 */ if (this.challenge[i] != null)
-                this.challenge[i].calcCheckSum();
+        // for (int i = 0; i < this.challenge.length; i++) {
+        // if (this.challenge[i] != null)
+        // this.challenge[i].calcCheckSum();
 
-        }
+        // }
 
-        /* 1444 */ finishShops((ShopData[]) this.dungeonshop.vender);
-        /* 1445 */ finishShops((ShopData[]) this.globalshop.vender);
+        // finishShops((ShopData[]) this.dungeonshop.vender);
+        // finishShops((ShopData[]) this.globalshop.vender);
 
-        /* 1447 */ makeFlagTable();
+        makeFlagTable();
 
-        /* 1451 */ GuildBattleSetting.data = this.guildbattlesettingdata;
+        GuildBattleSetting.data = this.guildbattlesettingdata;
 
-        /* 1453 */ if (err) {
-            /* 1454 */ System.exit(1);
+        if (err) {
+            System.exit(1);
         }
     }
 
     private void finishShops(ShopData... shops) {
-        /* 1459 */ for (int l = 0; l < shops.length; l++) {
-            /* 1460 */ if (shops[l] != null)
+        for (int l = 0; l < shops.length; l++) {
+            if (shops[l] != null)
                 shops[l].finish();
         }
     }
 
     private void finishStyle(int id, StyleData s) {
-        /* 1465 */ int[] i = new int[1000];
-        /* 1466 */ int c = 0;
+        int[] i = new int[1000];
+        int c = 0;
 
         int l;
 
-        /* 1470 */ for (l = 0; l < this.head.length; l++) {
-            /* 1471 */ if (this.head[l] != null && this.head[l].isWearable(id))
+        for (l = 0; l < this.head.length; l++) {
+            if (this.head[l] != null && this.head[l].isWearable(id))
                 i[c++] = l;
-            /* 1472 */ }
+        }
         s.heads = subarray(i, c);
-        /* 1473 */ c = 0;
+        c = 0;
 
-        /* 1475 */ for (l = 0; l < this.face.length; l++) {
-            /* 1476 */ if (this.face[l] != null && this.face[l].isWearable(id))
+        for (l = 0; l < this.face.length; l++) {
+            if (this.face[l] != null && this.face[l].isWearable(id))
                 i[c++] = l;
-            /* 1477 */ }
+        }
         s.faces = subarray(i, c);
-        /* 1478 */ c = 0;
+        c = 0;
 
-        /* 1480 */ for (l = 0; l < this.body.length; l++) {
-            /* 1481 */ if (this.body[l] != null && this.body[l].isWearable(id))
+        for (l = 0; l < this.body.length; l++) {
+            if (this.body[l] != null && this.body[l].isWearable(id))
                 i[c++] = l;
-            /* 1482 */ }
+        }
         s.bodies = subarray(i, c);
-        /* 1483 */ c = 0;
+        c = 0;
 
-        /* 1485 */ for (l = 0; l < this.deco.length; l++) {
-            /* 1486 */ if (this.deco[l] != null && this.deco[l].isWearable(id))
+        for (l = 0; l < this.deco.length; l++) {
+            if (this.deco[l] != null && this.deco[l].isWearable(id))
                 i[c++] = l;
-            /* 1487 */ }
+        }
         s.decos = subarray(i, c);
-        /* 1488 */ c = 0;
+        c = 0;
     }
 
     public boolean enableAdjust(int flags) {
-        /* 1499 */ return (((getSetting()).adjustbalanceflags & flags) != 0);
+        return (((getSetting()).adjustbalanceflags & flags) != 0);
     }
 
     public boolean isAdjust(int... flags) {
-        /* 1503 */ return enableAdjust(KotoriUtil.f(true, flags));
+        return enableAdjust(KotoriUtil.f(true, flags));
     }
 
     public void releaseVoices() {
-        /* 1511 */ for (int l = 0; l < this.voiceset.length; l++) {
-            /* 1512 */ if (this.voiceset[l] != null)
+        for (int l = 0; l < this.voiceset.length; l++) {
+            if (this.voiceset[l] != null)
                 this.voiceset[l].clearCache();
 
         }
     }
 
     public boolean assistDisabled(UserInfo gm, int type) {
-        /* 1518 */ if (gm.adminflag != 7 || this.assistanttype == 0)
+        if (gm.adminflag != 7 || this.assistanttype == 0)
             return false;
-        /* 1519 */ return ((type & 1 << this.assistanttype) != 0);
+        return ((type & 1 << this.assistanttype) != 0);
     }
 
     public void preloadUserInfo(UserInfo[] ui) {
-        /* 1526 */ if (ui == null)
-            /* 1527 */ return;
+        if (ui == null)
+            return;
         UserInfo i = null;
-        /* 1528 */ for (int l = 0; l < ui.length; l++) {
-            /* 1529 */ i = ui[l];
-            /* 1530 */ preloadUserInfo(i);
+        for (int l = 0; l < ui.length; l++) {
+            i = ui[l];
+            preloadUserInfo(i);
         }
     }
 
     public void preloadNPCInfo(int id) {
-        /* 1534 */ preloadUserInfo((UserInfo) getNPCInfo(id));
+        preloadUserInfo((UserInfo) getNPCInfo(id));
     }
 
     public void preloadNPCInfo(NPCInfo i) {
-        /* 1537 */ preloadUserInfo((UserInfo) i);
+        preloadUserInfo((UserInfo) i);
     }
 
     public void preloadUserInfo(UserInfo i) {
-        /* 1541 */ if (i == null)
+        if (i == null)
             return;
-        /* 1543 */ if (getStyle(i.style) != null)
+        if (getStyle(i.style) != null)
             getStyle(i.style).preload();
-        /* 1544 */ if (getWeapon(i.weapon) != null)
+        if (getWeapon(i.weapon) != null)
             getWeapon(i.weapon).preload();
 
-        /* 1546 */ if (getAccs(i.accs) != null)
+        if (getAccs(i.accs) != null)
             getAccs(i.accs).preloadActiveSkill(i.style);
-        /* 1547 */ if (getSkill(i.skill0) != null)
+        if (getSkill(i.skill0) != null)
             getSkill(i.skill0).preload();
-        /* 1548 */ if (getSkill(i.skill1) != null)
+        if (getSkill(i.skill1) != null)
             getSkill(i.skill1).preload();
-        /* 1549 */ if (getSkill(i.skill2) != null)
+        if (getSkill(i.skill2) != null)
             getSkill(i.skill2).preload();
-        /* 1550 */ if (getSkill(i.skill3) != null)
+        if (getSkill(i.skill3) != null)
             getSkill(i.skill3).preload();
 
-        /* 1552 */ if (getVoiceSet(i.voice) != null)
+        if (getVoiceSet(i.voice) != null)
             getVoiceSet(i.voice).preloard();
 
-        /* 1555 */ if (getBody(i.body) != null)
+        if (getBody(i.body) != null)
             getBody(i.body).preload();
-        /* 1556 */ if (getHead(i.head) != null)
+        if (getHead(i.head) != null)
             getHead(i.head).getHeadModel();
-        /* 1557 */ if (getFace(i.face) != null)
+        if (getFace(i.face) != null)
             getFace(i.face).getFaceModels();
-        /* 1558 */ if (getDecoration(i.deco) != null)
+        if (getDecoration(i.deco) != null)
             getDecoration(i.deco).getDecorationModels(i.face);
 
     }
 
     public void preloadTournament(UserInfo[] i) {
-        /* 1566 */ for (int l = 0; l < (this.scpinfo[0]).basescp.length;) {
+        for (int l = 0; l < (this.scpinfo[0]).basescp.length;) {
             ResourceManager.preloadContent("/action/" + (this.scpinfo[0]).basescp[l]);
             l++;
         }
 
-        /* 1569 */ DropStageItemEvent.preloadStageItem(0);
-        /* 1570 */ DropStageItemEvent.preloadStageItem(1);
+        DropStageItemEvent.preloadStageItem(0);
+        DropStageItemEvent.preloadStageItem(1);
 
-        /* 1573 */ preloadUserInfo(i);
+        preloadUserInfo(i);
     }
 
     public void preloadTournament() {
-        /* 1577 */ for (int l = 0; l < (this.scpinfo[0]).basescp.length;) {
+        for (int l = 0; l < (this.scpinfo[0]).basescp.length;) {
             ResourceManager.preloadContent("/action/" + (this.scpinfo[0]).basescp[l]);
             l++;
         }
 
-        /* 1580 */ DropStageItemEvent.preloadStageItem(0);
-        /* 1581 */ DropStageItemEvent.preloadStageItem(1);
+        DropStageItemEvent.preloadStageItem(0);
+        DropStageItemEvent.preloadStageItem(1);
     }
 
     private static int f(boolean flag, int... bit) {
-        /* 1586 */ return KotoriUtil.f(flag, bit);
+        return KotoriUtil.f(flag, bit);
     }
 
     private static boolean f(int flag, int bit) {
-        /* 1590 */ return ((flag & 1 << bit) != 0);
+        return ((flag & 1 << bit) != 0);
     }
 
     public static int bit(int... bit) {
-        /* 1594 */ return KotoriUtil.f(true, bit);
+        return KotoriUtil.f(true, bit);
     }
 
     public void writeExternal(ObjectOutput out) throws IOException {
-        /* 1602 */ out.writeObject(this.language);
-        /* 1603 */ out.writeObject(this.charset);
-        /* 1604 */ out.writeObject(this.timezone);
+        out.writeObject(this.language);
+        out.writeObject(this.charset);
+        out.writeObject(this.timezone);
 
-        /* 1606 */ out.writeObject(this.worldmap);
+        out.writeObject(this.worldmap);
 
-        /* 1608 */ writeArray((Externalizable[]) this.style, out);
-        /* 1609 */ writeArray((Externalizable[]) this.stylegroup, out);
-        /* 1610 */ writeArray((Externalizable[]) this.build, out);
-        /* 1611 */ writeArray((Externalizable[]) this.head, out);
-        /* 1612 */ writeArray((Externalizable[]) this.face, out);
-        /* 1613 */ writeArray((Externalizable[]) this.body, out);
-        /* 1614 */ writeArray((Externalizable[]) this.deco, out);
+        writeArray((Externalizable[]) this.style, out);
+        writeArray((Externalizable[]) this.stylegroup, out);
+        writeArray((Externalizable[]) this.build, out);
+        writeArray((Externalizable[]) this.head, out);
+        writeArray((Externalizable[]) this.face, out);
+        writeArray((Externalizable[]) this.body, out);
+        writeArray((Externalizable[]) this.deco, out);
 
-        /* 1616 */ writeArray((Externalizable[]) this.accs, out);
-        /* 1617 */ writeArray((Externalizable[]) this.weapon, out);
-        /* 1618 */ out.writeObject(this.skill);
+        writeArray((Externalizable[]) this.accs, out);
+        writeArray((Externalizable[]) this.weapon, out);
+        out.writeObject(this.skill);
 
-        /* 1620 */ writeArray((Externalizable[]) this.emo, out);
-        /* 1621 */ writeArray((Externalizable[]) this.semo, out);
+        writeArray((Externalizable[]) this.emo, out);
+        writeArray((Externalizable[]) this.semo, out);
 
-        /* 1623 */ writeArray((Externalizable[]) this.npc, out);
+        writeArray((Externalizable[]) this.npc, out);
 
-        /* 1625 */ writeArray((Externalizable[]) this.vehicle, out);
-        /* 1626 */ writeArray((Externalizable[]) this.spstyle, out);
+        writeArray((Externalizable[]) this.vehicle, out);
+        writeArray((Externalizable[]) this.spstyle, out);
 
-        /* 1628 */ out.writeObject(this.lounge);
-        /* 1629 */ writeArray((Externalizable[]) this.tour, out);
-        /* 1630 */ out.writeObject(this.old_arcade);
+        out.writeObject(this.lounge);
+        writeArray((Externalizable[]) this.tour, out);
+        out.writeObject(this.old_arcade);
 
-        /* 1632 */ writeArray((Externalizable[]) this.duel, out);
-        /* 1633 */ writeArray((Externalizable[]) this.duelnames, out);
-        /* 1634 */ writeArray((Externalizable[]) this.duelscores, out);
+        writeArray((Externalizable[]) this.duel, out);
+        writeArray((Externalizable[]) this.duelnames, out);
+        writeArray((Externalizable[]) this.duelscores, out);
 
-        /* 1637 */ if (this.eventbytes != null && this.event != null) {
-            /* 1638 */ byte[][] b = new byte[Math.max(this.event.length, this.eventbytes.length)][];
-            /* 1639 */ for (int l = 0; l < b.length; l++) {
-                /* 1640 */ if (l < this.event.length && this.event[l] != null) {
+        if (this.eventbytes != null && this.event != null) {
+            byte[][] b = new byte[Math.max(this.event.length, this.eventbytes.length)][];
+            for (int l = 0; l < b.length; l++) {
+                if (l < this.event.length && this.event[l] != null) {
                     b[l] = KotoriUtil.compress(this.event[l]);
-                }
-                /* 1641 */ else if (l < this.eventbytes.length && this.eventbytes[l] != null) {
+                } else if (l < this.eventbytes.length && this.eventbytes[l] != null) {
                     b[l] = this.eventbytes[l];
                 }
 
-                /* 1643 */ }
+            }
             out.writeObject(b);
-        }
-        /* 1645 */ else if (this.eventbytes != null) {
-            /* 1646 */ out.writeObject(this.eventbytes);
+        } else if (this.eventbytes != null) {
+            out.writeObject(this.eventbytes);
         } else {
-            /* 1648 */ byte[][] b = new byte[this.event.length][];
-            /* 1649 */ for (int l = 0; l < this.event.length; l++) {
-                /* 1650 */ if (this.event[l] != null)
+            byte[][] b = new byte[this.event.length][];
+            for (int l = 0; l < this.event.length; l++) {
+                if (this.event[l] != null)
                     b[l] = KotoriUtil.compress(this.event[l]);
             }
-            /* 1652 */ out.writeObject(b);
+            out.writeObject(b);
         }
-        /* 1654 */ out.writeObject(this.practice);
+        out.writeObject(this.practice);
 
-        /* 1656 */ writeArray((Externalizable[]) this.mat, out);
-        /* 1657 */ out.writeObject(this.mixmachine);
+        writeArray((Externalizable[]) this.mat, out);
+        out.writeObject(this.mixmachine);
 
-        /* 1659 */ writeArray((Externalizable[]) this.quest, out);
-        /* 1660 */ writeArray((Externalizable[]) this.challenge, out);
+        writeArray((Externalizable[]) this.quest, out);
+        writeArray((Externalizable[]) this.challenge, out);
 
-        /* 1662 */ out.writeObject(this.kwtinfo);
-        /* 1663 */ out.writeObject(this.dicts);
+        out.writeObject(this.kwtinfo);
+        out.writeObject(this.dicts);
 
-        /* 1665 */ out.writeObject(this.scpinfo);
+        out.writeObject(this.scpinfo);
 
-        /* 1667 */ out.writeObject(this.area);
+        out.writeObject(this.area);
 
-        /* 1669 */ out.writeObject(this.stagelight);
-        /* 1670 */ out.writeObject(this.hitefx);
-        /* 1671 */ out.writeObject(this.postefx);
+        out.writeObject(this.stagelight);
+        out.writeObject(this.hitefx);
+        out.writeObject(this.postefx);
 
-        /* 1673 */ out.writeObject(this.rank);
-        /* 1674 */ out.writeObject(this.ranking);
-        /* 1675 */ out.writeObject(this.guardian);
-        /* 1676 */ out.writeObject(this.arcade);
+        out.writeObject(this.rank);
+        out.writeObject(this.ranking);
+        out.writeObject(this.guardian);
+        out.writeObject(this.arcade);
 
-        /* 1678 */ writeArray((Externalizable[]) this.bgm, out);
-        /* 1679 */ writeArray((Externalizable[]) this.voiceset, out);
+        writeArray((Externalizable[]) this.bgm, out);
+        writeArray((Externalizable[]) this.voiceset, out);
 
-        /* 1681 */ writeArray((Externalizable[]) this.myroom, out);
-        /* 1682 */ writeArray((Externalizable[]) this.furniture, out);
-        /* 1683 */ writeArray((Externalizable[]) this.myroomtutorial, out);
-        /* 1684 */ writeArray((Externalizable[]) this.etc, out);
-        /* 1685 */ writeArray((Externalizable[]) this.eventitem, out);
-        /* 1686 */ writeArray((Externalizable[]) this.dicegame, out);
-        /* 1687 */ writeArray((Externalizable[]) this.bingo, out);
-        /* 1688 */ writeArray((Externalizable[]) this.npcitem, out);
+        writeArray((Externalizable[]) this.myroom, out);
+        writeArray((Externalizable[]) this.furniture, out);
+        writeArray((Externalizable[]) this.myroomtutorial, out);
+        writeArray((Externalizable[]) this.etc, out);
+        writeArray((Externalizable[]) this.eventitem, out);
+        writeArray((Externalizable[]) this.dicegame, out);
+        writeArray((Externalizable[]) this.bingo, out);
+        writeArray((Externalizable[]) this.npcitem, out);
 
-        /* 1690 */ writeArray((Externalizable[]) this.treasures, out);
-        /* 1691 */ writeArray((Externalizable[]) this.streettreasures, out);
+        writeArray((Externalizable[]) this.treasures, out);
+        writeArray((Externalizable[]) this.streettreasures, out);
 
-        /* 1693 */ out.writeObject(this.guild);
-        /* 1694 */ out.writeObject(this.dungeonshop);
-        /* 1695 */ out.writeObject(this.globalshop);
-        /* 1696 */ out.writeObject(this.shoprotendata);
+        out.writeObject(this.guild);
+        out.writeObject(this.dungeonshop);
+        out.writeObject(this.globalshop);
+        out.writeObject(this.shoprotendata);
 
-        /* 1698 */ out.writeObject(this.dropboost);
+        out.writeObject(this.dropboost);
 
-        /* 1700 */ out.writeObject(this.npctrade);
-        /* 1701 */ out.writeObject(this.npcintro);
+        out.writeObject(this.npctrade);
+        out.writeObject(this.npcintro);
 
-        /* 1703 */ out.writeObject(this.entrance);
+        out.writeObject(this.entrance);
 
-        /* 1705 */ out.writeObject(this.chatfilter);
+        out.writeObject(this.chatfilter);
 
-        /* 1707 */ writeArray((Externalizable[]) this.officialskins, out);
-        /* 1708 */ out.writeByte(this.defaultskinstock);
+        writeArray((Externalizable[]) this.officialskins, out);
+        out.writeByte(this.defaultskinstock);
 
-        /* 1710 */ writeArray((Externalizable[]) this.officialwebsite, out);
+        writeArray((Externalizable[]) this.officialwebsite, out);
 
-        /* 1712 */ out.writeObject(this.initialitems);
-        /* 1713 */ out.writeObject(this.demoitems);
+        out.writeObject(this.initialitems);
+        out.writeObject(this.demoitems);
 
-        /* 1715 */ out.writeObject(this.stnpcset);
-        /* 1716 */ out.writeObject(this.ufnpcset);
+        out.writeObject(this.stnpcset);
+        out.writeObject(this.ufnpcset);
 
-        /* 1718 */ out.writeObject(this.initkeyconf);
+        out.writeObject(this.initkeyconf);
 
-        /* 1720 */ out.writeObject(this.initskin);
+        out.writeObject(this.initskin);
 
-        /* 1722 */ out.writeObject(this.itemsort);
+        out.writeObject(this.itemsort);
 
-        /* 1724 */ out.writeObject(this.randtreasure);
-        /* 1725 */ out.writeObject(this.randguardiantreasure);
-        /* 1726 */ out.writeObject(this.randtreasure2);
+        out.writeObject(this.randtreasure);
+        out.writeObject(this.randguardiantreasure);
+        out.writeObject(this.randtreasure2);
 
-        /* 1728 */ out.writeObject(this.mailsort);
+        out.writeObject(this.mailsort);
 
-        /* 1730 */ out.writeObject(this.fairygacha);
+        out.writeObject(this.fairygacha);
 
-        /* 1732 */ out.writeObject(this.previewpos);
+        out.writeObject(this.previewpos);
 
-        /* 1734 */ out.writeObject(this.questpresent);
+        out.writeObject(this.questpresent);
 
-        /* 1737 */ int i = (this.xcguard ? 1 : 0) | (this.voiceenabled ? 2 : 0) | (this.fluidsetting_enabled ? 4 : 0)
-                | (this.skinbbsenabled ? 8 : 0) | (this.specialrankenabled ? 16 : 0) | (
-                /* 1738 */ this.areaopenguide ? 32 : 0) | (this.duelenabled ? 64 : 0) | (this.plainpassword ? 128 : 0)
-                | (this.autochannelselect ? 256 : 0) | (this.myroomstart ? 512 : 0) | (
-                /* 1739 */ this.worldmapenabled ? 1024 : 0) | (this.hideeventinfo ? 2048 : 0)
+        int i = (this.xcguard ? 1 : 0) | (this.voiceenabled ? 2 : 0) | (this.fluidsetting_enabled ? 4 : 0)
+                | (this.skinbbsenabled ? 8 : 0) | (this.specialrankenabled ? 16 : 0) | (this.areaopenguide ? 32 : 0)
+                | (this.duelenabled ? 64 : 0) | (this.plainpassword ? 128 : 0)
+                | (this.autochannelselect ? 256 : 0) | (this.myroomstart ? 512 : 0) | (this.worldmapenabled ? 1024 : 0)
+                | (this.hideeventinfo ? 2048 : 0)
                 | (this.destselection ? 4096 : 0) | (this.accessoryeffects ? 8192 : 0)
-                | (this.announcegacha ? 16384 : 0) | (
-                /* 1740 */ this.partytraining ? 32768 : 0) | (this.manualzoom ? 65536 : 0)
+                | (this.announcegacha ? 16384 : 0) | (this.partytraining ? 32768 : 0) | (this.manualzoom ? 65536 : 0)
                 | (this.loginquest ? 131072 : 0) | (this.allchatfilter ? 262144 : 0)
-                | (this.training_skilllist ? 524288 : 0) | (
-                /* 1741 */ this.pastquests ? 1048576 : 0) | (this.streetstyle ? 2097152 : 0)
+                | (this.training_skilllist ? 524288 : 0) | (this.pastquests ? 1048576 : 0)
+                | (this.streetstyle ? 2097152 : 0)
                 | (this.skipevents ? 4194304 : 0) | (this.beginnerhelp ? 8388608 : 0)
-                | (this.voicechatenabled ? 16777216 : 0) | (
-                /* 1742 */ this.softwarekeyboard ? 33554432 : 0) | (this.playtimelimitenabled ? 67108864 : 0)
+                | (this.voicechatenabled ? 16777216 : 0) | (this.softwarekeyboard ? 33554432 : 0)
+                | (this.playtimelimitenabled ? 67108864 : 0)
                 | (this.questnpcguide ? 134217728 : 0) | f(this.userid_email, new int[] { 28 })
-                | (this.observerenabled ? 536870912 : 0) | (
-                /* 1743 */ this.sdoa ? 1073741824 : 0) | (this.new_medal ? Integer.MIN_VALUE : 0);
-        /* 1744 */ out.writeInt(i);
+                | (this.observerenabled ? 536870912 : 0) | (this.sdoa ? 1073741824 : 0)
+                | (this.new_medal ? Integer.MIN_VALUE : 0);
+        out.writeInt(i);
 
-        /* 1747 */ i = (this.calendarenabled ? 1 : 0) | (this.charamakingscene2 ? 2 : 0) | (this.observergmonly ? 4 : 0)
-                | (this.shoplineupenabled ? 8 : 0) | (
-                /* 1748 */ this.gachalineupenabled ? 16 : 0) | (this.hwidcheck ? 32 : 0) | (this.teamsfenabled ? 64 : 0)
-                | (this.skiptutorial ? 128 : 0) | (
-                /* 1749 */ this.showservertime ? 256 : 0) | (this.new_username ? 512 : 0) | (this.navigation ? 1024 : 0)
-                | (this.everyrankupeventenabled ? 2048 : 0) | (
-                /* 1750 */ this.arcademodeenabled ? 4096 : 0) | (this.disablegetnewmedal ? 8192 : 0)
-                | (this.disconnectinfoenabled ? 16384 : 0) | (this.fairynpcenabled ? 32768 : 0) | (
-                /* 1751 */ this.zonesettingenabled ? 65536 : 0) | (this.globalshopenabled ? 131072 : 0)
-                | (this.gatroomexitdisable ? 262144 : 0) | (this.avataravilityenabled ? 524288 : 0) | (
-                /* 1752 */ this.newstoryepisodeenabled ? 1048576 : 0) | (this.privateavataruploaddisabled ? 2097152 : 0)
-                | (this.skineditequipaccsenabled ? 4194304 : 0) | (this.practiceextensionenabled ? 8388608 : 0) | (
-                /* 1753 */ this.tourrandequipenabled ? 16777216 : 0) | (this.checkguildname ? 33554432 : 0)
+        i = (this.calendarenabled ? 1 : 0) | (this.charamakingscene2 ? 2 : 0) | (this.observergmonly ? 4 : 0)
+                | (this.shoplineupenabled ? 8 : 0) | (this.gachalineupenabled ? 16 : 0) | (this.hwidcheck ? 32 : 0)
+                | (this.teamsfenabled ? 64 : 0)
+                | (this.skiptutorial ? 128 : 0) | (this.showservertime ? 256 : 0) | (this.new_username ? 512 : 0)
+                | (this.navigation ? 1024 : 0)
+                | (this.everyrankupeventenabled ? 2048 : 0) | (this.arcademodeenabled ? 4096 : 0)
+                | (this.disablegetnewmedal ? 8192 : 0)
+                | (this.disconnectinfoenabled ? 16384 : 0) | (this.fairynpcenabled ? 32768 : 0)
+                | (this.zonesettingenabled ? 65536 : 0) | (this.globalshopenabled ? 131072 : 0)
+                | (this.gatroomexitdisable ? 262144 : 0) | (this.avataravilityenabled ? 524288 : 0)
+                | (this.newstoryepisodeenabled ? 1048576 : 0) | (this.privateavataruploaddisabled ? 2097152 : 0)
+                | (this.skineditequipaccsenabled ? 4194304 : 0) | (this.practiceextensionenabled ? 8388608 : 0)
+                | (this.tourrandequipenabled ? 16777216 : 0) | (this.checkguildname ? 33554432 : 0)
                 | (this.lindamissionenabled ? 67108864 : 0) | (this.lanplayenabled ? 134217728 : 0);
-        /* 1754 */ out.writeInt(i);
+        out.writeInt(i);
 
-        /* 1757 */ i = (this.freermenabled ? 1 : 0) | (this.newrmchargeenabled ? 2 : 0)
+        i = (this.freermenabled ? 1 : 0) | (this.newrmchargeenabled ? 2 : 0)
                 | (this.duelrewardnomoney ? 4 : 0) | (this.fblistlimitenabled ? 8 : 0) |
-                /* 1758 */ f(this.accs_potential, new int[] { 4 }) | (this.automatchenabled ? 32 : 0)
-                | (this.wpgenabled ? 64 : 0) | (this.new_spyhuntquest ? 128 : 0) | (
-                /* 1759 */ this.noreward_sameaddr ? 256 : 0) | (this.overitemsendmailenabled ? 512 : 0)
-                | (this.ranklimitenabled ? 1024 : 0) | (this.showchannelinfo ? 2048 : 0) | (
-                /* 1760 */ this.onechgroupselectenabled ? 4096 : 0) | (this.manualupdatelauncherenabled ? 8192 : 0)
-                | (this.getsomepresentmailenabled ? 16384 : 0) | (this.openallmemenabled ? 32768 : 0) | (
-                /* 1761 */ this.chbbsenabled ? 65536 : 0) | (this.questmenutabenabled ? 131072 : 0)
-                | (this.dueldurationentryenabled ? 262144 : 0) | (this.checkchratejump ? 524288 : 0) | (
-                /* 1762 */ this.tourplayernumcheckenabled ? 1048576 : 0) | (this.questpopupenabled ? 2097152 : 0)
-                | (this.technamedisabled ? 4194304 : 0) | (this.istutorialbuttoncheck ? 8388608 : 0) | (
-                /* 1763 */ this.portaldbenabled ? 16777216 : 0) | (this.unitedfightenabled ? 33554432 : 0)
-                | (this.rankupquestsettingenabled ? 67108864 : 0) | (this.gg_enable ? 134217728 : 0) | (
-                /* 1764 */ this.gg_auth_enable ? 268435456 : 0) | (this.gg_debuglog_enable ? 536870912 : 0)
+                f(this.accs_potential, new int[] { 4 }) | (this.automatchenabled ? 32 : 0)
+                | (this.wpgenabled ? 64 : 0) | (this.new_spyhuntquest ? 128 : 0) | (this.noreward_sameaddr ? 256 : 0)
+                | (this.overitemsendmailenabled ? 512 : 0)
+                | (this.ranklimitenabled ? 1024 : 0) | (this.showchannelinfo ? 2048 : 0)
+                | (this.onechgroupselectenabled ? 4096 : 0) | (this.manualupdatelauncherenabled ? 8192 : 0)
+                | (this.getsomepresentmailenabled ? 16384 : 0) | (this.openallmemenabled ? 32768 : 0)
+                | (this.chbbsenabled ? 65536 : 0) | (this.questmenutabenabled ? 131072 : 0)
+                | (this.dueldurationentryenabled ? 262144 : 0) | (this.checkchratejump ? 524288 : 0)
+                | (this.tourplayernumcheckenabled ? 1048576 : 0) | (this.questpopupenabled ? 2097152 : 0)
+                | (this.technamedisabled ? 4194304 : 0) | (this.istutorialbuttoncheck ? 8388608 : 0)
+                | (this.portaldbenabled ? 16777216 : 0) | (this.unitedfightenabled ? 33554432 : 0)
+                | (this.rankupquestsettingenabled ? 67108864 : 0) | (this.gg_enable ? 134217728 : 0)
+                | (this.gg_auth_enable ? 268435456 : 0) | (this.gg_debuglog_enable ? 536870912 : 0)
                 | (this.presentskinenabled ? 1073741824 : 0) | (this.itemsortenabled ? Integer.MIN_VALUE : 0);
-        /* 1765 */ out.writeInt(i);
+        out.writeInt(i);
 
-        /* 1768 */ i = (this.dogfightenabled ? 1 : 0) | (this.linebreakavoidwordchange ? 2 : 0)
-                | (this.showtoppanelmyinfo ? 4 : 0) | (this.tourrnddropenabled ? 8 : 0) | (
-                /* 1769 */ this.reduceStrWidth_Adv ? 16 : 0) | (this.shortnavi ? 32 : 0)
-                | (this.shopnpcrotenenabled ? 64 : 0) | (this.writepresetguildiconenabled ? 128 : 0) | (
-                /* 1770 */ this.mailsortenabled ? 256 : 0) | (this.newstoryepisode2enabled ? 512 : 0)
-                | (this.gg_auth_checkerror_enable ? 1024 : 0) | (this.skinchatenabled ? 2048 : 0) | (
-                /* 1771 */ this.fullscreenminimizationenabled ? 8192 : 0) | (this.clockspeedcheckenabled ? 16384 : 0)
-                | (this.guardianrnddropenabled ? 32768 : 0) | (
-                /* 1772 */ this.titleaccountregistrationenabled ? 65536 : 0) | (this.fairygachaenabled ? 131072 : 0)
-                | (this.usewidescreen ? 262144 : 0) | (this.guardmissionenabled ? 524288 : 0) | (
-                /* 1773 */ this.ganlclienttracking ? 1048576 : 0) | (this.selectablecountry ? 2097152 : 0)
-                | (this.multipleplaybingo ? 4194304 : 0) | (this.mixslotenabled ? 8388608 : 0) | (
-                /* 1774 */ this.serialfreeinputenabled ? 16777216 : 0) | (this.gachamachinemoveenabled ? 33554432 : 0)
-                | (this.rnddropenabled ? 67108864 : 0) | (
-                /* 1775 */ this.registrationipcheck ? 536870912 : 0) | (this.npcprocesseventlog ? 1073741824 : 0)
+        i = (this.dogfightenabled ? 1 : 0) | (this.linebreakavoidwordchange ? 2 : 0)
+                | (this.showtoppanelmyinfo ? 4 : 0) | (this.tourrnddropenabled ? 8 : 0)
+                | (this.reduceStrWidth_Adv ? 16 : 0) | (this.shortnavi ? 32 : 0)
+                | (this.shopnpcrotenenabled ? 64 : 0) | (this.writepresetguildiconenabled ? 128 : 0)
+                | (this.mailsortenabled ? 256 : 0) | (this.newstoryepisode2enabled ? 512 : 0)
+                | (this.gg_auth_checkerror_enable ? 1024 : 0) | (this.skinchatenabled ? 2048 : 0)
+                | (this.fullscreenminimizationenabled ? 8192 : 0) | (this.clockspeedcheckenabled ? 16384 : 0)
+                | (this.guardianrnddropenabled ? 32768 : 0) | (this.titleaccountregistrationenabled ? 65536 : 0)
+                | (this.fairygachaenabled ? 131072 : 0)
+                | (this.usewidescreen ? 262144 : 0) | (this.guardmissionenabled ? 524288 : 0)
+                | (this.ganlclienttracking ? 1048576 : 0) | (this.selectablecountry ? 2097152 : 0)
+                | (this.multipleplaybingo ? 4194304 : 0) | (this.mixslotenabled ? 8388608 : 0)
+                | (this.serialfreeinputenabled ? 16777216 : 0) | (this.gachamachinemoveenabled ? 33554432 : 0)
+                | (this.rnddropenabled ? 67108864 : 0) | (this.registrationipcheck ? 536870912 : 0)
+                | (this.npcprocesseventlog ? 1073741824 : 0)
                 | (this.shopcouponenabled ? Integer.MIN_VALUE : 0);
-        /* 1776 */ out.writeInt(i);
+        out.writeInt(i);
 
-        /* 1779 */ i = (this.useaccslog ? 1 : 0) | (this.newusernotregisterfromportal ? 2 : 0)
-                | (this.idcchanneling ? 4 : 0) | (this.concheckenabled ? 8 : 0) | (
-                /* 1780 */ this.potentialgearpartsstatus ? 32 : 0);
-        /* 1781 */ out.writeInt(i);
+        i = (this.useaccslog ? 1 : 0) | (this.newusernotregisterfromportal ? 2 : 0)
+                | (this.idcchanneling ? 4 : 0) | (this.concheckenabled ? 8 : 0)
+                | (this.potentialgearpartsstatus ? 32 : 0);
+        out.writeInt(i);
 
-        /* 1783 */ out.writeByte(this.trademode);
-        /* 1784 */ out.writeByte(this.showgachaprizecount);
-        /* 1785 */ out.writeByte(this.gacha_roten_ticket_limit);
+        out.writeByte(this.trademode);
+        out.writeByte(this.showgachaprizecount);
+        out.writeByte(this.gacha_roten_ticket_limit);
 
-        /* 1787 */ out.writeInt(this.roommasterkicktime);
+        out.writeInt(this.roommasterkicktime);
 
-        /* 1789 */ out.writeShort(this.autochselthreshold);
+        out.writeShort(this.autochselthreshold);
 
-        /* 1791 */ out.writeObject(this.guildbattlesettingdata);
+        out.writeObject(this.guildbattlesettingdata);
 
-        /* 1793 */ out.writeObject(this.questevent);
+        out.writeObject(this.questevent);
 
-        /* 1795 */ out.writeObject(this.skinbbs_soldpayback);
+        out.writeObject(this.skinbbs_soldpayback);
 
-        /* 1797 */ out.writeInt(this.skinbbs_deleteminute);
+        out.writeInt(this.skinbbs_deleteminute);
 
-        /* 1799 */ out.writeInt(this.basemixcost);
+        out.writeInt(this.basemixcost);
 
-        /* 1801 */ out.writeInt(this.edituserdatavalidtime);
+        out.writeInt(this.edituserdatavalidtime);
 
-        /* 1803 */ out.writeObject(this.playtimelimit);
+        out.writeObject(this.playtimelimit);
 
-        /* 1805 */ out.writeShort(this.skinbbs_maxregister);
+        out.writeShort(this.skinbbs_maxregister);
 
-        /* 1807 */ out.writeObject(this.calendar);
+        out.writeObject(this.calendar);
 
-        /* 1809 */ out.writeShort(this.newmedalrate);
-        /* 1810 */ out.writeObject(this.pwsaltgeturl);
+        out.writeShort(this.newmedalrate);
+        out.writeObject(this.pwsaltgeturl);
 
-        /* 1812 */ out.writeInt(this.alchemycost);
-        /* 1813 */ out.writeInt(this.potentialcost);
+        out.writeInt(this.alchemycost);
+        out.writeInt(this.potentialcost);
 
-        /* 1815 */ out.writeShort(this.savelogintype);
-        /* 1816 */ out.writeByte(this.rankitemmode);
+        out.writeShort(this.savelogintype);
+        out.writeByte(this.rankitemmode);
 
-        /* 1818 */ out.writeObject(this.sdoaip);
+        out.writeObject(this.sdoaip);
 
-        /* 1820 */ writeArray((Externalizable[]) this.shortcut, out);
+        writeArray((Externalizable[]) this.shortcut, out);
 
-        /* 1822 */ writeArray((Externalizable[]) this.questbuy, out);
+        writeArray((Externalizable[]) this.questbuy, out);
 
-        /* 1824 */ out.writeObject(this.landata);
-        /* 1825 */ out.writeObject(this.automatchdata);
+        out.writeObject(this.landata);
+        out.writeObject(this.automatchdata);
 
-        /* 1827 */ out.writeObject(this.disableeventid);
+        out.writeObject(this.disableeventid);
 
-        /* 1829 */ out.writeInt(this.friendlistmax);
-        /* 1830 */ out.writeInt(this.blacklistmax);
+        out.writeInt(this.friendlistmax);
+        out.writeInt(this.blacklistmax);
 
-        /* 1832 */ out.writeObject(this.wpgitemprocess);
+        out.writeObject(this.wpgitemprocess);
 
-        /* 1834 */ out.writeShort(this.skinbbs_maxregister_one);
+        out.writeShort(this.skinbbs_maxregister_one);
 
-        /* 1836 */ out.writeShort(this.skinbbs_poppoint_buy);
-        /* 1837 */ out.writeShort(this.skinbbs_poppoint_vote);
+        out.writeShort(this.skinbbs_poppoint_buy);
+        out.writeShort(this.skinbbs_poppoint_vote);
 
-        /* 1839 */ out.writeInt(this.adjustbalanceflags);
+        out.writeInt(this.adjustbalanceflags);
 
-        /* 1841 */ out.writeObject(this.deciphermode);
+        out.writeObject(this.deciphermode);
 
-        /* 1843 */ out.writeInt(this.battlepreloadmaxtime);
+        out.writeInt(this.battlepreloadmaxtime);
 
-        /* 1845 */ out.writeInt(this.checkmedalinterval);
+        out.writeInt(this.checkmedalinterval);
 
-        /* 1847 */ out.writeInt(this.assistanttype);
+        out.writeInt(this.assistanttype);
 
-        /* 1849 */ writeArray((Externalizable[]) this.rankupquest, out);
+        writeArray((Externalizable[]) this.rankupquest, out);
 
-        /* 1851 */ out.writeObject(this.gg_init);
-        /* 1852 */ out.writeShort(this.gg_interval);
-        /* 1853 */ out.writeShort(this.gg_server_interval);
-        /* 1854 */ out.writeShort(this.gg_receive_interval);
-        /* 1855 */ out.writeObject(this.gg_tester);
+        out.writeObject(this.gg_init);
+        out.writeShort(this.gg_interval);
+        out.writeShort(this.gg_server_interval);
+        out.writeShort(this.gg_receive_interval);
+        out.writeObject(this.gg_tester);
 
-        /* 1857 */ out.writeInt(this.tourkeyroomrank);
+        out.writeInt(this.tourkeyroomrank);
 
-        /* 1859 */ out.writeObject(this.replacefont);
+        out.writeObject(this.replacefont);
 
-        /* 1861 */ out.writeObject(this.cacheclearversion);
+        out.writeObject(this.cacheclearversion);
 
-        /* 1863 */ out.writeByte(this.skinbbs_usablerank);
+        out.writeByte(this.skinbbs_usablerank);
 
-        /* 1865 */ out.writeInt(this.sendmailchecktime);
-        /* 1866 */ out.writeInt(this.autoopenshuttertime);
+        out.writeInt(this.sendmailchecktime);
+        out.writeInt(this.autoopenshuttertime);
 
-        /* 1868 */ out.writeInt(this.tutorialshopbuynum);
+        out.writeInt(this.tutorialshopbuynum);
 
-        /* 1870 */ out.writeShort(this.guardmissionheal);
+        out.writeShort(this.guardmissionheal);
 
-        /* 1872 */ out.writeInt(this.restrictiongacharmchargeprice);
-        /* 1873 */ out.writeByte(this.gacha_dailyfree_timeoffset);
+        out.writeInt(this.restrictiongacharmchargeprice);
+        out.writeByte(this.gacha_dailyfree_timeoffset);
 
-        /* 1875 */ out.writeObject(this.ganlsetting);
+        out.writeObject(this.ganlsetting);
 
-        /* 1877 */ out.writeObject(this.selectcountry);
+        out.writeObject(this.selectcountry);
 
-        /* 1879 */ out.writeObject(this.questionary);
+        out.writeObject(this.questionary);
 
-        /* 1881 */ out.writeByte(this.channelselecttype);
+        out.writeByte(this.channelselecttype);
 
-        /* 1883 */ out.writeShort(this.mixslotnum);
+        out.writeShort(this.mixslotnum);
 
-        /* 1885 */ out.writeObject(this.potentialskilldata);
+        out.writeObject(this.potentialskilldata);
     }
 
     public void readExternal(ObjectInput in) throws IOException, ClassNotFoundException {
-        /* 1892 */ this.language = (String) in.readObject();
-        /* 1893 */ this.charset = (String) in.readObject();
-        /* 1894 */ this.timezone = (String) in.readObject();
+        this.language = (String) in.readObject();
+        this.charset = (String) in.readObject();
+        this.timezone = (String) in.readObject();
 
-        /* 1896 */ this.worldmap = (WorldMapData) in.readObject();
+        this.worldmap = (WorldMapData) in.readObject();
 
-        /* 1898 */ this.style = (StyleData[]) readArray(StyleData.class, in);
-        /* 1899 */ this.stylegroup = (StyleData.Group[]) readArray(StyleData.Group.class, in);
-        /* 1900 */ this.build = (StyleData.Build[]) readArray(StyleData.Build.class, in);
-        /* 1901 */ this.head = (StyleData.Head[]) readArray(StyleData.Head.class, in);
-        /* 1902 */ this.face = (StyleData.Face[]) readArray(StyleData.Face.class, in);
-        /* 1903 */ this.body = (StyleData.Body[]) readArray(StyleData.Body.class, in);
-        /* 1904 */ this.deco = (StyleData.Decoration[]) readArray(StyleData.Decoration.class, in);
+        this.style = (StyleData[]) readArray(StyleData.class, in);
+        this.stylegroup = (StyleData.Group[]) readArray(StyleData.Group.class, in);
+        this.build = (StyleData.Build[]) readArray(StyleData.Build.class, in);
+        this.head = (StyleData.Head[]) readArray(StyleData.Head.class, in);
+        this.face = (StyleData.Face[]) readArray(StyleData.Face.class, in);
+        this.body = (StyleData.Body[]) readArray(StyleData.Body.class, in);
+        this.deco = (StyleData.Decoration[]) readArray(StyleData.Decoration.class, in);
 
-        /* 1906 */ this.accs = (AccessoryData[]) readArray(AccessoryData.class, in);
-        /* 1907 */ this.weapon = (WeaponData[]) readArray(WeaponData.class, in);
-        /* 1908 */ this.skill = (SkillData[]) in.readObject();
+        this.accs = (AccessoryData[]) readArray(AccessoryData.class, in);
+        this.weapon = (WeaponData[]) readArray(WeaponData.class, in);
+        this.skill = (SkillData[]) in.readObject();
 
-        /* 1910 */ this.emo = (EmotionData[]) readArray(EmotionData.class, in);
-        /* 1911 */ this.semo = (EmotionData[]) readArray(EmotionData.class, in);
+        this.emo = (EmotionData[]) readArray(EmotionData.class, in);
+        this.semo = (EmotionData[]) readArray(EmotionData.class, in);
 
-        /* 1913 */ this.npc = (NPCInfo[]) readArray(NPCInfo.class, in);
+        this.npc = (NPCInfo[]) readArray(NPCInfo.class, in);
 
-        /* 1915 */ this.vehicle = (VehicleData[]) readArray(VehicleData.class, in);
-        /* 1916 */ this.spstyle = (StyleData[]) readArray(StyleData.class, in);
+        this.vehicle = (VehicleData[]) readArray(VehicleData.class, in);
+        this.spstyle = (StyleData[]) readArray(StyleData.class, in);
 
-        /* 1918 */ this.lounge = (Object[]) in.readObject();
-        /* 1919 */ this.tour = (TournamentData[]) readArray(TournamentData.class, in);
-        /* 1920 */ this.old_arcade = (OldArcadeData[]) in.readObject();
+        this.lounge = (Object[]) in.readObject();
+        this.tour = (TournamentData[]) readArray(TournamentData.class, in);
+        this.old_arcade = (OldArcadeData[]) in.readObject();
 
-        /* 1922 */ this.duel = (DuelData[]) readArray(DuelData.class, in);
-        /* 1923 */ this.duelnames = (DuelNameData[]) readArray(DuelNameData.class, in);
-        /* 1924 */ this.duelscores = (DuelScoreData[]) readArray(DuelScoreData.class, in);
+        this.duel = (DuelData[]) readArray(DuelData.class, in);
+        this.duelnames = (DuelNameData[]) readArray(DuelNameData.class, in);
+        this.duelscores = (DuelScoreData[]) readArray(DuelScoreData.class, in);
 
-        /* 1927 */ this.eventbytes = (byte[][]) in.readObject();
-        /* 1928 */ this.practice = (PracticeData) in.readObject();
+        this.eventbytes = (byte[][]) in.readObject();
+        this.practice = (PracticeData) in.readObject();
 
-        /* 1930 */ this.mat = (MaterialData[]) readArray(MaterialData.class, in);
-        /* 1931 */ this.mixmachine = (MixMachine) in.readObject();
+        this.mat = (MaterialData[]) readArray(MaterialData.class, in);
+        this.mixmachine = (MixMachine) in.readObject();
 
-        /* 1933 */ this.quest = (QuestData[]) readArray(QuestData.class, in);
-        /* 1934 */ this.challenge = (ChallengeData[]) readArray(ChallengeData.class, in);
+        this.quest = (QuestData[]) readArray(QuestData.class, in);
+        this.challenge = (ChallengeData[]) readArray(ChallengeData.class, in);
 
-        /* 1936 */ this.kwtinfo = (HashMap) in.readObject();
-        /* 1937 */ this.dicts = (HashMap) in.readObject();
+        this.kwtinfo = (HashMap) in.readObject();
+        this.dicts = (HashMap) in.readObject();
 
-        /* 1939 */ this.scpinfo = (PlayerScriptInfo[]) in.readObject();
+        this.scpinfo = (PlayerScriptInfo[]) in.readObject();
 
-        /* 1941 */ this.area = (Inttable) in.readObject();
-
-        /* 1943 */ this.stagelight = (LightData[]) in.readObject();
-        /* 1944 */ this.hitefx = (HitEffectData[]) in.readObject();
-        /* 1945 */ this.postefx = (PostEffectData[]) in.readObject();
-
-        /* 1947 */ this.rank = (RankData) in.readObject();
-        /* 1948 */ this.ranking = (RankingSetting) in.readObject();
-        /* 1949 */ this.guardian = (GuardianData[]) in.readObject();
-        /* 1950 */ this.arcade = (ArcadeData[]) in.readObject();
-
-        /* 1952 */ this.bgm = (BGMInfo[]) readArray(BGMInfo.class, in);
-        /* 1953 */ this.voiceset = (VoiceSet[]) readArray(VoiceSet.class, in);
-
-        /* 1955 */ this.myroom = (MyRoomStage[]) readArray(MyRoomStage.class, in);
-        /* 1956 */ this.furniture = (MyRoomFurniture[]) readArray(MyRoomFurniture.class, in);
-        /* 1957 */ this.myroomtutorial = (MyRoomTutorialData[]) readArray(MyRoomTutorialData.class, in);
-        /* 1958 */ this.etc = (ETCItem[]) readArray(ETCItem.class, in);
-        /* 1959 */ this.eventitem = (EventItem[]) readArray(EventItem.class, in);
-        /* 1960 */ this.dicegame = (DiceGameData[]) readArray(DiceGameData.class, in);
-        /* 1961 */ this.bingo = (BingoData[]) readArray(BingoData.class, in);
-        /* 1962 */ this.npcitem = (NPCItem[]) readArray(NPCItem.class, in);
-
-        /* 1964 */ this.treasures = (TreasureTable[]) readArray(TreasureTable.class, in);
-        /* 1965 */ this.streettreasures = (StreetfightTreasureTable[]) readArray(StreetfightTreasureTable.class, in);
-
-        /* 1967 */ this.guild = (GuildSetting) in.readObject();
-        /* 1968 */ this.dungeonshop = (DungeonShopData) in.readObject();
-        /* 1969 */ this.globalshop = (GlobalShopData) in.readObject();
-        /* 1970 */ this.shoprotendata = (ShopRotenData) in.readObject();
-
-        /* 1972 */ this.dropboost = (DropBoostData[]) in.readObject();
-
-        /* 1974 */ this.npctrade = (NPCTradeList[]) in.readObject();
-        /* 1975 */ this.npcintro = (NPCIntro[]) in.readObject();
-
-        /* 1977 */ this.entrance = (EntranceInfo[]) in.readObject();
-
-        /* 1979 */ this.chatfilter = (ChatFilter) in.readObject();
-
-        /* 1981 */ this.officialskins = (OfficialSkinData[]) readArray(OfficialSkinData.class, in);
-        /* 1982 */ this.defaultskinstock = in.readByte() & 0xFF;
-
-        /* 1984 */ this.officialwebsite = (OfficialWebsiteData[]) readArray(OfficialWebsiteData.class, in);
-
-        /* 1986 */ this.initialitems = (InitialItemsData) in.readObject();
-        /* 1987 */ this.demoitems = (UserItems) in.readObject();
-
-        /* 1989 */ this.stnpcset = (StreetNPCData[]) in.readObject();
-
-        /* 1991 */ this.ufnpcset = (UnitedfightNPCData) in.readObject();
-
-        /* 1993 */ this.initkeyconf = (InitialKeyConfig) in.readObject();
-
-        /* 1995 */ this.initskin = (InitialSkinData) in.readObject();
-
-        /* 1997 */ this.itemsort = (ItemSortData) in.readObject();
-
-        /* 1999 */ this.randtreasure = (RandomTreasure[]) in.readObject();
-        /* 2000 */ this.randguardiantreasure = (RandomGuardianTreasure[]) in.readObject();
-        /* 2001 */ this.randtreasure2 = (RandomTreasure2) in.readObject();
-
-        /* 2003 */ this.mailsort = (ItemSortData) in.readObject();
-
-        /* 2005 */ this.fairygacha = (FairyGachaList[]) in.readObject();
-        /* 2006 */ this.previewpos = (ItemPreviewPositionData) in.readObject();
-
-        /* 2008 */ this.questpresent = (QuestPresentList[]) in.readObject();
-
-        /* 2010 */ int i = in.readInt();
-        /* 2011 */ this.xcguard = ((i & 0x1) != 0);
-        /* 2012 */ this.voiceenabled = ((i & 0x2) != 0);
-        /* 2013 */ this.fluidsetting_enabled = ((i & 0x4) != 0);
-        /* 2014 */ this.skinbbsenabled = ((i & 0x8) != 0);
-        /* 2015 */ this.specialrankenabled = ((i & 0x10) != 0);
-        /* 2016 */ this.areaopenguide = ((i & 0x20) != 0);
-        /* 2017 */ this.duelenabled = ((i & 0x40) != 0);
-        /* 2018 */ this.plainpassword = ((i & 0x80) != 0);
-        /* 2019 */ this.autochannelselect = ((i & 0x100) != 0);
-        /* 2020 */ this.myroomstart = ((i & 0x200) != 0);
-        /* 2021 */ this.worldmapenabled = ((i & 0x400) != 0);
-        /* 2022 */ this.hideeventinfo = ((i & 0x800) != 0);
-        /* 2023 */ this.destselection = ((i & 0x1000) != 0);
-        /* 2024 */ this.accessoryeffects = ((i & 0x2000) != 0);
-        /* 2025 */ this.announcegacha = ((i & 0x4000) != 0);
-        /* 2026 */ this.partytraining = ((i & 0x8000) != 0);
-        /* 2027 */ this.manualzoom = ((i & 0x10000) != 0);
-        /* 2028 */ this.loginquest = ((i & 0x20000) != 0);
-        /* 2029 */ this.allchatfilter = ((i & 0x40000) != 0);
-        /* 2030 */ this.training_skilllist = ((i & 0x80000) != 0);
-        /* 2031 */ this.pastquests = ((i & 0x100000) != 0);
-        /* 2032 */ this.streetstyle = ((i & 0x200000) != 0);
-        /* 2033 */ this.skipevents = ((i & 0x400000) != 0);
-        /* 2034 */ this.beginnerhelp = ((i & 0x800000) != 0);
-        /* 2035 */ this.voicechatenabled = ((i & 0x1000000) != 0);
-        /* 2036 */ this.softwarekeyboard = ((i & 0x2000000) != 0);
-        /* 2037 */ this.playtimelimitenabled = ((i & 0x4000000) != 0);
-        /* 2038 */ this.questnpcguide = ((i & 0x8000000) != 0);
-        /* 2039 */ this.userid_email = f(i, 28);
-        /* 2040 */ this.observerenabled = ((i & 0x20000000) != 0);
-        /* 2041 */ this.sdoa = ((i & 0x40000000) != 0);
-        /* 2042 */ this.new_medal = ((i & Integer.MIN_VALUE) != 0);
-
-        /* 2044 */ i = in.readInt();
-        /* 2045 */ this.calendarenabled = ((i & 0x1) != 0);
-        /* 2046 */ this.charamakingscene2 = ((i & 0x2) != 0);
-        /* 2047 */ this.observergmonly = ((i & 0x4) != 0);
-        /* 2048 */ this.shoplineupenabled = ((i & 0x8) != 0);
-        /* 2049 */ this.gachalineupenabled = ((i & 0x10) != 0);
-        /* 2050 */ this.hwidcheck = ((i & 0x20) != 0);
-        /* 2051 */ this.teamsfenabled = ((i & 0x40) != 0);
-        /* 2052 */ this.skiptutorial = ((i & 0x80) != 0);
-        /* 2053 */ this.showservertime = ((i & 0x100) != 0);
-        /* 2054 */ this.new_username = ((i & 0x200) != 0);
-        /* 2055 */ this.navigation = ((i & 0x400) != 0);
-        /* 2056 */ this.everyrankupeventenabled = ((i & 0x800) != 0);
-        /* 2057 */ this.arcademodeenabled = ((i & 0x1000) != 0);
-        /* 2058 */ this.disablegetnewmedal = ((i & 0x2000) != 0);
-        /* 2059 */ this.disconnectinfoenabled = ((i & 0x4000) != 0);
-        /* 2060 */ this.fairynpcenabled = ((i & 0x8000) != 0);
-        /* 2061 */ this.zonesettingenabled = ((i & 0x10000) != 0);
-        /* 2062 */ this.globalshopenabled = ((i & 0x20000) != 0);
-        /* 2063 */ this.gatroomexitdisable = ((i & 0x40000) != 0);
-        /* 2064 */ this.avataravilityenabled = ((i & 0x80000) != 0);
-        /* 2065 */ this.newstoryepisodeenabled = ((i & 0x100000) != 0);
-        /* 2066 */ this.privateavataruploaddisabled = ((i & 0x200000) != 0);
-        /* 2067 */ this.skineditequipaccsenabled = ((i & 0x400000) != 0);
-        /* 2068 */ this.practiceextensionenabled = ((i & 0x800000) != 0);
-        /* 2069 */ this.tourrandequipenabled = ((i & 0x1000000) != 0);
-        /* 2070 */ this.checkguildname = ((i & 0x2000000) != 0);
-        /* 2071 */ this.lindamissionenabled = ((i & 0x4000000) != 0);
-        /* 2072 */ this.lanplayenabled = ((i & 0x8000000) != 0);
-
-        /* 2074 */ i = in.readInt();
-        /* 2075 */ this.freermenabled = ((i & 0x1) != 0);
-        /* 2076 */ this.newrmchargeenabled = ((i & 0x2) != 0);
-        /* 2077 */ this.duelrewardnomoney = ((i & 0x4) != 0);
-        /* 2078 */ this.fblistlimitenabled = ((i & 0x8) != 0);
-        /* 2079 */ this.accs_potential = f(i, 4);
-        /* 2080 */ this.automatchenabled = ((i & 0x20) != 0);
-        /* 2081 */ this.wpgenabled = ((i & 0x40) != 0);
-        /* 2082 */ this.new_spyhuntquest = ((i & 0x80) != 0);
-        /* 2083 */ this.noreward_sameaddr = ((i & 0x100) != 0);
-        /* 2084 */ this.overitemsendmailenabled = ((i & 0x200) != 0);
-        /* 2085 */ this.ranklimitenabled = ((i & 0x400) != 0);
-        /* 2086 */ this.showchannelinfo = ((i & 0x800) != 0);
-        /* 2087 */ this.onechgroupselectenabled = ((i & 0x1000) != 0);
-        /* 2088 */ this.manualupdatelauncherenabled = ((i & 0x2000) != 0);
-        /* 2089 */ this.getsomepresentmailenabled = ((i & 0x4000) != 0);
-        /* 2090 */ this.openallmemenabled = ((i & 0x8000) != 0);
-        /* 2091 */ this.chbbsenabled = ((i & 0x10000) != 0);
-        /* 2092 */ this.questmenutabenabled = ((i & 0x20000) != 0);
-        /* 2093 */ this.dueldurationentryenabled = ((i & 0x40000) != 0);
-        /* 2094 */ this.checkchratejump = ((i & 0x80000) != 0);
-        /* 2095 */ this.tourplayernumcheckenabled = ((i & 0x100000) != 0);
-        /* 2096 */ this.questpopupenabled = ((i & 0x200000) != 0);
-        /* 2097 */ this.technamedisabled = ((i & 0x400000) != 0);
-        /* 2098 */ this.istutorialbuttoncheck = ((i & 0x800000) != 0);
-        /* 2099 */ this.portaldbenabled = ((i & 0x1000000) != 0);
-        /* 2100 */ this.unitedfightenabled = ((i & 0x2000000) != 0);
-        /* 2101 */ this.rankupquestsettingenabled = ((i & 0x4000000) != 0);
-        /* 2102 */ this.gg_enable = ((i & 0x8000000) != 0);
-        /* 2103 */ this.gg_auth_enable = ((i & 0x10000000) != 0);
-        /* 2104 */ this.gg_debuglog_enable = ((i & 0x20000000) != 0);
-        /* 2105 */ this.presentskinenabled = ((i & 0x40000000) != 0);
-        /* 2106 */ this.itemsortenabled = ((i & Integer.MIN_VALUE) != 0);
-
-        /* 2108 */ i = in.readInt();
-        /* 2109 */ this.dogfightenabled = ((i & 0x1) != 0);
-        /* 2110 */ this.linebreakavoidwordchange = ((i & 0x2) != 0);
-        /* 2111 */ this.showtoppanelmyinfo = ((i & 0x4) != 0);
-        /* 2112 */ this.tourrnddropenabled = ((i & 0x8) != 0);
-        /* 2113 */ this.reduceStrWidth_Adv = ((i & 0x10) != 0);
-        /* 2114 */ this.shortnavi = ((i & 0x20) != 0);
-        /* 2115 */ this.shopnpcrotenenabled = ((i & 0x40) != 0);
-        /* 2116 */ this.writepresetguildiconenabled = ((i & 0x80) != 0);
-        /* 2117 */ this.mailsortenabled = ((i & 0x100) != 0);
-        /* 2118 */ this.newstoryepisode2enabled = ((i & 0x200) != 0);
-        /* 2119 */ this.gg_auth_checkerror_enable = ((i & 0x400) != 0);
-        /* 2120 */ this.skinchatenabled = ((i & 0x800) != 0);
-        /* 2121 */ this.fullscreenminimizationenabled = ((i & 0x2000) != 0);
-        /* 2122 */ this.clockspeedcheckenabled = ((i & 0x4000) != 0);
-        /* 2123 */ this.guardianrnddropenabled = ((i & 0x8000) != 0);
-        /* 2124 */ this.titleaccountregistrationenabled = ((i & 0x10000) != 0);
-        /* 2125 */ this.fairygachaenabled = ((i & 0x20000) != 0);
-        /* 2126 */ this.usewidescreen = ((i & 0x40000) != 0);
-        /* 2127 */ this.guardmissionenabled = ((i & 0x80000) != 0);
-        /* 2128 */ this.ganlclienttracking = ((i & 0x100000) != 0);
-        /* 2129 */ this.selectablecountry = ((i & 0x200000) != 0);
-        /* 2130 */ this.multipleplaybingo = ((i & 0x400000) != 0);
-        /* 2131 */ this.mixslotenabled = ((i & 0x800000) != 0);
-        /* 2132 */ this.serialfreeinputenabled = ((i & 0x1000000) != 0);
-        /* 2133 */ this.gachamachinemoveenabled = ((i & 0x2000000) != 0);
-        /* 2134 */ this.rnddropenabled = ((i & 0x4000000) != 0);
-        /* 2135 */ this.registrationipcheck = ((i & 0x20000000) != 0);
-        /* 2136 */ this.npcprocesseventlog = ((i & 0x40000000) != 0);
-        /* 2137 */ this.shopcouponenabled = ((i & Integer.MIN_VALUE) != 0);
-
-        /* 2139 */ i = in.readInt();
-        /* 2140 */ this.useaccslog = ((i & 0x1) != 0);
-        /* 2141 */ this.newusernotregisterfromportal = ((i & 0x2) != 0);
-        /* 2142 */ this.idcchanneling = ((i & 0x4) != 0);
-        /* 2143 */ this.concheckenabled = ((i & 0x8) != 0);
-        /* 2144 */ this.potentialgearpartsstatus = ((i & 0x20) != 0);
-
-        /* 2146 */ this.trademode = in.readByte();
-        /* 2147 */ this.showgachaprizecount = in.readByte();
-        /* 2148 */ this.gacha_roten_ticket_limit = in.readByte();
-
-        /* 2150 */ this.roommasterkicktime = in.readInt();
-
-        /* 2152 */ this.autochselthreshold = in.readShort();
-
-        /* 2154 */ this.guildbattlesettingdata = (GuildBattleSetting.Data) in.readObject();
-
-        /* 2156 */ this.questevent = (QuestEventData[][]) in.readObject();
-
-        /* 2158 */ this.skinbbs_soldpayback = (String) in.readObject();
-
-        /* 2160 */ this.skinbbs_deleteminute = in.readInt();
-
-        /* 2162 */ this.basemixcost = in.readInt();
-
-        /* 2164 */ this.edituserdatavalidtime = in.readInt();
-
-        /* 2166 */ this.playtimelimit = (PlayTimeLimit) in.readObject();
-
-        /* 2168 */ this.skinbbs_maxregister = in.readShort();
-
-        /* 2170 */ this.calendar = (CalendarData) in.readObject();
-
-        /* 2172 */ this.newmedalrate = in.readShort();
-        /* 2173 */ this.pwsaltgeturl = (String) in.readObject();
-
-        /* 2175 */ this.alchemycost = in.readInt();
-        /* 2176 */ this.potentialcost = in.readInt();
-
-        /* 2178 */ this.savelogintype = in.readShort();
-        /* 2179 */ this.rankitemmode = in.readByte() & 0xFF;
-
-        /* 2181 */ this.sdoaip = (SDOAIPData) in.readObject();
-
-        /* 2183 */ this.shortcut = (UserShortcuts.ChatShortcut[]) readArray(UserShortcuts.ChatShortcut.class, in);
-
-        /* 2185 */ this.questbuy = (QuestBuyData[]) readArray(QuestBuyData.class, in);
-
-        /* 2187 */ this.landata = (LanData) in.readObject();
-        /* 2188 */ this.automatchdata = (AutoMatchData) in.readObject();
-
-        /* 2190 */ this.disableeventid = (int[]) in.readObject();
-
-        /* 2192 */ this.friendlistmax = in.readInt();
-        /* 2193 */ this.blacklistmax = in.readInt();
-
-        /* 2195 */ this.wpgitemprocess = (String) in.readObject();
-
-        /* 2197 */ this.skinbbs_maxregister_one = in.readShort();
-
-        /* 2199 */ this.skinbbs_poppoint_buy = in.readShort();
-        /* 2200 */ this.skinbbs_poppoint_vote = in.readShort();
-
-        /* 2202 */ this.adjustbalanceflags = in.readInt();
-
-        /* 2204 */ this.deciphermode = (String) in.readObject();
-
-        /* 2206 */ this.battlepreloadmaxtime = in.readInt();
-
-        /* 2208 */ this.checkmedalinterval = in.readInt();
-
-        /* 2210 */ this.assistanttype = in.readInt();
-
-        /* 2212 */ this.rankupquest = (QuestData.RankupQuestData[]) readArray(QuestData.RankupQuestData.class, in);
-
-        /* 2214 */ this.gg_init = (String) in.readObject();
-        /* 2215 */ this.gg_interval = in.readShort();
-        /* 2216 */ this.gg_server_interval = in.readShort();
-        /* 2217 */ this.gg_receive_interval = in.readShort();
-        /* 2218 */ this.gg_tester = (String) in.readObject();
-
-        /* 2220 */ this.tourkeyroomrank = in.readInt();
-
-        /* 2222 */ this.replacefont = (String) in.readObject();
-
-        /* 2224 */ this.cacheclearversion = (String) in.readObject();
-
-        /* 2226 */ this.skinbbs_usablerank = in.readByte();
-
-        /* 2228 */ this.sendmailchecktime = in.readInt();
-        /* 2229 */ this.autoopenshuttertime = in.readInt();
-
-        /* 2231 */ this.tutorialshopbuynum = in.readInt();
-
-        /* 2233 */ this.guardmissionheal = in.readShort();
-
-        /* 2235 */ this.restrictiongacharmchargeprice = in.readInt();
-        /* 2236 */ this.gacha_dailyfree_timeoffset = in.readByte();
-
-        /* 2238 */ this.ganlsetting = (GAnlSetting) in.readObject();
-
-        /* 2240 */ this.selectcountry = (String[][]) in.readObject();
-
-        /* 2242 */ this.questionary = (QuestionaryData) in.readObject();
-
-        /* 2244 */ this.channelselecttype = in.readByte() & 0xFF;
-
-        /* 2246 */ this.mixslotnum = in.readShort();
-
-        /* 2248 */ this.potentialskilldata = (PotentialSkillData[]) in.readObject();
+        this.area = (Inttable) in.readObject();
+
+        this.stagelight = (LightData[]) in.readObject();
+        this.hitefx = (HitEffectData[]) in.readObject();
+        this.postefx = (PostEffectData[]) in.readObject();
+
+        this.rank = (RankData) in.readObject();
+        this.ranking = (RankingSetting) in.readObject();
+        this.guardian = (GuardianData[]) in.readObject();
+        this.arcade = (ArcadeData[]) in.readObject();
+
+        this.bgm = (BGMInfo[]) readArray(BGMInfo.class, in);
+        this.voiceset = (VoiceSet[]) readArray(VoiceSet.class, in);
+
+        this.myroom = (MyRoomStage[]) readArray(MyRoomStage.class, in);
+        this.furniture = (MyRoomFurniture[]) readArray(MyRoomFurniture.class, in);
+        this.myroomtutorial = (MyRoomTutorialData[]) readArray(MyRoomTutorialData.class, in);
+        this.etc = (ETCItem[]) readArray(ETCItem.class, in);
+        this.eventitem = (EventItem[]) readArray(EventItem.class, in);
+        this.dicegame = (DiceGameData[]) readArray(DiceGameData.class, in);
+        this.bingo = (BingoData[]) readArray(BingoData.class, in);
+        this.npcitem = (NPCItem[]) readArray(NPCItem.class, in);
+
+        this.treasures = (TreasureTable[]) readArray(TreasureTable.class, in);
+        this.streettreasures = (StreetfightTreasureTable[]) readArray(StreetfightTreasureTable.class, in);
+
+        this.guild = (GuildSetting) in.readObject();
+        this.dungeonshop = (DungeonShopData) in.readObject();
+        this.globalshop = (GlobalShopData) in.readObject();
+        this.shoprotendata = (ShopRotenData) in.readObject();
+
+        this.dropboost = (DropBoostData[]) in.readObject();
+
+        this.npctrade = (NPCTradeList[]) in.readObject();
+        this.npcintro = (NPCIntro[]) in.readObject();
+
+        this.entrance = (EntranceInfo[]) in.readObject();
+
+        this.chatfilter = (ChatFilter) in.readObject();
+
+        this.officialskins = (OfficialSkinData[]) readArray(OfficialSkinData.class, in);
+        this.defaultskinstock = in.readByte() & 0xFF;
+
+        this.officialwebsite = (OfficialWebsiteData[]) readArray(OfficialWebsiteData.class, in);
+
+        this.initialitems = (InitialItemsData) in.readObject();
+        this.demoitems = (UserItems) in.readObject();
+
+        this.stnpcset = (StreetNPCData[]) in.readObject();
+
+        this.ufnpcset = (UnitedfightNPCData) in.readObject();
+
+        this.initkeyconf = (InitialKeyConfig) in.readObject();
+
+        this.initskin = (InitialSkinData) in.readObject();
+
+        this.itemsort = (ItemSortData) in.readObject();
+
+        this.randtreasure = (RandomTreasure[]) in.readObject();
+        this.randguardiantreasure = (RandomGuardianTreasure[]) in.readObject();
+        this.randtreasure2 = (RandomTreasure2) in.readObject();
+
+        this.mailsort = (ItemSortData) in.readObject();
+
+        this.fairygacha = (FairyGachaList[]) in.readObject();
+        this.previewpos = (ItemPreviewPositionData) in.readObject();
+
+        this.questpresent = (QuestPresentList[]) in.readObject();
+
+        int i = in.readInt();
+        this.xcguard = ((i & 0x1) != 0);
+        this.voiceenabled = ((i & 0x2) != 0);
+        this.fluidsetting_enabled = ((i & 0x4) != 0);
+        this.skinbbsenabled = ((i & 0x8) != 0);
+        this.specialrankenabled = ((i & 0x10) != 0);
+        this.areaopenguide = ((i & 0x20) != 0);
+        this.duelenabled = ((i & 0x40) != 0);
+        this.plainpassword = ((i & 0x80) != 0);
+        this.autochannelselect = ((i & 0x100) != 0);
+        this.myroomstart = ((i & 0x200) != 0);
+        this.worldmapenabled = ((i & 0x400) != 0);
+        this.hideeventinfo = ((i & 0x800) != 0);
+        this.destselection = ((i & 0x1000) != 0);
+        this.accessoryeffects = ((i & 0x2000) != 0);
+        this.announcegacha = ((i & 0x4000) != 0);
+        this.partytraining = ((i & 0x8000) != 0);
+        this.manualzoom = ((i & 0x10000) != 0);
+        this.loginquest = ((i & 0x20000) != 0);
+        this.allchatfilter = ((i & 0x40000) != 0);
+        this.training_skilllist = ((i & 0x80000) != 0);
+        this.pastquests = ((i & 0x100000) != 0);
+        this.streetstyle = ((i & 0x200000) != 0);
+        this.skipevents = ((i & 0x400000) != 0);
+        this.beginnerhelp = ((i & 0x800000) != 0);
+        this.voicechatenabled = ((i & 0x1000000) != 0);
+        this.softwarekeyboard = ((i & 0x2000000) != 0);
+        this.playtimelimitenabled = ((i & 0x4000000) != 0);
+        this.questnpcguide = ((i & 0x8000000) != 0);
+        this.userid_email = f(i, 28);
+        this.observerenabled = ((i & 0x20000000) != 0);
+        this.sdoa = ((i & 0x40000000) != 0);
+        this.new_medal = ((i & Integer.MIN_VALUE) != 0);
+
+        i = in.readInt();
+        this.calendarenabled = ((i & 0x1) != 0);
+        this.charamakingscene2 = ((i & 0x2) != 0);
+        this.observergmonly = ((i & 0x4) != 0);
+        this.shoplineupenabled = ((i & 0x8) != 0);
+        this.gachalineupenabled = ((i & 0x10) != 0);
+        this.hwidcheck = ((i & 0x20) != 0);
+        this.teamsfenabled = ((i & 0x40) != 0);
+        this.skiptutorial = ((i & 0x80) != 0);
+        this.showservertime = ((i & 0x100) != 0);
+        this.new_username = ((i & 0x200) != 0);
+        this.navigation = ((i & 0x400) != 0);
+        this.everyrankupeventenabled = ((i & 0x800) != 0);
+        this.arcademodeenabled = ((i & 0x1000) != 0);
+        this.disablegetnewmedal = ((i & 0x2000) != 0);
+        this.disconnectinfoenabled = ((i & 0x4000) != 0);
+        this.fairynpcenabled = ((i & 0x8000) != 0);
+        this.zonesettingenabled = ((i & 0x10000) != 0);
+        this.globalshopenabled = ((i & 0x20000) != 0);
+        this.gatroomexitdisable = ((i & 0x40000) != 0);
+        this.avataravilityenabled = ((i & 0x80000) != 0);
+        this.newstoryepisodeenabled = ((i & 0x100000) != 0);
+        this.privateavataruploaddisabled = ((i & 0x200000) != 0);
+        this.skineditequipaccsenabled = ((i & 0x400000) != 0);
+        this.practiceextensionenabled = ((i & 0x800000) != 0);
+        this.tourrandequipenabled = ((i & 0x1000000) != 0);
+        this.checkguildname = ((i & 0x2000000) != 0);
+        this.lindamissionenabled = ((i & 0x4000000) != 0);
+        this.lanplayenabled = ((i & 0x8000000) != 0);
+
+        i = in.readInt();
+        this.freermenabled = ((i & 0x1) != 0);
+        this.newrmchargeenabled = ((i & 0x2) != 0);
+        this.duelrewardnomoney = ((i & 0x4) != 0);
+        this.fblistlimitenabled = ((i & 0x8) != 0);
+        this.accs_potential = f(i, 4);
+        this.automatchenabled = ((i & 0x20) != 0);
+        this.wpgenabled = ((i & 0x40) != 0);
+        this.new_spyhuntquest = ((i & 0x80) != 0);
+        this.noreward_sameaddr = ((i & 0x100) != 0);
+        this.overitemsendmailenabled = ((i & 0x200) != 0);
+        this.ranklimitenabled = ((i & 0x400) != 0);
+        this.showchannelinfo = ((i & 0x800) != 0);
+        this.onechgroupselectenabled = ((i & 0x1000) != 0);
+        this.manualupdatelauncherenabled = ((i & 0x2000) != 0);
+        this.getsomepresentmailenabled = ((i & 0x4000) != 0);
+        this.openallmemenabled = ((i & 0x8000) != 0);
+        this.chbbsenabled = ((i & 0x10000) != 0);
+        this.questmenutabenabled = ((i & 0x20000) != 0);
+        this.dueldurationentryenabled = ((i & 0x40000) != 0);
+        this.checkchratejump = ((i & 0x80000) != 0);
+        this.tourplayernumcheckenabled = ((i & 0x100000) != 0);
+        this.questpopupenabled = ((i & 0x200000) != 0);
+        this.technamedisabled = ((i & 0x400000) != 0);
+        this.istutorialbuttoncheck = ((i & 0x800000) != 0);
+        this.portaldbenabled = ((i & 0x1000000) != 0);
+        this.unitedfightenabled = ((i & 0x2000000) != 0);
+        this.rankupquestsettingenabled = ((i & 0x4000000) != 0);
+        this.gg_enable = ((i & 0x8000000) != 0);
+        this.gg_auth_enable = ((i & 0x10000000) != 0);
+        this.gg_debuglog_enable = ((i & 0x20000000) != 0);
+        this.presentskinenabled = ((i & 0x40000000) != 0);
+        this.itemsortenabled = ((i & Integer.MIN_VALUE) != 0);
+
+        i = in.readInt();
+        this.dogfightenabled = ((i & 0x1) != 0);
+        this.linebreakavoidwordchange = ((i & 0x2) != 0);
+        this.showtoppanelmyinfo = ((i & 0x4) != 0);
+        this.tourrnddropenabled = ((i & 0x8) != 0);
+        this.reduceStrWidth_Adv = ((i & 0x10) != 0);
+        this.shortnavi = ((i & 0x20) != 0);
+        this.shopnpcrotenenabled = ((i & 0x40) != 0);
+        this.writepresetguildiconenabled = ((i & 0x80) != 0);
+        this.mailsortenabled = ((i & 0x100) != 0);
+        this.newstoryepisode2enabled = ((i & 0x200) != 0);
+        this.gg_auth_checkerror_enable = ((i & 0x400) != 0);
+        this.skinchatenabled = ((i & 0x800) != 0);
+        this.fullscreenminimizationenabled = ((i & 0x2000) != 0);
+        this.clockspeedcheckenabled = ((i & 0x4000) != 0);
+        this.guardianrnddropenabled = ((i & 0x8000) != 0);
+        this.titleaccountregistrationenabled = ((i & 0x10000) != 0);
+        this.fairygachaenabled = ((i & 0x20000) != 0);
+        this.usewidescreen = ((i & 0x40000) != 0);
+        this.guardmissionenabled = ((i & 0x80000) != 0);
+        this.ganlclienttracking = ((i & 0x100000) != 0);
+        this.selectablecountry = ((i & 0x200000) != 0);
+        this.multipleplaybingo = ((i & 0x400000) != 0);
+        this.mixslotenabled = ((i & 0x800000) != 0);
+        this.serialfreeinputenabled = ((i & 0x1000000) != 0);
+        this.gachamachinemoveenabled = ((i & 0x2000000) != 0);
+        this.rnddropenabled = ((i & 0x4000000) != 0);
+        this.registrationipcheck = ((i & 0x20000000) != 0);
+        this.npcprocesseventlog = ((i & 0x40000000) != 0);
+        this.shopcouponenabled = ((i & Integer.MIN_VALUE) != 0);
+
+        i = in.readInt();
+        this.useaccslog = ((i & 0x1) != 0);
+        this.newusernotregisterfromportal = ((i & 0x2) != 0);
+        this.idcchanneling = ((i & 0x4) != 0);
+        this.concheckenabled = ((i & 0x8) != 0);
+        this.potentialgearpartsstatus = ((i & 0x20) != 0);
+
+        this.trademode = in.readByte();
+        this.showgachaprizecount = in.readByte();
+        this.gacha_roten_ticket_limit = in.readByte();
+
+        this.roommasterkicktime = in.readInt();
+
+        this.autochselthreshold = in.readShort();
+
+        this.guildbattlesettingdata = (GuildBattleSetting.Data) in.readObject();
+
+        this.questevent = (QuestEventData[][]) in.readObject();
+
+        this.skinbbs_soldpayback = (String) in.readObject();
+
+        this.skinbbs_deleteminute = in.readInt();
+
+        this.basemixcost = in.readInt();
+
+        this.edituserdatavalidtime = in.readInt();
+
+        this.playtimelimit = (PlayTimeLimit) in.readObject();
+
+        this.skinbbs_maxregister = in.readShort();
+
+        this.calendar = (CalendarData) in.readObject();
+
+        this.newmedalrate = in.readShort();
+        this.pwsaltgeturl = (String) in.readObject();
+
+        this.alchemycost = in.readInt();
+        this.potentialcost = in.readInt();
+
+        this.savelogintype = in.readShort();
+        this.rankitemmode = in.readByte() & 0xFF;
+
+        this.sdoaip = (SDOAIPData) in.readObject();
+
+        this.shortcut = (UserShortcuts.ChatShortcut[]) readArray(UserShortcuts.ChatShortcut.class, in);
+
+        this.questbuy = (QuestBuyData[]) readArray(QuestBuyData.class, in);
+
+        this.landata = (LanData) in.readObject();
+        this.automatchdata = (AutoMatchData) in.readObject();
+
+        this.disableeventid = (int[]) in.readObject();
+
+        this.friendlistmax = in.readInt();
+        this.blacklistmax = in.readInt();
+
+        this.wpgitemprocess = (String) in.readObject();
+
+        this.skinbbs_maxregister_one = in.readShort();
+
+        this.skinbbs_poppoint_buy = in.readShort();
+        this.skinbbs_poppoint_vote = in.readShort();
+
+        this.adjustbalanceflags = in.readInt();
+
+        this.deciphermode = (String) in.readObject();
+
+        this.battlepreloadmaxtime = in.readInt();
+
+        this.checkmedalinterval = in.readInt();
+
+        this.assistanttype = in.readInt();
+
+        this.rankupquest = (QuestData.RankupQuestData[]) readArray(QuestData.RankupQuestData.class, in);
+
+        this.gg_init = (String) in.readObject();
+        this.gg_interval = in.readShort();
+        this.gg_server_interval = in.readShort();
+        this.gg_receive_interval = in.readShort();
+        this.gg_tester = (String) in.readObject();
+
+        this.tourkeyroomrank = in.readInt();
+
+        this.replacefont = (String) in.readObject();
+
+        this.cacheclearversion = (String) in.readObject();
+
+        this.skinbbs_usablerank = in.readByte();
+
+        this.sendmailchecktime = in.readInt();
+        this.autoopenshuttertime = in.readInt();
+
+        this.tutorialshopbuynum = in.readInt();
+
+        this.guardmissionheal = in.readShort();
+
+        this.restrictiongacharmchargeprice = in.readInt();
+        this.gacha_dailyfree_timeoffset = in.readByte();
+
+        this.ganlsetting = (GAnlSetting) in.readObject();
+
+        this.selectcountry = (String[][]) in.readObject();
+
+        this.questionary = (QuestionaryData) in.readObject();
+
+        this.channelselecttype = in.readByte() & 0xFF;
+
+        this.mixslotnum = in.readShort();
+
+        this.potentialskilldata = (PotentialSkillData[]) in.readObject();
     }
 
     public static void writeArray(Externalizable[] a, ObjectOutput out) throws IOException {
-        /* 2252 */ if (a == null) {
-            /* 2253 */ StreamTool.writePackedInt(0, out);
+        if (a == null) {
+            StreamTool.writePackedInt(0, out);
             return;
         }
-        /* 2256 */ StreamTool.writePackedInt(a.length, out);
-        /* 2257 */ int a8 = (a.length + 7) / 8 * 8;
-        /* 2258 */ for (int l = 0; l < a8; l += 8) {
-            /* 2259 */ int mask = 0;
+        StreamTool.writePackedInt(a.length, out);
+        int a8 = (a.length + 7) / 8 * 8;
+        for (int l = 0; l < a8; l += 8) {
+            int mask = 0;
             int j;
-            /* 2260 */ for (j = 0; j < 8; j++) {
-                /* 2261 */ if (l + j < a.length && a[l + j] != null)
+            for (j = 0; j < 8; j++) {
+                if (l + j < a.length && a[l + j] != null)
                     mask |= 1 << j;
             }
-            /* 2263 */ out.writeByte(mask);
-            /* 2264 */ for (j = 0; j < 8; j++) {
-                /* 2265 */ if (l + j < a.length && a[l + j] != null)
+            out.writeByte(mask);
+            for (j = 0; j < 8; j++) {
+                if (l + j < a.length && a[l + j] != null)
                     a[l + j].writeExternal(out);
             }
         }
@@ -2431,67 +2423,67 @@ public class GameSetting implements Externalizable {
 
     public static Object[] readArray(Class<?> c, ObjectInput in) throws IOException, ClassNotFoundException {
         try {
-            /* 2272 */ int num = StreamTool.readPackedInt(in);
-            /* 2273 */ Externalizable[] a = (Externalizable[]) Array.newInstance(c, num);
-            /* 2274 */ int a8 = (a.length + 7) / 8 * 8;
-            /* 2275 */ for (int l = 0; l < a8; l += 8) {
-                /* 2276 */ int mask = in.readByte() & 0xFF;
-                /* 2277 */ for (int j = 0; j < 8; j++) {
-                    /* 2278 */ if ((mask & 1 << j) != 0) {
-                        /* 2279 */ a[l + j] = (Externalizable) c.newInstance();
-                        /* 2280 */ a[l + j].readExternal(in);
+            int num = StreamTool.readPackedInt(in);
+            Externalizable[] a = (Externalizable[]) Array.newInstance(c, num);
+            int a8 = (a.length + 7) / 8 * 8;
+            for (int l = 0; l < a8; l += 8) {
+                int mask = in.readByte() & 0xFF;
+                for (int j = 0; j < 8; j++) {
+                    if ((mask & 1 << j) != 0) {
+                        a[l + j] = (Externalizable) c.newInstance();
+                        a[l + j].readExternal(in);
                     }
                 }
             }
-            /* 2284 */ return (Object[]) a;
-            /* 2285 */ } catch (Exception e) {
-            /* 2286 */ e.printStackTrace();
-            /* 2287 */ throw new IOException(e);
+            return (Object[]) a;
+        } catch (Exception e) {
+            e.printStackTrace();
+            throw new IOException(e);
         }
     }
 
     public static void writeText(String s, ObjectOutput out) throws IOException {
-        /* 2295 */ GameSetting set = getSetting();
-        /* 2296 */ if (s.length() == 0) {
-            /* 2297 */ StreamTool.writePackedInt(0, out);
+        GameSetting set = getSetting();
+        if (s.length() == 0) {
+            StreamTool.writePackedInt(0, out);
             return;
         }
-        /* 2300 */ byte[] b = s.getBytes(set.charset.equals("sjis") ? "utf8" : set.charset);
-        /* 2301 */ StreamTool.writePackedInt(b.length, out);
-        /* 2302 */ out.write(b);
+        byte[] b = s.getBytes(set.charset.equals("sjis") ? "utf8" : set.charset);
+        StreamTool.writePackedInt(b.length, out);
+        out.write(b);
     }
 
     public static String readText(ObjectInput in) throws IOException {
-        /* 2309 */ int num = StreamTool.readPackedInt(in);
-        /* 2310 */ if (num == 0)
+        int num = StreamTool.readPackedInt(in);
+        if (num == 0)
             return "";
-        /* 2311 */ byte[] b = new byte[num];
-        /* 2312 */ in.readFully(b);
-        /* 2313 */ GameSetting set = getSetting();
-        /* 2314 */ return new String(b, set.charset.equals("sjis") ? "utf8" : set.charset);
+        byte[] b = new byte[num];
+        in.readFully(b);
+        GameSetting set = getSetting();
+        return new String(b, set.charset.equals("sjis") ? "utf8" : set.charset);
     }
 
     private static int[] subarray(int[] i, int len) {
-        /* 2318 */ int[] ret = new int[len];
-        /* 2319 */ System.arraycopy(i, 0, ret, 0, len);
-        /* 2320 */ return ret;
+        int[] ret = new int[len];
+        System.arraycopy(i, 0, ret, 0, len);
+        return ret;
     }
 
     public static GameSetting getSetting() {
-        /* 2324 */ return set;
+        return set;
     }
 
     public static void initSetting(File f) {
         try {
-            /* 2329 */ initSettingForMakePkg(f);
-            /* 2330 */ } catch (Exception e) {
-            /* 2331 */ e.printStackTrace();
-            /* 2332 */ System.err.println("GameSetting reading failed...");
-            /* 2333 */ System.exit(1);
-            /* 2334 */ } catch (CompileError ce) {
-            /* 2335 */ ce.printStackTrace();
-            /* 2336 */ System.err.println("GameSetting reading failed...");
-            /* 2337 */ System.exit(1);
+            initSettingForMakePkg(f);
+        } catch (Exception e) {
+            e.printStackTrace();
+            System.err.println("GameSetting reading failed...");
+            System.exit(1);
+        } catch (CompileError ce) {
+            ce.printStackTrace();
+            System.err.println("GameSetting reading failed...");
+            System.exit(1);
         }
     }
 
@@ -2516,79 +2508,79 @@ public class GameSetting implements Externalizable {
         // set.finish();
         // System.out.println("initSetting time : " + (Clock.time() - t));
         // }
-        /* 2342 */ if (f.getName().endsWith(".kxr")) {
-            /* 2343 */ set = readKxr(f.getPath());
-            /* 2344 */ set.finish();
-            /* 2345 */ ObjectReader.charset = set.charset;
+        if (f.getName().endsWith(".kxr")) {
+            set = readKxr(f.getPath());
+            set.finish();
+            ObjectReader.charset = set.charset;
         } else {
-            /* 2347 */ int t = Clock.time();
-            /* 2348 */ ObjectReader.charset = defchar;
-            /* 2349 */ ObjectReader r = new ObjectReader();
-            /* 2350 */ r.readFile(null, f);
-            /* 2351 */ set = (GameSetting) r.getReadObject();
-            /* 2352 */ set.finish();
-            /* 2353 */ System.out.println("initSetting time : " + (Clock.time() - t));
+            int t = Clock.time();
+            ObjectReader.charset = defchar;
+            ObjectReader r = new ObjectReader();
+            r.readFile(null, f);
+            set = (GameSetting) r.getReadObject();
+            set.finish();
+            System.out.println("initSetting time : " + (Clock.time() - t));
         }
     }
 
     public static void initSettingForLauncher(File f) throws Exception, CompileError {
-        /* 2358 */ if (f.getName().endsWith(".kxr")) {
-            /* 2359 */ set = readKxr(f.getPath());
+        if (f.getName().endsWith(".kxr")) {
+            set = readKxr(f.getPath());
 
-            /* 2361 */ set.localres = ResourceManager.getResource("/lang/" + set.language);
+            set.localres = ResourceManager.getResource("/lang/" + set.language);
         }
     }
 
     public void writeKxr(String fn) throws IOException {
-        /* 2367 */ KxrFile kxr = KxrFile.openClean(fn, "pwpw");
-        /* 2368 */ ByteArrayOutputStream baos = new ByteArrayOutputStream();
-        /* 2369 */ ExternalizerOutputStream eos = new ExternalizerOutputStream(baos, false);
-        /* 2370 */ eos.writeObject(this);
-        /* 2371 */ eos.close();
-        /* 2372 */ kxr.create(kxr.getRoot(), "gs", baos.toByteArray(), 0);
-        /* 2373 */ kxr.close();
+        KxrFile kxr = KxrFile.openClean(fn, "pwpw");
+        ByteArrayOutputStream baos = new ByteArrayOutputStream();
+        ExternalizerOutputStream eos = new ExternalizerOutputStream(baos, false);
+        eos.writeObject(this);
+        eos.close();
+        kxr.create(kxr.getRoot(), "gs", baos.toByteArray(), 0);
+        kxr.close();
     }
 
     public void override(File f) throws Exception, CompileError {
-        /* 2377 */ int t = Clock.time();
-        /* 2378 */ ObjectReader.charset = this.charset;
-        /* 2379 */ ObjectReader r = new ObjectReader();
-        /* 2380 */ r.readFile(this, f);
-        /* 2381 */ finish();
-        /* 2382 */ System.out.println("overrideSetting time : " + (Clock.time() - t));
+        int t = Clock.time();
+        ObjectReader.charset = this.charset;
+        ObjectReader r = new ObjectReader();
+        r.readFile(this, f);
+        finish();
+        System.out.println("overrideSetting time : " + (Clock.time() - t));
     }
 
     static GameSetting readKxr(String fn) throws IOException, ClassNotFoundException {
-        /* 2386 */ GameSetting gs = null;
+        GameSetting gs = null;
 
-        /* 2388 */ KxrFile kxr = KxrFile.open(fn, "pwpw", "r");
-        /* 2389 */ KxrFile.Entry e = kxr.getRoot().getEntry("gs");
-        /* 2390 */ int size = e.size();
-        /* 2391 */ byte[] b = new byte[size];
-        /* 2392 */ e.getData(b);
-        /* 2393 */ ByteArrayInputStream bais = new ByteArrayInputStream(b);
-        /* 2394 */ ExternalizerInputStream eis = new ExternalizerInputStream(bais, false);
-        /* 2395 */ gs = (GameSetting) eis.readObject();
+        KxrFile kxr = KxrFile.open(fn, "pwpw", "r");
+        KxrFile.Entry e = kxr.getRoot().getEntry("gs");
+        int size = e.size();
+        byte[] b = new byte[size];
+        e.getData(b);
+        ByteArrayInputStream bais = new ByteArrayInputStream(b);
+        ExternalizerInputStream eis = new ExternalizerInputStream(bais, false);
+        gs = (GameSetting) eis.readObject();
 
-        /* 2397 */ e = kxr.getRoot().getEntry("#version.gs.kxr");
-        /* 2398 */ if (e != null) {
-            /* 2399 */ size = e.size();
-            /* 2400 */ e.getData(b);
-            /* 2401 */ ExternalizerInputStream dis = new ExternalizerInputStream(new ByteArrayInputStream(b));
-            /* 2402 */ gs.version = ((Number) dis.readObject()).intValue();
+        e = kxr.getRoot().getEntry("#version.gs.kxr");
+        if (e != null) {
+            size = e.size();
+            e.getData(b);
+            ExternalizerInputStream dis = new ExternalizerInputStream(new ByteArrayInputStream(b));
+            gs.version = ((Number) dis.readObject()).intValue();
         }
-        /* 2404 */ kxr.close();
+        kxr.close();
 
-        /* 2407 */ setDefaultLanguage(String.valueOf(gs.language) + ":" + gs.charset);
+        setDefaultLanguage(String.valueOf(gs.language) + ":" + gs.charset);
 
-        /* 2409 */ return gs;
+        return gs;
     }
 
     public static void main(String[] args) throws Exception {
-        /* 2413 */ Externalizer.setDefault(AmpedExternalizer.getExternalizer());
-        /* 2414 */ ResourceManager.addPath("resource");
-        /* 2415 */ initSettingForMakePkg(new File("conf/game.conf"));
-        /* 2416 */ set.writeKxr(args[0]);
+        Externalizer.setDefault(AmpedExternalizer.getExternalizer());
+        ResourceManager.addPath("resource");
+        initSettingForMakePkg(new File("conf/game.conf"));
+        set.writeKxr(args[0]);
     }
 }
 

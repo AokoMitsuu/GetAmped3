@@ -1,8 +1,10 @@
 package com.nr;
 
+import java.io.ByteArrayInputStream;
 import java.io.PrintStream;
 
 import ga2.client.ui.LanPlayWindow;
+import kotori.io.ExternalizerInputStream;
 import kotori.io.KxrFile;
 
 public class GA2 {
@@ -21,14 +23,13 @@ public class GA2 {
 		}
 
 		ga2.client.GetAmped2.main(args);
-
-		// KxrFile.main(new String[] { "-extract", "bin/1.kxr", "aoao" });
-		// KxrFile.main(new String[] { "-extract", "bin/2.kxr", "aoao" });
-		// KxrFile.main(new String[] { "-extract", "bin/3.kxr", "aoao" });
-		// KxrFile.main(new String[] { "-extract", "bin/4.kxr", "aoao" });
-		// KxrFile.main(new String[] { "-extract", "bin/5.kxr", "aoao" });
-
-		// KxrFile.main(new String[] { "-extract", "bin/4.kxr", "aoao" });
-		// KxrFile.main(new String[] { "-extract", "bin/5.kxr", "aoao" });
+		// KxrFile kxr = KxrFile.open("bin/cache/clientsetting", "cscspwpw", "rw");
+		// KxrFile.Entry e = kxr.getRoot().getEntry("cs");
+		// int size = e.size();
+		// byte[] b = new byte[size];
+		// e.getData(b);
+		// System.err.println("start");
+		// System.err.println(com.nr.Utils.toBinaryString(b));
+		// System.err.println("end");
 	}
 }
