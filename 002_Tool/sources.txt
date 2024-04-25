@@ -1,7 +1,3 @@
 C:\Users\aokom\Documents\GitHub\GetAmped3\002_Tool\ga2\setting\GameSetting.java
-C:\Users\aokom\Documents\GitHub\GetAmped3\002_Tool\kotori\tool\scp\KcTokenManager.java
-C:\Users\aokom\Documents\GitHub\GetAmped3\002_Tool\kotori\tool\scp\ObjectReader.java
 C:\Users\aokom\Documents\GitHub\GetAmped3\002_Tool\MiniTools\Repack.java
 C:\Users\aokom\Documents\GitHub\GetAmped3\002_Tool\MiniTools\SetupTool.java
-C:\Users\aokom\Documents\GitHub\GetAmped3\002_Tool\tool\KWTApp.java
-C:\Users\aokom\Documents\GitHub\GetAmped3\002_Tool\tool\conf\ConfingEditor.java
